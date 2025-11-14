@@ -37,7 +37,7 @@ All data is stored in:
 ```
 /datasets/immersive-creative-directors/
     creative_directors_global.json
-    creative_directors_global.schema.json  (optional)
+    creative_directors_global.schema.json
     methodology.md
     changelog.md
 ```
