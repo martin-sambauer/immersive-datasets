@@ -1,250 +1,115 @@
-Creative Directors in Immersive Media – Global Dataset (1950–2025)
+# Creative Directors in Immersive Media – Global Dataset (1950–2025)
 
-This repository hosts the Creative Directors in Immersive Media – Global Dataset, a machine-readable collection of individuals working in the field of immersive media, immersive events, fulldome cinema, XR, experiential architecture, and large-scale media environments.
+This repository hosts the **Creative Directors in Immersive Media – Global Dataset**, a machine-readable collection of individuals working in the field of immersive media, immersive events, fulldome cinema, XR, experiential architecture, and large-scale media environments.
 
-The dataset is part of a long-term research project to map the evolution of immersive media creative direction from the 1950s to the present.
-It accompanies the article Creative Directors in Immersive Media: A Global Overview (1950–2025) published at:
+The dataset is part of a long-term research project to map the evolution of immersive media creative direction from the 1950s to the present.  
+It accompanies the article *Creative Directors in Immersive Media: A Global Overview (1950–2025)* published at:
 
 https://martin-sambauer.com
 
-Purpose of the Dataset
+## Purpose of the Dataset
 
 Immersive media has established itself as a global field spanning:
 
-multiscreen and expanded cinema
-
-media art and interactive installations
-
-fulldome and large-format storytelling
-
-VR / XR and spatial cinema
-
-LED stages and immersive arenas
-
-corporate immersive experiences
+- multiscreen and expanded cinema  
+- media art and interactive installations  
+- fulldome and large-format storytelling  
+- VR / XR and spatial cinema  
+- LED stages and immersive arenas  
+- corporate immersive experiences  
 
 Yet there has never been a structured, global overview of the individuals who shape this field.
 
 This dataset aims to:
 
-document creative directors, artists, designers and producers working in immersive media
-
-provide a historical arc (1950–2025)
-
-classify individuals across multiple clusters and domains
-
-offer a machine-readable reference for researchers, curators, festivals and institutions
-
-support long-term analysis of trends, technologies and professional roles in immersive media
+- document creative directors, artists, designers and producers working in immersive media  
+- provide a historical arc (1950–2025)  
+- classify individuals across multiple clusters and domains  
+- offer a machine-readable reference for researchers, curators, festivals and institutions  
+- support long-term analysis of trends, technologies and professional roles in immersive media  
 
 The dataset is not a ranking and not a complete list. It is an evolving research corpus.
 
-Dataset Structure
+## Dataset Structure
 
 All data is stored in:
 
+```
 /datasets/immersive-creative-directors/
     creative_directors_global.json
     creative_directors_global.schema.json  (optional)
     methodology.md
     changelog.md
+```
 
+The main file is `creative_directors_global.json`.
 
-The main file is:
+Each entry follows this structure:
 
-creative_directors_global.json
+```
+{ ... }
+```
 
+## How the Dataset Was Created
 
-It contains an array of entries.
-Each entry describes one individual and follows this structure:
+### 1. Definition of Scope (1950–2025)
+Historical field definition from avant-garde to XR stages and immersive brand experiences.
 
-{
-  "id": "cdim_0001",
-  "name": "…",
-  "type": "individual",
-  "primary_roles": [],
-  "domains": [],
-  "primary_mediums": [],
-  "creative_focus_tags": [],
-  "active_years": "",
-  "geography": [],
-  "clusters": [],
-  "focus_summary": "",
-  "key_works": [
-    {
-      "title": "",
-      "year": "",
-      "venue_or_context": "",
-      "notes": ""
-    }
-  ],
-  "influence_level": "foundational | major | emerging",
-  "short_bio": "",
-  "website": "",
-  "references": [
-    {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "year": "",
-      "notes": ""
-    }
-  ],
-  "notes": null
-}
+### 2. Establishing Conceptual Clusters
+Classification clusters:
 
-How the Dataset Was Created
+- analog_media_art_pioneers  
+- digital_interactive_pioneers  
+- immersive_installations  
+- fulldome_large_format  
+- vr_xr_creators  
+- live_immersive_stages / large_scale_live_shows  
+- corporate_brand_immersive  
 
-The dataset was built through a multi-step curation process:
+### 3. Selection of Individuals
+Natural persons with verifiable public work in immersive media.
 
-1. Definition of Scope (1950–2025)
+### 4. Verification Through Public Sources
+Every entry has at least one source (festivals, museums, planetariums, academic profiles, studio pages, press releases).
 
-We defined the field based on media history, not on current buzzwords.
-Included categories range from early multi-screen avant-garde to contemporary XR stages and immersive brand experiences.
+### 5. JSON Normalization
+Consistent types, formats, arrays and unique `cdim_XXXX` IDs.
 
-2. Establishing Conceptual Clusters
+### 6. Duplicate Removal and Replacement
+Duplicates merged; unsourced entries replaced with fully referenced individuals.
 
-To classify the diverse field, we created the following clusters:
+### 7. Systemic Integrity Check
+Ensured valid references, unique IDs/names, working links, schema conformity.
 
-analog_media_art_pioneers
+### 8. Compatibility With Other Datasets
+Interlinked with:
 
-digital_interactive_pioneers
+- Immersive Market Participants  
+- Immersive Venue & Planetarium Dataset  
+- Immersive Keywords Dataset  
 
-immersive_installations
+## License
 
-fulldome_large_format
-
-vr_xr_creators
-
-live_immersive_stages / large_scale_live_shows
-
-corporate_brand_immersive
-
-Each individual may belong to multiple clusters.
-
-3. Selection of Individuals
-
-The dataset includes:
-
-artists, directors, media creators, designers and producers
-
-whose work primarily involves immersive media
-
-with verifiable public output (festivals, museums, planetariums, venues, publications)
-
-individuals only (no studios as standalone entries)
-
-4. Verification Through Public Sources
-
-Every entry contains at least one real, verifiable reference, such as:
-
-festival catalogues
-
-planetarium and fulldome databases
-
-museum exhibition descriptions
-
-academic or institutional profiles
-
-studio or artist websites
-
-press releases and published interviews
-
-No unverified or anonymous entries were included.
-
-5. JSON Normalization
-
-All entries were normalized to:
-
-consistent field naming
-
-consistent formatting
-
-unique IDs (cdim_0001 → cdim_XXXX)
-
-machine-readable types and arrays
-
-a predictable schema for downstream analysis
-
-6. Duplicate Removal and Replacement
-
-Where individuals appeared twice under different IDs, entries were merged.
-Where entries lacked references, they were replaced with new individuals who:
-
-fit the cluster structure
-
-are relevant to immersive media history
-
-have publicly verifiable sources
-
-7. Systemic Integrity Check
-
-Before release, we ensured:
-
-every entry has at least one reference
-
-no duplicated names
-
-no duplicated IDs
-
-all links resolve
-
-all fields conform to the schema
-
-8. Compatibility With Other Datasets
-
-This dataset is designed to interconnect with:
-
-Immersive Market Participants
-
-Immersive Venue and Planetarium Databases
-
-Immersive Keywords Dataset
-
-Together, these datasets form a broader ecosystem map of immersive media.
-
-License
-
-This dataset is released under:
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**  
 https://creativecommons.org/licenses/by/4.0/
 
-You are free to:
+Attribution required:  
+*“Creative Directors in Immersive Media – Global Dataset (1950–2025), curated by Martin Sambauer – https://martin-sambauer.com”*
 
-share – copy and redistribute the material in any medium or format
+## Versioning
 
-adapt – remix, transform, and build upon the material for any purpose, even commercially
+Logged in `changelog.md`:
 
-Under the following terms:
+- MAJOR – structural changes  
+- MINOR – new individuals, expanded clusters  
+- PATCH – corrections, metadata fixes  
 
-attribution – you must give appropriate credit, provide a link to the license, and indicate if changes were made.
-Please credit:
+## Contributing
 
-“Creative Directors in Immersive Media – Global Dataset (1950–2025), curated by Martin Sambauer – https://martin-sambauer.com”
+Contributions via pull request are welcome.
 
-Versioning
+## Maintainer
 
-All updates are logged in:
-
-changelog.md
-
-
-Versioning follows:
-
-MAJOR: structure changes, new schema
-
-MINOR: new individuals added, clusters expanded
-
-PATCH: corrected links, typos, metadata
-
-Contributing
-
-This is a curated research project.
-Contributions (corrections, new individuals, references) are welcome via pull request.
-
-Maintainer
-
-Martin Sambauer
-Creative Director for Immersive Media
+**Martin Sambauer**  
+Creative Director for Immersive Media  
 https://martin-sambauer.com
