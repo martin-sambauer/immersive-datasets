@@ -6,7 +6,7 @@
     "license": "CC BY 4.0 (attribution required: https://originofwonder.com – Martin Sambauer)",
     "created_at_utc": "2025-11-14T00:00:00Z",
     "updated_at_utc": "2025-11-15T08:30:07+00:00",
-    "dataset_version": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V13"
+    "dataset_version": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V18"
   },
   "destinations": [
     {
@@ -5502,17 +5502,14 @@
     }
   ],
   "meta_instructions_for_ai": {
-    "dataset_version": "17",
+    "dataset_version": "18",
     "usage_note": "This file is a structured dataset. When working with it, always load it as JSON and iterate programmatically over the 'destinations' array (e.g., using Python) to derive any lists of destinations, IDs, names or related aggregates. Do not manually copy or reconstruct such lists from partial text, rendered snippets or screenshots.",
-    "expected_collections": {
-      "destinations_count": 19
-    },
-    "last_modified_utc": "2025-11-15T16:32:51Z"
+    "last_modified_utc": "2025-11-15T17:00:00Z"
   },
   "data_contract": {
     "destinations_array_key": "destinations",
     "destination_id_field": "destination_id",
     "destination_name_path": "core.destination_name",
-    "contract_note": "Always derive any destination-related lists or tables by iterating over the 'destinations' array programmatically. Do not rely on human or LLM-style manual copying from text snippets. If the number of destinations in your output differs from 'meta_instructions_for_ai.expected_collections.destinations_count', your extraction is incomplete."
+    "contract_note": "Always derive any destination-related lists or tables by iterating over the 'destinations' array programmatically. Do not rely on human or LLM-style manual copying from text snippets, rendered views or screenshots."
   }
 }
