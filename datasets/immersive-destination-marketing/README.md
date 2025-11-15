@@ -1,180 +1,189 @@
-# Immersive Destination Marketing Dataset
+# Immersive Destination Marketing Campaigns  
+Part of the Immersive Data Hub by Martin Sambauer  
 
-Current snapshot: 88 entries – updated with X (Twitter) user feedback and extended venue/format metadata.
+## Overview  
+This dataset presents documented cases of immersive media campaigns used in destination marketing. Each campaign record describes how immersive formats (such as VR or 360° video) were employed by travel and tourism organisations to inspire audiences, engage travellers, and drive bookings or awareness.
 
-- Main file: `immersive-destination-marketing.json`  
-- Readme: `README.md` (this file)
+## Dataset details  
+Title: immersive-destination-marketing  
+Folder: `datasets/immersive-destination-marketing/`  
+Format: JSON (UTF-8, array of campaign objects, one object per campaign)  
+Last update: see the field `data_collection_date` in each record  
+Maintainer: Martin Sambauer (martin-sambauer.com)  
 
-This dataset is a curated sample of immersive destination marketing projects worldwide.  
-It focuses on experiences that:
+## Download and license  
 
-- promote or interpret real-world destinations (cities, regions, countries, attractions, routes), and  
-- use immersive media (e.g. flying theatres, domes/planetariums, projection mapping, VR/AR, immersive rooms, game worlds, immersive visitor centres).
+Repository location  
+- GitHub repository: `martin-sambauer/immersive-datasets`  
+- Dataset folder in the repository:  
+  `datasets/immersive-destination-marketing/`  
 
-The dataset is not exhaustive. Its purpose is:
+Direct downloads (raw files)  
+- Dataset JSON  
+  - Path: `datasets/immersive-destination-marketing/immersive-destination-marketing.json`  
+  - Raw: `https://raw.githubusercontent.com/martin-sambauer/immersive-datasets/main/datasets/immersive-destination-marketing/immersive-destination-marketing.json`  
 
-- qualitative and exploratory analysis  
-- making patterns visible (formats, commissioners, venues, audiences, goals)  
-- providing real-world examples for strategy, teaching, talks and concept work  
+- README  
+  - Path: `datasets/immersive-destination-marketing/README.md`  
+  - Raw: `https://raw.githubusercontent.com/martin-sambauer/immersive-datasets/main/datasets/immersive-destination-marketing/README.md`  
 
----
+- Methodology  
+  - Path: `datasets/immersive-destination-marketing/methodology.md`  
+  - Raw: `https://raw.githubusercontent.com/martin-sambauer/immersive-datasets/main/datasets/immersive-destination-marketing/methodology.md`  
 
-## 1. License – CC BY 4.0
+- JSON Schema  
+  - Path: `datasets/immersive-destination-marketing/schema.json`  
+  - Raw: `https://raw.githubusercontent.com/martin-sambauer/immersive-datasets/main/datasets/immersive-destination-marketing/schema.json`  
 
-This dataset and documentation are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+License  
+- This dataset is licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0).  
+- Full license text:  
+  https://creativecommons.org/licenses/by/4.0/  
 
-You are free to:
+Required attribution  
+When you use, share, adapt or extend this dataset, please include an attribution line like:  
 
-- Share — copy and redistribute the material in any medium or format  
-- Adapt — remix, transform, and build upon it, even commercially  
+Immersive Destination Marketing dataset, Immersive Data Hub by Martin Sambauer (martin-sambauer.com), licensed under CC BY 4.0.  
 
-Under the following terms:
+This attribution can be placed in papers, dashboards, code repositories, presentations or any other derivative work that uses the dataset.
 
-- Attribution — Any use must include a credit line such as:  
+## Key fields  
 
-  > Data and documentation originally compiled by [Martin Sambauer](https://martin-sambauer.com).
+`campaign_name`  
+  Descriptive name of the campaign as used in public communication or case studies.  
 
-  or an equivalent attribution including the name Martin Sambauer and the URL  
-  https://martin-sambauer.com
+`destination_name`  
+  Name of the promoted destination or route (for example a city, region, transport route or multi-destination combination).  
 
-Full license text: https://creativecommons.org/licenses/by/4.0/
+`country`  
+  Country primarily associated with the campaign or the commissioning body.  
 
-If you remix, enrich or extend this dataset, please keep the attribution and clearly mark your own changes (for example in a changelog or version note).
+`country_code`  
+  ISO 3166-1 alpha-2 country code for the country field (for example GB, DE, CH, AU, CN, FR).  
 
----
+`destination_category`  
+  Category describing the type of destination, such as `multiple_destinations`, `region`, `transport_route`, `resort_town`, `country`, `city`, `rural_destination`, `natural_attraction`, `resort_area` and similar values used in the dataset.  
 
-## 2. Scope and selection
+`year`  
+  Year in which the core campaign took place or was launched.  
 
-Projects are included when:
+`status`  
+  Project status such as `completed`, `ongoing` and similar values used in the dataset.  
 
-1. They clearly promote or interpret a real place or destination, not just a generic brand.  
-2. They use an immersive format beyond a simple flat video or static display.  
-3. There is at least one public source describing them (ideally several).
+`data_collection_date`  
+  Date when this record was compiled or last verified for the dataset (ISO 8601 date string, for example `2025-11-11`).  
 
-The dataset is intentionally:
+`commissioning_body`  
+  Organisation that commissioned the immersive campaign (for example a tour operator, national tourism board, transport operator, museum, attraction or local authority).  
 
-- global – covering different regions and tourism markets  
-- format-diverse – from domes and projection mapping to VR, games and hybrid experiences  
-- mixed in maturity – including long-running attractions, one-off shows and pilot projects  
+`immersive_format`  
+  Specific immersive medium used in the campaign, for example 360° VR films, online 360° videos, full-body VR rigs, browser-based 3D virtual tours, nighttime spectacles or mixed reality experiences.  
 
----
+`venue_type`  
+  Type of venue or context where the experience was delivered, for example in-store travel agencies, websites / social media channels, pop-up lounges, visitor attractions, expo/tradeshow use or nighttime show locations.  
 
-## 3. File format and main fields
+`primary_audience`  
+  Main target audience segment for the campaign (for example leisure travellers, travel agents, press and industry stakeholders, families, visitors to a specific region).  
 
-The file `immersive-destination-marketing.json` uses a flat JSON array of project objects.  
-Each object describes one immersive destination marketing project.
+`primary_goal`  
+  Main objective of the campaign, such as inspiring bookings, testing conversion impact of immersive formats, positioning a destination or route, supporting accessibility and planning, or refreshing heritage storytelling.  
 
-Key fields (simplified overview):
+`verification_status`  
+  Qualitative indication of source strength, for example `strong` when multiple independent sources confirm the campaign.  
 
-- `id` – internal numeric or string ID, stable within this dataset.
-- `project_name` – project or experience title (English where possible, original title in `original_title` if relevant).
-- `destination` – main destination promoted (for example “Iceland”, “Dubai”, “Hamburg Port”).
-- `destination_level` – rough level (for example `city`, `region`, `country`, `attraction`, `route`).
-- `country` – ISO country or descriptive country name primarily associated with the destination.
-- `location_city` / `location_country` – where the experience is or was physically located (if different from destination).
-- `immersive_format` – main format category, such as:
-  - `flying_theatre`
-  - `dome_fulldome_planetarium`
-  - `projection_mapping`
-  - `vr` / `ar` / `mixed_reality`
-  - `immersive_room`
-  - `game_world` / `metaverse` / `digital_platform`
-- `venue_type` – where the project is or was hosted (for example `theme_park`, `museum`, `tourist_attraction`, `expo`, `temporary_pop_up`).
-- `commissioner_or_client` – tourism board, city, region, brand or institution that commissioned or supported the project (if known).
-- `creator_or_production_company` – main studio, agency or collective behind the project (if known).
-- `year_start` / `year_end` – years of operation or premiere; `year_end` may be null for ongoing.
-- `status` – for example `planned`, `concept`, `operational`, `closed`, `historic_reference`.
-- `short_description` – 1–3 sentences, English, free text.
-- `goals` – high-level goals, for example `destination_branding`, `visitor_attraction`, `expo_showcase`, `cultural_promotion`.
-- `target_audiences` – rough audience groups (for example `families`, `tourists`, `trade_visitors`, `students`).
-- `sources` – list of URLs used as evidence (press, project pages, videos, articles).
+`delivery_mode`  
+  High-level delivery mode for the experience, such as `physical`, `virtual` or combinations that appear in the dataset.  
 
-Additional fields may include:
+`format_cluster`  
+  Normalised grouping of the immersive_format into clusters such as `vr`, `online_360`, `virtual_tour_3d`, `immersive_walkthrough_or_dark_ride`, `immersive_exhibition`, `ar_or_mr_on_site`, `nighttime_show_or_spectacle` and similar.  
 
-- `offsite_destination_promotion` – whether the experience promotes a destination different from its physical location (true/false).
-- `delivery_context` – for example `on_site_attraction`, `expo_or_tradeshow`, `museum_or_cultural_institution`.
-- `channel_group` – commissioner type (for example `national_tourism_board`, `city_marketing`, `cultural_institution`, `commercial_operator`).
-- `sector_tags` – tourism-related tags such as `nature_tourism`, `city_tourism`, `cultural_heritage`, `wine_and_gastronomy_tourism`.
+`promotion_location_type`  
+  Normalised description of where the promotion is located, such as `off_site_market`, `online_global`, `on_site_destination`, `on_site`.  
 
-Optional numerical fields (often null):
+`is_flying_theatre`  
+  Boolean flag indicating whether a flying theatre system is used as part of the experience.  
 
-- `budget`, `production_costs`, `visitor_numbers`, `revenue`, `roi`  
+`short_description`  
+  Concise textual summary of the campaign and how the immersive format was integrated into the experience and sales or communication journey.  
 
-These are only filled when reliable public information exists.
+`sources`  
+  List of URLs referencing public case studies, press coverage or official destination pages that document the campaign.  
 
----
+`offsite_destination_promotion`  
+  Boolean flag indicating whether the experience promotes destinations offsite from the actual travel product location.  
 
-## 4. X (Twitter) feedback integration
+`delivery_context`  
+  Additional context for delivery, for example `in_store`, `online`, `on_site_attraction`, `expo_or_tradeshow`.  
 
-For a subset of projects, the dataset includes structured references to X (Twitter) user posts.  
-This is intended to capture public reaction and qualitative sentiment, not to build a complete social media archive.
+`channel_group`  
+  Channel group of the commissioning or operating organisation, such as `tour_operator_or_travel_agency`, `national_tourism_board`, `transport_operator_rail`, `regional_or_state_tourism_board`, `private_attraction_operator`, `heritage_site_or_museum`, `urban_place_maker_or_bid`, `integrated_resort_or_theme_park`, `nature_park_or_conservation_agency`, `food_and_drink_tourism` and similar.  
 
-Where available, entries may contain a `user_feedback` object:
+`budget`, `production_costs`, `visitor_numbers`, `revenue`  
+  Numeric or string fields (or `null`) reserved for financial and reach indicators when reliable values are available and sourced.  
 
-- `x_posts` – an array of posts with:
-  - `url` – direct link to the post.
-  - `author_handle` – public X handle of the author.
-  - `post_type` – for example `visitor_impression`, `press`, `creator_announcement`.
-  - `summary` – very short paraphrase in English (not a full quote).
-  - `engagement` – simple metrics (likes, reposts) at time of collection, if captured.
+`budget_source`, `production_costs_source`, `visitor_numbers_source`, `revenue_source`  
+  URLs that document the respective numerical values when they are published.  
 
-X posts are used only as references and paraphrased. This dataset does not intend to reproduce large amounts of verbatim social media content.
+`roi`, `sales_uplift`  
+  Fields for reported return-on-investment or uplift values when published (for example a percentage increase in bookings).  
 
-If no relevant X posts were found or considered, the `user_feedback` field is omitted for that project.
+`roi_source`, `sales_uplift_source`  
+  URLs that document reported ROI or sales uplift figures.  
 
----
+`additional_information_01`, `additional_information_01_source`  
+  Optional additional note and corresponding source URL for further context about a campaign.  
 
-## 5. Data quality, TripAdvisor checks and verification
+`user_feedback`  
+  Object holding information about public social-media feedback searches (currently focused on X/Twitter). It can contain:  
 
-Data quality constraints:
+  - `x_posts`: list of example posts with  
+    - `post_id`, `author`, `timestamp`, `content_snippet`, `sentiment`, `link`  
+    - `engagement` object with `likes`, `reposts`, `replies`  
+    - `assessment` (for example `promotional`, `real_user_feedback`)  
 
-- Sources – each project is backed by at least one public source; more critical cases use multiple independent sources.
-- Dates – years are sometimes approximate when sources only mention relative time (“about ten years ago”, “since the 2010s”).
-- Status – closed or historic projects are included when they illustrate important formats or strategies.
+  - `x_search`: metadata about the search  
+    - `time_range`, `keywords`, `result`  
 
-For fulldome attractions, flying theatres and similar visitor-facing venues, basic plausibility checks were also done against:
+  - `x_feedback_summary`: aggregated view of findings  
+    - `total_posts`, `real_user_feedback`, `promotional`, `assessment`  
 
-- TripAdvisor (existence of the attraction, basic visitor context, approximate operating period)  
-- Other map and review platforms (for example Google Maps, where available)
+`id`  
+  Stable dataset identifier for the campaign record (for example `DM_001`, `DM_002`, …).  
 
-These checks are used to confirm that projects actually operate or operated as public attractions and to understand their visitor framing, not to extract large-scale review data.
+## Use cases  
 
-When using this dataset:
+- Analyse how immersive formats are used in travel and destination marketing campaigns.  
+- Compare different immersive format clusters across years, destination types and channel groups.  
+- Combine with other datasets (for example venue inventories, demographic or tourism statistics) to study potential reach and sector trends.  
+- Support strategic planning and storytelling for immersive-media producers, destination marketers, tour operators and transport operators.  
 
-- treat numerical and financial values as indicative, not as audited figures  
-- cross-check dates and status if your use case requires high precision (for example for investment decisions)  
-- consider this dataset as a qualitative map, not as a complete census
+## Notes and limitations  
 
----
+- The dataset is not exhaustive; it focuses on campaigns that have been publicly documented in case studies, press releases or official destination pages.  
+- Some fields (for example budget, visitor_numbers, revenue, ROI) are only populated when trustworthy public numbers were found; otherwise they are left `null`.  
+- Reported conversion or ROI values may be self-reported and should be interpreted with care; users are encouraged to check the linked sources.  
+- Destination categories and format clusters are normalised by the maintainer and may not always match the exact wording used by the original campaigns.  
 
-## 6. Suggested uses
+## How to use  
 
-Examples of how you can work with this dataset:
+1. Download the JSON file from the path or raw URL listed in “Download and license”.  
+2. Load the JSON into your preferred environment (for example Python, R, JavaScript, SQL import).  
+3. Use the field `id` as a stable key when joining with your own tables.  
+4. When extending the dataset, keep the existing field names and value conventions wherever possible, and supply `null` for unknown values rather than inventing data.  
+5. Document any additional fields you add in a local data dictionary or schema so that future users and AIs can process them consistently.  
 
-- Strategy and consulting  
-  Map which destinations use which immersive formats and in what contexts.
-- Creative direction  
-  Explore reference cases when designing new immersive destination experiences.
-- Teaching and talks  
-  Use the projects as case examples in lectures, workshops and conference presentations.
-- Research  
-  Analyse adoption patterns of immersive media in tourism, compare regions, formats or commissioner types.
+## Contribution and update process  
 
-If you publish work based on this dataset, a short citation and link back to the repository is appreciated.
+- Fork the repository on GitHub.  
+- Add new campaign objects to `immersive-destination-marketing.json` following the existing field structure.  
+- Set `data_collection_date` for each new record.  
+- Check for duplicates based on a combination of `commissioning_body`, `campaign_name`, `destination_name` and `year`.  
+- If you add new controlled vocabulary values (for example new `format_cluster` labels), keep them consistent and describe them in your pull request.  
+- Open a pull request against the main repository so changes can be reviewed and merged.  
 
----
+## Contact  
 
-## 7. Contributing
+For questions, corrections or suggestions about this dataset, please contact:  
 
-If you know of relevant projects that are missing, or if you find errors, you can:
-
-- open an issue in the repository describing:
-  - project name  
-  - destination  
-  - format  
-  - one or two source links  
-- or submit a pull request with:
-  - a new project object added to `immersive-destination-marketing.json`,  
-  - and a short note in the PR description explaining the change.
-
-Please follow the existing field naming conventions and keep descriptions concise and neutral in tone.
+m.sambauer@softmachine.de  
+martin-sambauer.com  
