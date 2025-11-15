@@ -185,5 +185,5 @@ This attribution can be placed in papers, dashboards, code repositories, present
 
 For questions, corrections or suggestions about this dataset, please contact:  
 
-m.sambauer@softmachine.de  
+martin.sambauer@me.com
 martin-sambauer.com  
