@@ -17,6 +17,7 @@ Key theoretical anchors referenced in the ontology include:
 * immersion as a cognitive-ecological process (not just a visual effect)
 * narrative identity formation in destination branding
 * experiential media as soft-power infrastructure
+* the dialectical semantic function of hyper‑inszenierungen: highly amplified immersive representations accelerate meaning formation by forcing audiences into a position where they must negotiate between spectacle and underlying reality
 * the idea that immersive media create *clarity within complexity*, extending human sense-making
 
 The goal of this dataset is to map how destinations use immersive media to shape tourism flows, cultural identity, soft power, regional branding and experiential positioning.
@@ -39,6 +40,8 @@ This dataset is closely tied to the Immersive Destination Analysis dataset, but 
 This dataset follows the Martin Sambauer Ontology for Immersive Data Systems (../../ontology.md). The ontology provides the semantic backbone linking destinations, narratives, perceptual structures, creative authorship and investment logic.
 
 At its core, the ontology treats immersive media not as isolated artefacts but as interconnected narrative systems. It follows the broader philosophical view that media are extensions of human world-construction — echoing McLuhan’s "medium-as-environment" perspective and contemporary systems thinking on sense-making in complex environments.
+
+The ontology also incorporates a **dialectical layer of media semantics**, recognising that hyper‑inszenierte immersive outputs act as accelerators of meaning: they dramatise, exaggerate or intensify aspects of a destination so strongly that audiences are pushed into an active interpretative stance. Immersion becomes a catalyst for confronting contradictions — tradition vs. futurism, nature vs. urbanity, authenticity vs. staging — and thus produces new cultural clarity.
 
 This ontology ensures that all datasets in this repository can be stacked, connected and analysed as one coherent immersive knowledge graph.
 
