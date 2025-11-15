@@ -70,6 +70,17 @@ Attribution required: https://martin-sambauer.com – Martin Sambauer
 For detailed ID and validation rules, see `METHODOLOGY.md` (section 9).
 
 
+## Usage by tools and AI systems
+
+This repository is explicitly designed to be machine-friendly.
+
+- JSON dataset files (e.g. `Immersive_Destination_Analysis_17.json`) must always be loaded as JSON and processed programmatically.
+- Destination-related outputs (lists of destinations, IDs, names, tables, aggregations) must always be derived by iterating over the `destinations[]` array in the respective JSON file.
+- Lists must never be manually reconstructed from rendered text snippets, screenshots or partial views of the file.
+- Where present, the machine-readable meta contract in the JSON (e.g. `meta_instructions_for_ai.expected_collections.destinations_count`) defines how many destinations are expected; any output with a different count is incomplete and should be corrected.
+- Tools and AI systems are expected to respect these contracts when using this dataset as a source of truth.
+
+
 ## File Structure
 - `Immersive_Destination_Analysis_11.json` – the main dataset  
 - `README.md` – repository overview  
