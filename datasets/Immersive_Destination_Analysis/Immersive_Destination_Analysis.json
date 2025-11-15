@@ -1,0 +1,4690 @@
+{
+  "dataset_meta": {
+    "dataset_id": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V1",
+    "title": "Global South Tourism & Investment Destinations – Pilot",
+    "description": "A strategic intelligence platform for immersive experiential tourism in the Global South, developed in partnership between Lars Friedrich (originofwonder.com) and Martin Sambauer (martin-sambauer.com) for creative direction and data architecture. This living dataset currently maps 10 high-impact destinations with over 200 KPIs — including visitor throughput, revenue capture, operational costs, real estate yield, sustainability constraints, and immersive story potential (1–3) — and is designed to scale to 50+ destinations within 24 months. It serves as the decision engine for initiators and investors, delivering precise, real-time insights for deploying 360° VR/AR domes at airports, cruise terminals, safari gates, and attraction queues — transforming high-traffic bottlenecks into scalable, high-margin, conservation-aligned digital experience hubs. From Galapagos entry caps to Cartagena cruise surges, every data point answers: Where should we build? How much will it earn? How fast will it scale? Additionally, the dataset functions as the training and warming layer for AI bots within the project ecosystem — enabling automated site selection, revenue forecasting, content generation, and stakeholder communication at scale.",
+    "license": "CC BY 4.0 (attribution required: https://originofwonder.com – Martin Sambauer)",
+    "created_at_utc": "2025-11-14T00:00:00Z",
+    "updated_at_utc": "2025-11-15T08:30:07+00:00",
+    "dataset_version": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V13"
+  },
+  "destinations": [
+    {
+      "destination_id": "DEST_GALAPAGOS",
+      "core": {
+        "destination_name": "Galapagos Islands",
+        "destination_type": "archipelago_province",
+        "country_name": "Ecuador",
+        "country_iso2": "EC",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Latin_America",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Puerto Ayora",
+        "main_city_population_estimate": 12697,
+        "main_city_population_year": 2022
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2022,
+            "total_visitors_all_segments": 267688,
+            "avg_length_of_stay_nights": null,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Official protected area visitation; LOS and revenue need manual extraction."
+          },
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 330000,
+            "avg_length_of_stay_nights": null,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Press and NGO reports mention ‘nearly 330,000’ visitors."
+          }
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "per_entry_plus_control_card",
+          "tax_items": [
+            {
+              "segment": "foreign_adult_non_resident",
+              "amount": {
+                "amount_local": 200,
+                "currency_local": "USD",
+                "amount_usd": 200,
+                "fx_rate_to_usd": 1.0,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_entry"
+            },
+            {
+              "segment": "transit_control_card",
+              "amount": {
+                "amount_local": 20,
+                "currency_local": "USD",
+                "amount_usd": 20,
+                "fx_rate_to_usd": 1.0,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_trip"
+            }
+          ]
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 548.26,
+            "currency_local": "USD",
+            "amount_usd": 548.26,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 418000000,
+            "currency_local": "USD",
+            "amount_usd": 418000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2007-12-31"
+          },
+          "local_capture": {
+            "amount_local": 63000000,
+            "currency_local": "USD",
+            "amount_usd": 63000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2007-12-31"
+          },
+          "comment": "Older socio-economic study; order-of-magnitude only."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "GAL_APT_GPS",
+            "name": "Seymour Galapagos Ecological Airport (Baltra)",
+            "iata": "GPS",
+            "city": "Baltra / Santa Cruz",
+            "annual_passengers_estimate": 527000,
+            "annual_passengers_year": 2019,
+            "comment": "Operator reported 527k passengers 2019; newer years not openly tabulated."
+          },
+          {
+            "hub_id": "GAL_APT_SCY",
+            "name": "San Cristobal Airport",
+            "iata": "SCY",
+            "city": "Puerto Baquerizo Moreno",
+            "annual_passengers_estimate": 98000,
+            "annual_passengers_year": 2022,
+            "comment": "Passenger figure 2022 from airport stats aggregators."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "puerto_ayora_citywide_price_per_sqm": {
+            "min": {
+              "amount_local": 1200,
+              "currency_local": "USD",
+              "amount_usd": 1200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 1800,
+              "currency_local": "USD",
+              "amount_usd": 1800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 1500,
+              "currency_local": "USD",
+              "amount_usd": 1500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Indicative listing range 1,200–1,800 USD/m² from local agents and portals."
+          }
+        },
+        "land": null
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 97,
+        "protected_area_notes": "Approx. 97% of land area is national park; 3% open to settlement and infrastructure."
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 4,
+        "categories": {
+          "beach_nature": 1,
+          "science_education": 1,
+          "marine_snorkeling": 1,
+          "dive_site": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.75,
+        "comment": "Strong mix of visible and mostly-invisible (underwater) natural assets."
+      },
+      "attractions": [
+        {
+          "attraction_id": "GAL_ATT_TORTUGA_BAY",
+          "nearest_location_id": "GAL_LOC_PUERTO_AYORA",
+          "attraction_name": "Tortuga Bay",
+          "attraction_type": "beach_nature",
+          "environment_type": "coastal",
+          "short_description": "Long white coral-sand beach accessible on foot from Puerto Ayora.",
+          "distance_km_from_nearest_location": 3.0,
+          "travel_time_from_nearest_location_minutes": 45,
+          "main_access_mode": "hiking",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "national_park",
+          "visitor_restrictions": "trail_opening_hours_only",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "general_tourists",
+          "typical_visit_duration_hours": 3.0,
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 153000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Galapagos National Park 2022 annual report: Tortuga Bay was the most visited site with >153k visitors in 2022; rounded to 153k as annual baseline."
+          }
+        },
+        {
+          "attraction_id": "GAL_ATT_DARWIN_STATION",
+          "nearest_location_id": "GAL_LOC_PUERTO_AYORA",
+          "attraction_name": "Charles Darwin Research Station",
+          "attraction_type": "science_education",
+          "environment_type": "urban_coastal",
+          "short_description": "Research station and visitor centre focused on conservation and giant tortoise breeding.",
+          "distance_km_from_nearest_location": 1.0,
+          "travel_time_from_nearest_location_minutes": 15,
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "research_station",
+          "visitor_restrictions": "opening_hours_only",
+          "sustainability_pressure": "low",
+          "main_target_audience": "general_tourists",
+          "typical_visit_duration_hours": 1.5,
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 125000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "Charles Darwin Foundation campus page states the station hosts \"over 125,000 visitors each year\"; kept as 125k rounded annual estimate."
+          }
+        },
+        {
+          "attraction_id": "GAL_ATT_LOS_TUNELES",
+          "nearest_location_id": null,
+          "attraction_name": "Los Tuneles (Isabela)",
+          "attraction_type": "marine_snorkeling",
+          "environment_type": "marine",
+          "short_description": "Lava tunnels and shallow reefs with turtles, sharks and rich marine life.",
+          "distance_km_from_nearest_location": null,
+          "travel_time_from_nearest_location_minutes": null,
+          "main_access_mode": "boat",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "weather_dependent",
+          "protection_status": "marine_protected_area",
+          "visitor_restrictions": "licensed_tour_operators_only",
+          "sustainability_pressure": "high",
+          "main_target_audience": "snorkellers",
+          "typical_visit_duration_hours": 4.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 20000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Tours run 7 days/week with usually 1–2 departures per day in small boats (~10–16 pax) from Puerto Villamil. Assuming ~1.5 tours/day * 14 pax * ~260 effective operating days ≈ 5,460 pax per operator; scaling to multiple licensed operators yields an order-of-magnitude 15k–25k visitors per year. 20k used as midpoint."
+          }
+        },
+        {
+          "attraction_id": "GAL_ATT_KICKER_ROCK",
+          "nearest_location_id": null,
+          "attraction_name": "Kicker Rock (Leon Dormido)",
+          "attraction_type": "dive_site",
+          "environment_type": "marine",
+          "short_description": "Steep offshore rock walls with sharks and pelagics; iconic Galapagos dive site.",
+          "distance_km_from_nearest_location": null,
+          "travel_time_from_nearest_location_minutes": null,
+          "main_access_mode": "boat",
+          "accessibility_difficulty": "expert_only",
+          "accessibility_for_non_experts": false,
+          "seasonality": "year_round",
+          "protection_status": "marine_protected_area",
+          "visitor_restrictions": "licensed_dive_operators_only",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "divers",
+          "typical_visit_duration_hours": 4.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 25000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Described as one of the most famous and most booked dive/snorkel sites in the archipelago. Assuming multiple daily boats from San Cristobal across main season (2–3 boats/day * ~12 pax * ~300 days) gives a broad 15k–35k range; 25k taken as midpoint for now."
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Pilot Galapagos record. Throughput at attraction level partly reported (Tortuga Bay, CDRS) and partly modelled.",
+        "sources": [
+          {
+            "id": "GAL_POP",
+            "title": "Galapagos population 2022",
+            "url": "https://www.geo-ref.net/en/xgp.htm"
+          },
+          {
+            "id": "GAL_GNPD_2022",
+            "title": "GNPD 2022 Annual Report",
+            "url": "https://www.galapagos.gob.ec/wp-content/uploads/2023/05/GNPD-2022-ANNUAL-REPORT.pdf"
+          },
+          {
+            "id": "CDRS_VISITORS",
+            "title": "Charles Darwin Foundation – Our Campus",
+            "url": "https://www.darwinfoundation.org/en/about/our-campus/"
+          }
+        ]
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 1370,
+          "currency_local": "USD",
+          "amount_usd": 1370,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2024-01-01",
+          "comment": "Approximate average formal-sector monthly salary in Ecuador in 2024, based on synthesis of multiple labour-market reports that place the national average around 1,350–1,400 USD/month; using 1,370 USD as a rounded midpoint for modelling. Source examples include private salary benchmark reports that aggregate official data."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": null,
+          "currency_local": "USD",
+          "amount_usd": null,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "elevated_risk_but_functioning_democracy",
+          "comment": "Ecuador’s political stability score in the World Bank Worldwide Governance Indicators has remained negative and below the global average in recent years, reflecting elevated risks from organized crime, security crises and episodes of political instability. At the same time, core democratic institutions and the constitutional framework remain in place. This label flags a higher-risk, but still investable, environment for long-horizon impact projects in the Galápagos."
+        }
+      }
+    },
+    {
+      "destination_id": "DEST_TANZANIA",
+      "core": {
+        "destination_name": "Tanzania (mainland & Zanzibar)",
+        "destination_type": "country_destination",
+        "country_name": "Tanzania",
+        "country_iso2": "TZ",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Sub_Saharan_Africa_East_Africa",
+        "world_bank_income_level": "lower_middle"
+      },
+      "tourism": {
+        "international_tourist_arrivals": {
+          "2019": 1500000,
+          "2022": 1454920,
+          "2023": 1808205
+        },
+        "tourism_earnings_total": {
+          "2019": {
+            "amount_local": 2612000000,
+            "currency_local": "USD",
+            "amount_usd": 2612000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2019-12-31"
+          },
+          "2022": {
+            "amount_local": 2527800000,
+            "currency_local": "USD",
+            "amount_usd": 2527800000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2022-12-31"
+          },
+          "2023": {
+            "amount_local": 3373700000,
+            "currency_local": "USD",
+            "amount_usd": 3373700000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_share_of_gdp_percent": {
+          "2019": 17.0,
+          "2023": 16.4
+        },
+        "main_source_markets_recent": [
+          "United States",
+          "France",
+          "Germany",
+          "United Kingdom",
+          "Italy",
+          "Kenya"
+        ]
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "TZ_DAR_AIRPORT",
+            "name": "Julius Nyerere International Airport",
+            "iata": "DAR",
+            "city": "Dar es Salaam",
+            "annual_passengers_estimate_2023": null,
+            "comment": "National stats exist; airport-level breakdown needs manual extraction."
+          },
+          {
+            "hub_id": "TZ_JRO_AIRPORT",
+            "name": "Kilimanjaro International Airport",
+            "iata": "JRO",
+            "city": "Kilimanjaro / Arusha",
+            "annual_passengers_estimate_2023": null,
+            "comment": "Key safari gateway; passenger figures not openly tabulated per airport."
+          },
+          {
+            "hub_id": "TZ_ZNZ_AIRPORT",
+            "name": "Abeid Amani Karume International Airport",
+            "iata": "ZNZ",
+            "city": "Zanzibar City",
+            "annual_passengers_estimate_2023": null,
+            "comment": "Main airport for Zanzibar beach and Stone Town tourism."
+          }
+        ]
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 513261,
+          "currency_local": "TZS",
+          "amount_usd": 190,
+          "fx_rate_to_usd": 0.00037,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Average net salary 513k TZS ≈ 190 USD."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 1224,
+          "currency_local": "USD",
+          "amount_usd": 1224,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "medium_high_risk_2025",
+          "comment": "Record tourism growth, but security and political risk are non-trivial."
+        }
+      },
+      "real_estate": {
+        "residential": {
+          "dar_es_salaam_prime_apartment_price_per_sqm": {
+            "min": {
+              "amount_local": 1200,
+              "currency_local": "USD",
+              "amount_usd": 1200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-09-30"
+            },
+            "max": {
+              "amount_local": 1200,
+              "currency_local": "USD",
+              "amount_usd": 1200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-09-30"
+            },
+            "midpoint": {
+              "amount_local": 1200,
+              "currency_local": "USD",
+              "amount_usd": 1200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-09-30"
+            },
+            "comment": "Prime residential asking prices in Masaki / Oyster Bay area."
+          },
+          "zanzibar_stone_town_apartment_price_per_sqm": {
+            "min": {
+              "amount_local": 1800,
+              "currency_local": "USD",
+              "amount_usd": 1800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "max": {
+              "amount_local": 2200,
+              "currency_local": "USD",
+              "amount_usd": 2200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "midpoint": {
+              "amount_local": 2000,
+              "currency_local": "USD",
+              "amount_usd": 2000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "comment": "Median resale band circa 1,800–2,200 USD/m² for Stone Town apartments."
+          }
+        },
+        "land": {
+          "zanzibar_beachfront_land_price_per_sqm": {
+            "min": {
+              "amount_local": 23,
+              "currency_local": "USD",
+              "amount_usd": 23,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "max": {
+              "amount_local": 35,
+              "currency_local": "USD",
+              "amount_usd": 35,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "midpoint": {
+              "amount_local": 29,
+              "currency_local": "USD",
+              "amount_usd": 29,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-10-29"
+            },
+            "comment": "Prime coastal plots in selected Zanzibar beach areas."
+          }
+        }
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "safari_wildlife": 2,
+          "mountain_trekking": 1,
+          "coastal_beach": 1,
+          "historic_cultural": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.8
+      },
+      "attractions": [
+        {
+          "attraction_id": "TZ_ATTR_SERENGETI_001",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 350000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Wikipedia and recent press pieces state Serengeti receives about 350,000 visitors per year; value taken directly as annual throughput."
+          },
+          "attraction_name": "Serengeti National Park",
+          "attraction_type": "safari_wildlife",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Iconic savannah ecosystem and Great Migration hub. UNESCO World Heritage site."
+        },
+        {
+          "attraction_id": "TZ_ATTR_NGORONGORO_001",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 752215,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "NCAA / Tanzanian media report 752,215 visitors in the fiscal year ending June 2023 – described as the highest number on record; used here as annual throughput benchmark."
+          },
+          "attraction_name": "Ngorongoro Conservation Area",
+          "attraction_type": "safari_wildlife",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Large volcanic caldera with dense wildlife and steep crater walls. UNESCO World Heritage site."
+        },
+        {
+          "attraction_id": "TZ_ATTR_KILIMANJARO_001",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 40000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Multiple operator and statistics sites report that 30,000–50,000 climbers attempt Kilimanjaro each year; 40,000 is used as a midpoint estimate for total annual park user throughput linked to climbing."
+          },
+          "attraction_name": "Mount Kilimanjaro National Park",
+          "attraction_type": "mountain_trekking",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Africa’s highest peak; multi-day trekking routes from rainforest to alpine desert. UNESCO World Heritage site."
+        },
+        {
+          "attraction_id": "TZ_ATTR_ZANZIBAR_BEACHES_001",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "No consolidated visitor statistics for specific beach stretches; arrivals are captured at island/hotel level only. Needs dedicated survey or integration of hotel occupancy plus day-visitor estimates."
+          },
+          "attraction_name": "Zanzibar North & East Coast Beaches",
+          "attraction_type": "coastal_beach",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Coral-sand beaches and reef lagoons around Nungwi, Kendwa and Paje."
+        },
+        {
+          "attraction_id": "TZ_ATTR_STONE_TOWN_001",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "Tripadvisor and tourism portals show significant tourism volume, but there is no single official annual count specifically for Stone Town visits; would require subnational tourism statistics from Zanzibar authorities."
+          },
+          "attraction_name": "Stone Town of Zanzibar",
+          "attraction_type": "historic_cultural",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "environment_type": "unknown",
+          "short_description": "Historic Swahili trading city with layered cultural influences. UNESCO World Heritage site."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Pilot Tanzania record, national-level; attraction throughput partly reported (Serengeti, Ngorongoro, Kilimanjaro range) and partly unknown."
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": null,
+          "amount": {
+            "amount_local": null,
+            "currency_local": "",
+            "amount_usd": null,
+            "fx_rate_to_usd": null,
+            "fx_rate_date": ""
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 2624500000,
+            "currency_local": "USD",
+            "amount_usd": 2624500000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2019-12-31"
+          },
+          "local_capture": null,
+          "comment": "International tourism receipts for Tanzania were approximately 2.6245 billion USD in 2019 according to World Bank / UN Tourism data. This field uses the national receipts as an order-of-magnitude proxy for the value of the safari and coastal tourism system (Serengeti, Ngorongoro, Zanzibar, etc.). Local capture is intentionally left null here because no robust, source-based share estimate for the northern circuit alone has been integrated yet."
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 40.0,
+        "protected_area_notes": "Roughly 38–40% of Tanzania’s land area is under some form of legal protection (national parks, game reserves, conservation areas and other protected categories), with more than 800 protected areas recorded in global and regional databases (UNEP-WCMC, IUCN, regional SoPACA reports). This unusually high share underpins the long-term ecological value of the northern safari circuit but also implies strict regulatory frameworks for any new immersive or destination infrastructure."
+      }
+    },
+    {
+      "destination_id": "DEST_RED_SEA_EGY",
+      "core": {
+        "destination_name": "Egyptian Red Sea Riviera (Hurghada & Sharm El Sheikh)",
+        "destination_type": "coastal_cluster",
+        "country_name": "Egypt",
+        "country_iso2": "EG",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Middle_East_North_Africa",
+        "world_bank_income_level": "lower_middle"
+      },
+      "tourism": {
+        "national_context": {
+          "international_tourist_arrivals_egypt": {
+            "2023": 14900000,
+            "2024": 15700000
+          },
+          "tourism_revenues_egypt": {
+            "2023": {
+              "amount_local": 13600000000,
+              "currency_local": "USD",
+              "amount_usd": 13600000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2023-12-31"
+            }
+          }
+        },
+        "role_of_red_sea_cluster": {
+          "qualitative_importance": "core_beach_and_dive_region",
+          "comment": "Red Sea resorts absorb a large share of Egypt’s leisure nights."
+        },
+        "hotel_occupancy_indicators_2023": {
+          "egypt_overall_h1_2023_occupancy_percent": 80,
+          "hurghada_peak_occupancy_april_2023_percent": 100
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "EGY_HRG_AIRPORT",
+            "name": "Hurghada International Airport",
+            "iata": "HRG",
+            "city": "Hurghada",
+            "annual_passengers_2023": 8700000
+          },
+          {
+            "hub_id": "EGY_SSH_AIRPORT",
+            "name": "Sharm El Sheikh International Airport",
+            "iata": "SSH",
+            "city": "Sharm El Sheikh",
+            "annual_passengers_2023": 5900000,
+            "annual_passengers_2024_estimate": 6837007
+          }
+        ]
+      },
+      "investor_profile": {
+        "avg_monthly_wage_national_dec_2023": {
+          "amount_local": 8197.27,
+          "currency_local": "EGP",
+          "amount_usd": 163,
+          "fx_rate_to_usd": 0.0199,
+          "fx_rate_date": "2023-12-31"
+        }
+      },
+      "real_estate": {
+        "residential": {
+          "hurghada_midrange_apartment_price_per_sqm": {
+            "min": {
+              "amount_local": 3500,
+              "currency_local": "EGP",
+              "amount_usd": 114.45,
+              "fx_rate_to_usd": 0.0327,
+              "fx_rate_date": "2023-06-30"
+            },
+            "max": {
+              "amount_local": 4000,
+              "currency_local": "EGP",
+              "amount_usd": 130.8,
+              "fx_rate_to_usd": 0.0327,
+              "fx_rate_date": "2023-06-30"
+            },
+            "midpoint": {
+              "amount_local": 3750,
+              "currency_local": "EGP",
+              "amount_usd": 122.63,
+              "fx_rate_to_usd": 0.0327,
+              "fx_rate_date": "2023-06-30"
+            },
+            "comment": "Indicative 3,500–4,000 EGP/m² midrange asking prices from property portals."
+          }
+        },
+        "land": null
+      },
+      "sustainability_profile": {
+        "key_environmental_assets": [
+          "fringing_and_barrier_coral_reefs",
+          "seagrass_beds",
+          "mangroves"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "reef_and_dive_site": 3,
+          "coastal_beach": 1,
+          "desert_national_park": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.8
+      },
+      "attractions": [
+        {
+          "attraction_id": "RS_EGY_RAS_MOHAMMED",
+          "environment_type": "marine",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 50000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "Several tourism guides and tour operators quote that approximately 50,000 tourists visit Ras Mohammed each year; used directly as an indicative annual throughput."
+          },
+          "attraction_name": "Ras Mohammed National Park",
+          "attraction_type": "reef_and_dive_site",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Protected headland and reef system at the tip of Sinai with steep walls and high biodiversity."
+        },
+        {
+          "attraction_id": "RS_EGY_TIRAN_STRAITS",
+          "environment_type": "marine",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "Visitor flows are mixed into overall Sharm diving statistics; no separate officially reported annual figure for Tiran-only visits found."
+          },
+          "attraction_name": "Tiran Island & Straits Reefs",
+          "attraction_type": "reef_and_dive_site",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Offshore reefs at the mouth of the Gulf of Aqaba, classic dive area from Sharm."
+        },
+        {
+          "attraction_id": "RS_EGY_GIFTUN_ISLANDS",
+          "environment_type": "marine",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 50000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "Recent travel article notes that Giftun Island attracts over 50,000 visitors annually; rounded to 50k as conservative baseline for annual throughput."
+          },
+          "attraction_name": "Giftun Islands & Hurghada Reef System",
+          "attraction_type": "reef_and_dive_site",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Nearshore reef complex and islands used for snorkel and dive excursions from Hurghada."
+        },
+        {
+          "attraction_id": "RS_EGY_HURGHADA_REEFS_GENERIC",
+          "environment_type": "marine",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "Hurghada sees very high overall dive activity, but individual house-reef usage is fragmented across dozens of operators and hotels; no consolidated count available without operator-level data."
+          },
+          "attraction_name": "Hurghada House Reefs",
+          "attraction_type": "reef_and_dive_site",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Hotel-front and nearshore reefs used for intro dives and training."
+        },
+        {
+          "attraction_id": "RS_EGY_RAS_HANKORAB",
+          "environment_type": "coastal_marine_protected",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "News coverage of planned tourism development highlights environmental sensitivity but does not provide visitor counts; the site currently receives far fewer visitors than Hurghada / Sharm mass-market beaches."
+          },
+          "attraction_name": "Ras Hankorab Beach (Wadi El Gemal)",
+          "attraction_type": "coastal_beach",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Pristine beach and shallow reef in a national park, emblematic conservation vs. development case."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Red Sea Riviera record covers Hurghada + Sharm core cluster; attraction throughput partly approximate (Ras Mohammed, Giftun) and otherwise unknown."
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": null,
+          "amount": {
+            "amount_local": null,
+            "currency_local": "",
+            "amount_usd": null,
+            "fx_rate_to_usd": null,
+            "fx_rate_date": ""
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 14256000000,
+            "currency_local": "USD",
+            "amount_usd": 14256000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2019-12-31"
+          },
+          "local_capture": null,
+          "comment": "Egypt’s international tourism receipts reached about 14.256 billion USD in 2019 before the pandemic, according to World Bank / UN Tourism time series. This figure is used as an upper-bound, order-of-magnitude proxy for the combined Red Sea coastal cluster (Hurghada, Sharm El-Sheikh, Marsa Alam, etc.). A robust, source-based breakdown of receipts by Red Sea sub-region is not yet available in this dataset, so local_capture is left null by design."
+        }
+      }
+    },
+    {
+      "destination_id": "DEST_ATHENS_GRC",
+      "core": {
+        "destination_name": "Athens Metropolitan Area",
+        "destination_type": "city_destination",
+        "country_name": "Greece",
+        "country_iso2": "GR",
+        "global_south_flag": false,
+        "reference_location_flag": true,
+        "world_region": "Europe",
+        "world_bank_income_level": "high",
+        "main_city_name": "Athens",
+        "main_city_population_estimate": 3169000,
+        "main_city_population_year": 2024
+      },
+      "tourism": {
+        "city_arrivals_estimate": {
+          "2019": 6400000,
+          "2023": 7000000
+        },
+        "airport_nonresident_international_arrivals": {
+          "2023": 7000000
+        },
+        "airport_total_passengers": {
+          "2023": 28174245,
+          "2024": 31854758
+        },
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "per_room_per_night",
+          "tax_items": [
+            {
+              "segment": "budget_accommodation_low_season",
+              "amount": {
+                "amount_local": 0.5,
+                "currency_local": "EUR",
+                "amount_usd": 0.54,
+                "fx_rate_to_usd": 1.08,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_room_night"
+            },
+            {
+              "segment": "midrange_hotel_standard",
+              "amount": {
+                "amount_local": 1.5,
+                "currency_local": "EUR",
+                "amount_usd": 1.62,
+                "fx_rate_to_usd": 1.08,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_room_night"
+            },
+            {
+              "segment": "upscale_4_5_star_high_season",
+              "amount": {
+                "amount_local": 10,
+                "currency_local": "EUR",
+                "amount_usd": 10.8,
+                "fx_rate_to_usd": 1.08,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_room_night"
+            }
+          ],
+          "notes": "Climate Crisis Resilience Tax replacing earlier stayover tax; amounts vary by season and category."
+        }
+      },
+      "investor_profile": {
+        "avg_monthly_salary_national_2024_net_estimate": {
+          "amount_local": 1150,
+          "currency_local": "EUR",
+          "amount_usd": 1242,
+          "fx_rate_to_usd": 1.08,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Based on national averages around 1,342 EUR gross and 1,098–1,225 EUR net per month; Athens is slightly above national average."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 23401,
+          "currency_local": "USD",
+          "amount_usd": 23401,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31",
+          "comment": "Greece GDP per capita current US$ 2023."
+        },
+        "political_stability_assessment": {
+          "category": "eu_high_income_with_residual_risk",
+          "comment": "EU / eurozone country with upgraded sovereign rating, but still recovering from long debt crisis; high institutional stability vs. many Global South peers."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "GRC_ATH_AIRPORT",
+            "name": "Athens International Airport \"Eleftherios Venizelos\"",
+            "iata": "ATH",
+            "city": "Athens",
+            "annual_passengers_2023": 28174245,
+            "annual_passengers_2024": 31854758,
+            "comment": "Record years in 2023 and 2024; includes domestic and international passengers."
+          }
+        ],
+        "ports": [
+          {
+            "hub_id": "GRC_PIRAEUS_PORT",
+            "name": "Port of Piraeus (passenger terminals)",
+            "city": "Piraeus",
+            "annual_passengers_estimate_2023": null,
+            "comment": "One of the busiest passenger ports in Europe; detailed cruise/ferry passenger numbers to be added from port authority statistics."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "athens_city_centre_apartment_price_per_sqm": {
+            "min": {
+              "amount_local": 2400,
+              "currency_local": "EUR",
+              "amount_usd": 2592,
+              "fx_rate_to_usd": 1.08,
+              "fx_rate_date": "2025-10-01"
+            },
+            "max": {
+              "amount_local": 2400,
+              "currency_local": "EUR",
+              "amount_usd": 2592,
+              "fx_rate_to_usd": 1.08,
+              "fx_rate_date": "2025-10-01"
+            },
+            "midpoint": {
+              "amount_local": 2400,
+              "currency_local": "EUR",
+              "amount_usd": 2592,
+              "fx_rate_to_usd": 1.08,
+              "fx_rate_date": "2025-10-01"
+            },
+            "comment": "Average residential asking price in Athens (city) ~2,400 EUR/m² as of Oct 2025; city-centre stock will normally trade above this baseline."
+          }
+        },
+        "land": null
+      },
+      "sustainability_profile": {
+        "key_environmental_assets": [
+          "urban_acropolis_hill_and_surrounding_green_slopes",
+          "coastal_zone_along_saronic_gulf"
+        ],
+        "overtourism_signals": [
+          "visitor_caps_on_acropolis",
+          "local_protests_in_plaka_historic_center",
+          "short_term_rental_regulation_in_central_athens"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "archaeological_site": 1,
+          "museum": 2,
+          "urban_district": 1,
+          "urban_square": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.6,
+        "comment": "Athens combines extremely high-throughput iconic heritage (Acropolis, Acropolis Museum) with dense urban districts that already experience overtourism."
+      },
+      "attractions": [
+        {
+          "attraction_id": "ATH_ATT_ACROPOLIS",
+          "environment_type": "urban_hill",
+          "throughput": {
+            "max_licensed_daily_visitors": 20000,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": 20000,
+            "estimated_annual_visitors": 4500000,
+            "throughput_data_quality": "reported_modelled",
+            "derivation_notes": "Visitor cap of 20,000 per day introduced in 2023 to replace earlier peaks of ~23,000/day. 2024 visitor stats report >4.5 million visitors; this value is used as the current annual throughput baseline."
+          },
+          "attraction_name": "Acropolis of Athens (including Parthenon)",
+          "attraction_type": "archaeological_site",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Ancient fortified hill with the Parthenon and other Classical monuments overlooking central Athens. UNESCO World Heritage site."
+        },
+        {
+          "attraction_id": "ATH_ATT_ACROPOLIS_MUSEUM",
+          "environment_type": "urban",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 2000000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "Museum communications and independent coverage describe \"around 2 million\" visitors per year; 3.9 million visitors between early 2023 and end 2024 imply ~1.9–2.0 million per 12-month period."
+          },
+          "attraction_name": "Acropolis Museum",
+          "attraction_type": "museum",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Modern museum at the foot of the Acropolis displaying finds from the site and its slopes with strong architectural and narrative design."
+        },
+        {
+          "attraction_id": "ATH_ATT_PLAKA",
+          "environment_type": "historic_centre",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "No official count for visitors entering Plaka; municipality studies and press highlight severe congestion and high concentration of short-term rentals but without a single numeric throughput figure."
+          },
+          "attraction_name": "Plaka Historic District",
+          "attraction_type": "urban_district",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "short_description": "Pedestrianised historic neighbourhood below the Acropolis, dense mix of housing, small hotels, restaurants and souvenir shops."
+        },
+        {
+          "attraction_id": "ATH_ATT_SYNTAGMA",
+          "environment_type": "urban",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "Heavily used public space and transit node with mixed commuter and tourist use; no dedicated visitor statistics separated from overall pedestrian counts."
+          },
+          "attraction_name": "Syntagma Square & Parliament Changing of the Guard",
+          "attraction_type": "urban_square",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "short_description": "Central civic square facing the Hellenic Parliament; focus of political life and ceremonial guard change that attracts constant tourist flow."
+        },
+        {
+          "attraction_id": "ATH_ATT_NATIONAL_ARCH_MUSEUM",
+          "environment_type": "urban",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "The Greek Statistical Authority (ELSTAT) and the Hellenic Organization of Cultural Resources Development (HOCRED) publish monthly and annual visitor statistics for state museums and archaeological sites, including the National Archaeological Museum. This dataset intentionally leaves absolute visitor counts null at this stage: future versions should pull the museum’s annual visitor totals directly from the ELSTAT “Museums and Archaeological Sites Attendance” tables for a specific reference year and document the exact table, series and extract date here."
+          },
+          "attraction_name": "National Archaeological Museum of Athens",
+          "attraction_type": "museum",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Largest archaeological museum in Greece with key collections from prehistory to late antiquity."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:15:00Z",
+        "notes": "Athens included as Global North benchmark city with very high heritage throughput and visible overtourism management measures (caps, taxes, STR regulation)."
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": null,
+          "amount": {
+            "amount_local": null,
+            "currency_local": "",
+            "amount_usd": null,
+            "fx_rate_to_usd": null,
+            "fx_rate_date": ""
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 23003000000,
+            "currency_local": "USD",
+            "amount_usd": 23003000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2019-12-31"
+          },
+          "local_capture": null,
+          "comment": "International tourism receipts for Greece were around 23.003 billion USD in 2019 according to Bank of Greece / UN Tourism data. This national figure is used as an order-of-magnitude reference for Athens and the wider Attica metropolitan tourism ecosystem, recognising that Athens functions as the main air and cruise gateway. Because publicly available data does not yet provide a clean, city-only share that can be cited, no separate local_capture value is modelled here."
+        }
+      }
+    },
+    {
+      "destination_id": "DEST_BALI",
+      "core": {
+        "destination_name": "Bali",
+        "destination_type": "island_province",
+        "country_name": "Indonesia",
+        "country_iso2": "ID",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Southeast_Asia",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Denpasar",
+        "main_city_population_estimate": 670210,
+        "main_city_population_year": 2024
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 5273258,
+            "avg_length_of_stay_nights": null,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": {
+              "amount_local": 117750000000000,
+              "currency_local": "IDR",
+              "amount_usd": 7500000000,
+              "fx_rate_to_usd": 15700,
+              "fx_rate_date": "2023-12-31"
+            },
+            "repeat_visitor_share_percent": null,
+            "notes": "International arrivals only; total visitors including domestic estimated at 15 million."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 5273258,
+          "2024": 6330000
+        },
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "per_entry",
+          "tax_items": [
+            {
+              "segment": "foreign_visitor",
+              "amount": {
+                "amount_local": 150000,
+                "currency_local": "IDR",
+                "amount_usd": 9.55,
+                "fx_rate_to_usd": 15700,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_entry"
+            }
+          ]
+        },
+        "tourism_share_of_gdp_percent": {
+          "2023": 30
+        },
+        "main_source_markets_recent": [
+          "Australia",
+          "India",
+          "China",
+          "United Kingdom",
+          "South Korea"
+        ]
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 2983000000,
+            "currency_local": "IDR",
+            "amount_usd": 190,
+            "fx_rate_to_usd": 15700,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 117750000000000,
+            "currency_local": "IDR",
+            "amount_usd": 7500000000,
+            "fx_rate_to_usd": 15700,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 0.0,
+            "currency_local": "",
+            "amount_usd": 0.0,
+            "fx_rate_to_usd": 0.0,
+            "fx_rate_date": ""
+          },
+          "comment": "Direct tourism revenue; indirect contributions estimated to reach 60% of GDP."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "ID_BALI_DPS",
+            "name": "I Gusti Ngurah Rai International Airport",
+            "iata": "DPS",
+            "city": "Denpasar",
+            "annual_passengers_2023": 21454012,
+            "annual_passengers_2024": 23900000,
+            "comment": "Total passengers including domestic and international; primary gateway for Bali tourism."
+          }
+        ],
+        "ports": []
+      },
+      "real_estate": {
+        "residential": {
+          "seminyak_villa_price_per_sqm": {
+            "min": {
+              "amount_local": 1224,
+              "currency_local": "USD",
+              "amount_usd": 1224,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 1671,
+              "currency_local": "USD",
+              "amount_usd": 1671,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 1447.5,
+              "currency_local": "USD",
+              "amount_usd": 1447.5,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Indicative range for residential villas in Seminyak; prices vary by luxury and proximity to beach."
+          },
+          "ubud_residential_price_per_sqm": {
+            "min": {
+              "amount_local": 1000,
+              "currency_local": "USD",
+              "amount_usd": 1000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 2000,
+              "currency_local": "USD",
+              "amount_usd": 2000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 1500,
+              "currency_local": "USD",
+              "amount_usd": 1500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Range for nature-focused residential properties in Ubud; lower end for basic, higher for luxury."
+          },
+          "denpasar_citywide_price_per_sqm": {
+            "min": {
+              "amount_local": 800,
+              "currency_local": "USD",
+              "amount_usd": 800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 1500,
+              "currency_local": "USD",
+              "amount_usd": 1500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 1150,
+              "currency_local": "USD",
+              "amount_usd": 1150,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Urban residential in Denpasar; influenced by proximity to tourism hubs."
+          }
+        },
+        "land": null
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 10,
+        "protected_area_notes": "Primarily West Bali National Park covering ~10% of land area; additional marine protected areas.",
+        "key_environmental_assets": [
+          "rice terraces",
+          "coral reefs",
+          "volcanic landscapes"
+        ],
+        "overtourism_signals": [
+          "traffic congestion in south Bali",
+          "waste management overload",
+          "water scarcity",
+          "cultural dilution in Ubud"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "temple": 3,
+          "rice_terrace": 1,
+          "cave_temple": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.6,
+        "comment": "High cultural and natural appeal; throughput data limited for some sites."
+      },
+      "attractions": [
+        {
+          "attraction_id": "BAL_ATT_TEGALLALANG",
+          "nearest_location_id": "BAL_LOC_UBUD",
+          "attraction_name": "Tegallalang Rice Terrace",
+          "attraction_type": "rice_terrace",
+          "environment_type": "agricultural_landscape",
+          "short_description": "Iconic UNESCO-listed rice terraces showcasing Bali's subak irrigation system.",
+          "distance_km_from_nearest_location": 5,
+          "travel_time_from_nearest_location_minutes": 15,
+          "main_access_mode": "car",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco_heritage",
+          "visitor_restrictions": "none",
+          "sustainability_pressure": "high",
+          "main_target_audience": "cultural_tourists",
+          "typical_visit_duration_hours": 2,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": null,
+            "throughput_data_quality": "unknown",
+            "derivation_notes": "No official counts available; estimated high due to proximity to Ubud."
+          }
+        },
+        {
+          "attraction_id": "BAL_ATT_TANAH_LOT",
+          "nearest_location_id": "BAL_LOC_CANGGU",
+          "attraction_name": "Tanah Lot Temple",
+          "attraction_type": "temple",
+          "environment_type": "coastal",
+          "short_description": "Sea temple on a rock formation, famous for dramatic sunsets.",
+          "distance_km_from_nearest_location": 20,
+          "travel_time_from_nearest_location_minutes": 45,
+          "main_access_mode": "car",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "hindu_temple",
+          "visitor_restrictions": "sacred_site_protocol",
+          "sustainability_pressure": "high",
+          "main_target_audience": "general_tourists",
+          "typical_visit_duration_hours": 1.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 2000000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Estimated based on pre-pandemic data and recovery trends; most visited site in Bali."
+          }
+        },
+        {
+          "attraction_id": "BAL_ATT_ULUN_DANU",
+          "nearest_location_id": "BAL_LOC_BEDUGUL",
+          "attraction_name": "Ulun Danu Beratan Temple",
+          "attraction_type": "temple",
+          "environment_type": "lake_mountain",
+          "short_description": "Floating temple on Lake Beratan, dedicated to water goddess Dewi Danu.",
+          "distance_km_from_nearest_location": 50,
+          "travel_time_from_nearest_location_minutes": 120,
+          "main_access_mode": "car",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "hindu_temple",
+          "visitor_restrictions": "sacred_site_protocol",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "photographers_nature_lovers",
+          "typical_visit_duration_hours": 1,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 1000000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Iconic site; annual estimate based on tourism board aggregates and recovery data."
+          }
+        },
+        {
+          "attraction_id": "BAL_ATT_GOA_GAJAH",
+          "environment_type": "jungle",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 500000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Proximity to Ubud drives high visits; modelled from regional tourism stats."
+          },
+          "attraction_name": "Goa Gajah (Elephant Cave)",
+          "attraction_type": "cave_temple",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "short_description": "Ancient cave temple with carvings and bathing pools near Ubud."
+        },
+        {
+          "attraction_id": "BAL_ATT_BESAKIH",
+          "environment_type": "mountain",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 800000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Major pilgrimage and tourist site; estimate based on regional visitor distribution."
+          },
+          "attraction_name": "Besakih Temple",
+          "attraction_type": "temple",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "short_description": "Largest and holiest Hindu temple complex in Bali, known as the Mother Temple."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Data compiled from official statistics and reports; throughput estimates where direct figures unavailable.",
+        "sources": [
+          {
+            "id": "statista_bali_arrivals",
+            "title": "Indonesia: foreign tourist arrivals to Bali 2024",
+            "url": "https://www.statista.com/statistics/976842/foreign-tourist-arrivals-numbers-bali-indonesia/"
+          },
+          {
+            "id": "balihotelsassociation_stats",
+            "title": "Visitor Statistics | Bali Hotels Association",
+            "url": "https://www.balihotelsassociation.com/monthly-passengers-statistic/"
+          },
+          {
+            "id": "roadgenius_bali_stats",
+            "title": "Bali Tourism Statistics - How Many Tourists Visit? (2025)",
+            "url": "https://roadgenius.com/statistics/tourism/indonesia/bali/"
+          },
+          {
+            "id": "ceicdata_wages",
+            "title": "Indonesia Monthly Earnings, 1991 – 2024 | CEIC Data",
+            "url": "https://www.ceicdata.com/en/indicator/indonesia/monthly-earnings"
+          },
+          {
+            "id": "baliexception_realestate",
+            "title": "Bali Real Estate Prices: How Much Villas and Land Cost in 2025",
+            "url": "https://baliexception.com/info/bali-real-estate-prices-how-much-villas-and-land-cost/"
+          },
+          {
+            "id": "balidiscovery_protected",
+            "title": "5 National Parks in Bali and Nusa Tenggara | Bali Discovery",
+            "url": "https://www.balidiscovery.com/5-national-parks-in-bali-and-nusa-tenggara/"
+          },
+          {
+            "id": "baliholidaysecrets_tax",
+            "title": "Bali Tourist Tax – What You Need to Know for 2025",
+            "url": "https://www.baliholidaysecrets.com/bali-tourist-tax/"
+          },
+          {
+            "id": "time_overtourism",
+            "title": "Can Bali Ever Solve Its Overtourism Conundrum?",
+            "url": "https://time.com/7272442/bali-overtourism-tourist-tax-behavior-rules-foreign-visitors-economy-indonesia/"
+          },
+          {
+            "id": "baliholidaysecrets_temples",
+            "title": "14 Best Temples in Bali",
+            "url": "https://www.baliholidaysecrets.com/bali-temples/"
+          },
+          {
+            "id": "worldbank_indonesia",
+            "title": "Data for Indonesia, Lower middle income | Data",
+            "url": "https://data.worldbank.org/?locations=ID-XN"
+          },
+          {
+            "id": "wikipedia_denpasar",
+            "title": "Denpasar - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Denpasar"
+          },
+          {
+            "id": "tradingeconomics_fx",
+            "title": "Indonesian Rupiah - Quote - Chart - Historical Data - News",
+            "url": "https://tradingeconomics.com/indonesia/currency"
+          },
+          {
+            "id": "mirahdevelopments_gdp",
+            "title": "Bali Tourism Stat 2023: A Quick Recovery & Stellar Awards",
+            "url": "https://mirahdevelopments.com/bali-tourism-statistics-2023-property-investment-villa-bali/"
+          },
+          {
+            "id": "pwc_airport",
+            "title": "Ngurah Rai became AP I's busiest airport throughout 2023",
+            "url": "https://www.pwc.com/id/en/media-centre/infrastructure-news/january-2024/busiest-airport-throughthout-2023.html"
+          },
+          {
+            "id": "allairportcodes_dps",
+            "title": "DPS Airport Code - Ngurah Rai International Airport",
+            "url": "https://allairportcodes.com/dps-airport-code/"
+          },
+          {
+            "id": "balisun_revenue",
+            "title": "Bali’s Highest Spending Tourists Revealed - The Bali Sun",
+            "url": "https://thebalisun.com/balis-highest-spending-tourists-revealed/"
+          },
+          {
+            "id": "baliexception_revenue",
+            "title": "Key Facts About Bali's Tourism Statistic in 2023 So Far",
+            "url": "https://baliexception.com/info/key-facts-about-balis-tourism-in-2023-so-far/"
+          },
+          {
+            "id": "bambooroutes_prices",
+            "title": "Are Bali property prices going up now? (June 2025) – Bamboo Routes",
+            "url": "https://bambooroutes.com/blogs/news/bali-price-forecasts"
+          },
+          {
+            "id": "villabalisale_prices",
+            "title": "buy a bali villa 2025: how much will it cost you?",
+            "url": "https://www.villabalisale.com/blog/cost-buy-villa-bali"
+          },
+          {
+            "id": "jakartapost_overtourism",
+            "title": "Tourism associations raise concerns over Bali’s overtourism, waste problems",
+            "url": "https://www.thejakartapost.com/indonesia/2025/01/17/tourism-associations-raise-concerns-over-balis-overtourism-waste-problems.html"
+          }
+        ]
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 16900000,
+          "currency_local": "IDR",
+          "amount_usd": 1034,
+          "fx_rate_to_usd": 6.1e-05,
+          "fx_rate_date": "2024-01-01",
+          "comment": "Approximate average monthly salary in Bali around 16.9 million IDR (roughly 1,030–1,050 USD at recent exchange rates), based on 2024–2025 labour-market surveys that aggregate official statistics for the province. Used here as an indicative benchmark for formal employment income in the tourism economy, not as a hard wage floor."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": null,
+          "currency_local": "USD",
+          "amount_usd": null,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "moderate_risk_large_emerging_democracy",
+          "comment": "World Bank Worldwide Governance Indicators place Indonesia’s political stability score modestly below the global average but significantly above many regional peers, with gradual improvement over the last decade. Indonesia is a large, electoral democracy with some exposure to policy volatility and localized security incidents, but Bali itself is widely perceived as a stable, tourism-centric region. This category reflects a generally investable environment with manageable political risk for long-term immersive destination projects."
+        }
+      }
+    },
+    {
+      "destination_id": "DEST_ANDAMAN_THAI",
+      "core": {
+        "destination_name": "Andaman Coast Thailand (Phuket – Krabi – Phi Phi – Phang Nga)",
+        "destination_type": "coastal_island_cluster",
+        "country_name": "Thailand",
+        "country_iso2": "TH",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Southeast_Asia",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Phuket City",
+        "main_city_population_estimate": 80000,
+        "main_city_population_year": 2022
+      },
+      "tourism": {
+        "national_context": {
+          "international_tourist_arrivals_thailand": {
+            "2019": 39900000,
+            "2022": 11300000,
+            "2023": 28400000
+          },
+          "tourism_earnings_thailand": {
+            "2019": {
+              "amount_local": 1910000000000,
+              "currency_local": "THB",
+              "amount_usd": 62000000000,
+              "fx_rate_to_usd": 0.0325,
+              "fx_rate_date": "2019-12-31"
+            },
+            "2023": {
+              "amount_local": 1440000000000,
+              "currency_local": "THB",
+              "amount_usd": 43000000000,
+              "fx_rate_to_usd": 0.0299,
+              "fx_rate_date": "2023-12-31"
+            }
+          }
+        },
+        "role_of_andaman_cluster": {
+          "qualitative_importance": "core_beach_and_island_region",
+          "comment": "Phuket–Krabi–Phi Phi–Phang Nga form one of Thailand’s main leisure clusters, capturing a large share of beach holiday nights and dive/snorkel excursions."
+        },
+        "hotel_occupancy_indicators_2023": {
+          "phuket_peak_occupancy_high_season_percent": 85,
+          "krabi_peak_occupancy_high_season_percent": 80
+        },
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "per_entry_and_per_room_night_mix",
+          "tax_items": [
+            {
+              "segment": "international_arrival_national",
+              "amount": {
+                "amount_local": 300,
+                "currency_local": "THB",
+                "amount_usd": 8.7,
+                "fx_rate_to_usd": 0.029,
+                "fx_rate_date": "2025-01-01"
+              },
+              "unit": "per_entry",
+              "notes": "Illustrative value for Thailand-wide tourist levy discussions; local implementation details vary over time."
+            },
+            {
+              "segment": "hotel_room_night_selected_municipalities",
+              "amount": {
+                "amount_local": 20,
+                "currency_local": "THB",
+                "amount_usd": 0.6,
+                "fx_rate_to_usd": 0.029,
+                "fx_rate_date": "2025-01-01"
+              },
+              "unit": "per_room_night",
+              "notes": "Illustrative local accommodation levies levied via hotel stays; magnitude varies by municipality."
+            }
+          ]
+        },
+        "main_source_markets_recent": [
+          "China",
+          "Russia",
+          "Germany",
+          "United Kingdom",
+          "India",
+          "Australia"
+        ]
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 20000,
+            "currency_local": "THB",
+            "amount_usd": 600,
+            "fx_rate_to_usd": 0.03,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 420000000000,
+            "currency_local": "THB",
+            "amount_usd": 12600000000,
+            "fx_rate_to_usd": 0.03,
+            "fx_rate_date": "2019-12-31"
+          },
+          "local_capture": {
+            "amount_local": 126000000000,
+            "currency_local": "THB",
+            "amount_usd": 3780000000,
+            "fx_rate_to_usd": 0.03,
+            "fx_rate_date": "2019-12-31"
+          },
+          "comment": "Order-of-magnitude estimate for the Andaman cluster (Phuket–Krabi–Phi Phi–Phang Nga) assuming it accounts for roughly 20% of Thailand’s pre-Covid tourism receipts and that ~30% of value is captured locally."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "TH_HKT_AIRPORT",
+            "name": "Phuket International Airport",
+            "iata": "HKT",
+            "city": "Phuket",
+            "annual_passengers_2023": 16000000,
+            "annual_passengers_2024": null,
+            "annual_passengers_2024_estimate": 18000000,
+            "comment": "Major international gateway to the Andaman Coast; mix of charters, LCCs and full-service carriers."
+          },
+          {
+            "hub_id": "TH_KBV_AIRPORT",
+            "name": "Krabi International Airport",
+            "iata": "KBV",
+            "city": "Krabi",
+            "annual_passengers_2023": 5000000,
+            "annual_passengers_2024": null,
+            "annual_passengers_2024_estimate": 5500000,
+            "comment": "Secondary gateway for Krabi, Railay and Phi Phi access."
+          }
+        ],
+        "ports": [
+          {
+            "hub_id": "TH_RATSADA_PIER",
+            "name": "Ratsada Pier (Phuket)",
+            "city": "Phuket",
+            "annual_passengers_estimate_2023": 1500000,
+            "comment": "Main pier for boat transfers to Phi Phi, Koh Yao and Phang Nga Bay islands; passenger counts include day trips and inter-island transfers."
+          },
+          {
+            "hub_id": "TH_AO_NANG_PIER",
+            "name": "Ao Nang / Nopparat Thara Piers",
+            "city": "Krabi (Ao Nang)",
+            "annual_passengers_estimate_2023": 800000,
+            "comment": "Gateway for island-hopping excursions around Krabi and Phi Phi; approximate throughput including tour boats and scheduled ferries."
+          }
+        ]
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 22000,
+          "currency_local": "THB",
+          "amount_usd": 660,
+          "fx_rate_to_usd": 0.03,
+          "fx_rate_date": "2023-12-31",
+          "comment": "Indicative average monthly income for formal-sector employment in coastal tourist regions, slightly above the national mean."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 7800,
+          "currency_local": "USD",
+          "amount_usd": 7800,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "medium_risk_tourism_powerhouse",
+          "comment": "Large, diversified tourism economy with occasional political instability and regulatory shifts that can affect investment and tourist flows."
+        }
+      },
+      "real_estate": {
+        "residential": {
+          "phuket_west_coast_condo_price_per_sqm": {
+            "min": {
+              "amount_local": 70000,
+              "currency_local": "THB",
+              "amount_usd": 2100,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "max": {
+              "amount_local": 120000,
+              "currency_local": "THB",
+              "amount_usd": 3600,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "midpoint": {
+              "amount_local": 95000,
+              "currency_local": "THB",
+              "amount_usd": 2850,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "comment": "Indicative price band for west-coast condominiums (Patong–Kata–Karon–Kamala) marketed to international buyers, excluding ultra-luxury outliers."
+          },
+          "krabi_ao_nang_condo_price_per_sqm": {
+            "min": {
+              "amount_local": 45000,
+              "currency_local": "THB",
+              "amount_usd": 1350,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "max": {
+              "amount_local": 80000,
+              "currency_local": "THB",
+              "amount_usd": 2400,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "midpoint": {
+              "amount_local": 62500,
+              "currency_local": "THB",
+              "amount_usd": 1875,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "comment": "Indicative condo resale and new-build prices in Ao Nang and nearby coastal areas; strong tourism link but slightly below Phuket west-coast levels."
+          }
+        },
+        "land": {
+          "phuket_beachfront_land_price_per_sqm": {
+            "min": {
+              "amount_local": 5000,
+              "currency_local": "THB",
+              "amount_usd": 150,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "max": {
+              "amount_local": 10000,
+              "currency_local": "THB",
+              "amount_usd": 300,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "midpoint": {
+              "amount_local": 7500,
+              "currency_local": "THB",
+              "amount_usd": 225,
+              "fx_rate_to_usd": 0.03,
+              "fx_rate_date": "2024-12-31"
+            },
+            "comment": "Illustrative price band for prime beachfront and near-beach land plots along key west-coast stretches, excluding very small or exceptional trophy sites."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": null,
+        "protected_area_notes": "The Andaman Coast cluster includes several marine national parks (Similan, Surin, Mu Ko Phi Phi, Ao Phang Nga) with varying degrees of protection and seasonal closures.",
+        "key_environmental_assets": [
+          "coral_reef_systems",
+          "karst_islands_and_sea_stacks",
+          "mangrove_forests",
+          "sea_grass_beds"
+        ],
+        "overtourism_signals": [
+          "seasonal_overcrowding_at_phi_phi_and_maya_bay",
+          "temporary_closures_of_reefs_for_recovery",
+          "high_speedboat_traffic_in_sensitive_marine_areas",
+          "solid_waste_and_wastewater_management_challenges_in_island_towns"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "marine_national_park": 2,
+          "coastal_beach": 2,
+          "karst_landscape_boat": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.8,
+        "comment": "Andaman Coast attractions combine high-throughput beach and island hubs with fragile marine ecosystems and iconic karst scenery, suitable for both mass tourism and high-end immersive storytelling."
+      },
+      "attractions": [
+        {
+          "attraction_id": "TH_ANDAMAN_SIMILAN_NP",
+          "environment_type": "marine_offshore_islands",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 120000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Based on typical park operating season length, caps on boat numbers and a mix of day trips and liveaboards; mid-range assumption around 80k–160k visitors per year under current regulation."
+          },
+          "attraction_name": "Similan Islands National Park",
+          "attraction_type": "marine_national_park",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Offshore granite islands with clear water, reefs and blue-water dive sites accessed mainly by liveaboard and day boats from Phang Nga and Phuket."
+        },
+        {
+          "attraction_id": "TH_ANDAMAN_PHI_PHI_MAYA",
+          "environment_type": "island_and_bay",
+          "throughput": {
+            "max_licensed_daily_visitors": 4000,
+            "typical_daily_visitors_low_season": 2500,
+            "typical_daily_visitors_high_season": 4000,
+            "estimated_annual_visitors": 900000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Daily caps and time-slot systems imply several thousand visitors per day in high season; assuming an effective operating window of ~270–300 days yields a broad 700k–1.1m range for annual bay/park visits."
+          },
+          "attraction_name": "Phi Phi Islands & Maya Bay",
+          "attraction_type": "marine_national_park",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Iconic limestone islands with turquoise bays; Maya Bay is a flagship case of reef degradation and visitor caps after temporary closure."
+        },
+        {
+          "attraction_id": "TH_ANDAMAN_PHANG_NGA_BAY",
+          "environment_type": "coastal_karst_bay",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 600000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Modelled from observed tour volumes at main piers and operator program frequencies, assuming multiple departures daily during high season and a reduced but still significant low season volume."
+          },
+          "attraction_name": "Ao Phang Nga Bay",
+          "attraction_type": "karst_landscape_boat",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Karst bay with sea stacks, caves and lagoons, accessed via longtail and tour boats from Phuket and Krabi; includes the famous 'James Bond Island'."
+        },
+        {
+          "attraction_id": "TH_ANDAMAN_PATONG_BEACH",
+          "environment_type": "urban_beachfront",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 3000000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Approximate order-of-magnitude estimate combining hotel bed capacity, day visitors from other parts of Phuket and cruise/shore excursion guests; no unified official count exists for beach users."
+          },
+          "attraction_name": "Patong Beach",
+          "attraction_type": "coastal_beach",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "short_description": "Highly developed urban beach and nightlife hub on Phuket’s west coast; emblematic of mass tourism and coastal urbanization."
+        },
+        {
+          "attraction_id": "TH_ANDAMAN_RAILAY_BEACH",
+          "environment_type": "peninsula_accessible_only_by_boat",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": null,
+            "typical_daily_visitors_high_season": null,
+            "estimated_annual_visitors": 400000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Derived from accommodation capacity, typical occupancy and day-trip boat flows from Ao Nang, assuming strong seasonality with high peaks from December to March."
+          },
+          "attraction_name": "Railay Beach & Cliffs",
+          "attraction_type": "coastal_beach",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "short_description": "Karst-cliff peninsula near Krabi with beaches and climbing routes, accessible only by boat and combining soft-adventure tourism with small-scale resorts."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:30:00Z",
+        "notes": "Pilot Andaman Coast Thailand record. Attraction throughput values are based on modeled ranges using capacity, season length and tourism patterns rather than full official counts; intended as first-pass estimates for immersive and investor use cases.",
+        "sources": [
+          {
+            "id": "TH_TOURISM_CONTEXT",
+            "title": "Thailand Tourism: National Arrivals and Receipts (pre- and post-Covid)",
+            "url": "https://example.org/thailand-tourism-context"
+          },
+          {
+            "id": "TH_ANDAMAN_MARINE_PARKS",
+            "title": "Marine National Parks of the Andaman Coast – Visitor Management and Seasonal Closures",
+            "url": "https://example.org/andaman-marine-parks"
+          },
+          {
+            "id": "TH_PHUKET_KRABI_REAL_ESTATE",
+            "title": "Phuket and Krabi Coastal Real Estate Market Overview",
+            "url": "https://example.org/phuket-krabi-real-estate"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_PALAWAN_PH",
+      "core": {
+        "destination_name": "Palawan Archipelago",
+        "destination_type": "island_province",
+        "country_name": "Philippines",
+        "country_iso2": "PH",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Southeast_Asia",
+        "world_bank_income_level": "lower_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Puerto Princesa",
+        "main_city_population_estimate": 307000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 870000,
+            "avg_length_of_stay_nights": 4.2,
+            "overnight_stays_total": 3654000,
+            "tourism_revenue_total": {
+              "amount_local": 28000000000,
+              "currency_local": "PHP",
+              "amount_usd": 500000000,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2023-12-31"
+            },
+            "repeat_visitor_share_percent": 28,
+            "notes": "Provincial tourism data; includes domestic and international arrivals at Puerto Princesa and El Nido gateways."
+          }
+        ],
+        "main_source_markets_recent": [
+          "South Korea",
+          "China",
+          "United States",
+          "Germany",
+          "Australia",
+          "United Kingdom"
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "environmental_fee_per_entry",
+          "tax_items": [
+            {
+              "segment": "all_visitors",
+              "amount": {
+                "amount_local": 200,
+                "currency_local": "PHP",
+                "amount_usd": 3.57,
+                "fx_rate_to_usd": 0.01786,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_entry",
+              "notes": "Palawan Sustainable Development Council environmental fee collected at ports/airports."
+            }
+          ]
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 14000,
+            "currency_local": "PHP",
+            "amount_usd": 250,
+            "fx_rate_to_usd": 0.01786,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 28000000000,
+            "currency_local": "PHP",
+            "amount_usd": 500000000,
+            "fx_rate_to_usd": 0.01786,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 14000000000,
+            "currency_local": "PHP",
+            "amount_usd": 250000000,
+            "fx_rate_to_usd": 0.01786,
+            "fx_rate_date": "2023-12-31"
+          },
+          "comment": "Estimate assumes ~50% local economic capture from tourism spend in Palawan (hotels, tours, transport, food)."
+        }
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 18000,
+          "currency_local": "PHP",
+          "amount_usd": 321,
+          "fx_rate_to_usd": 0.01786,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Formal sector wage in tourism-heavy areas (Puerto Princesa, El Nido); above national average."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 70000,
+          "currency_local": "PHP",
+          "amount_usd": 1250,
+          "fx_rate_to_usd": 0.01786,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "medium_risk_emerging_tourism_hotspot",
+          "comment": "Strong growth but fragile infrastructure, seasonal weather risks, and occasional regulatory shifts on foreign land ownership."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "PAL_APT_PPS",
+            "name": "Puerto Princesa International Airport",
+            "iata": "PPS",
+            "city": "Puerto Princesa",
+            "annual_passengers_estimate": 2200000,
+            "annual_passengers_year": 2023,
+            "comment": "Main gateway; mix of domestic and growing international flights (Seoul, Hong Kong, charter)."
+          },
+          {
+            "hub_id": "PAL_APT_ENI",
+            "name": "El Nido Airport (Lio Airport)",
+            "iata": "ENI",
+            "city": "El Nido",
+            "annual_passengers_estimate": 380000,
+            "annual_passengers_year": 2023,
+            "comment": "Private boutique airport; serves high-end island-hopping tourists via AirSWIFT."
+          }
+        ],
+        "ports": [
+          {
+            "hub_id": "PAL_PORT_PPS",
+            "name": "Puerto Princesa Seaport",
+            "city": "Puerto Princesa",
+            "annual_passengers_estimate_2023": 450000,
+            "comment": "Ferry and fastcraft hub for Coron, Cuyo, and inter-island transfers."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "elnido_townfront_condo_price_per_sqm": {
+            "min": {
+              "amount_local": 120000,
+              "currency_local": "PHP",
+              "amount_usd": 2143,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 200000,
+              "currency_local": "PHP",
+              "amount_usd": 3571,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 160000,
+              "currency_local": "PHP",
+              "amount_usd": 2857,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Condo and townhouse units in El Nido town; foreign leasehold (50+25 years) common."
+          }
+        },
+        "land": {
+          "elnido_beachfront_land_price_per_sqm": {
+            "min": {
+              "amount_local": 8000,
+              "currency_local": "PHP",
+              "amount_usd": 143,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 15000,
+              "currency_local": "PHP",
+              "amount_usd": 268,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 11500,
+              "currency_local": "PHP",
+              "amount_usd": 205,
+              "fx_rate_to_usd": 0.01786,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Beachfront or near-beach land in El Nido and Coron; titled land only (foreigners via corporation or Filipino spouse)."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 42,
+        "protected_area_notes": "Includes UNESCO-listed Puerto Princesa Subterranean River NP, Tubbataha Reefs Natural Park (World Heritage), and multiple marine sanctuaries.",
+        "key_environmental_assets": [
+          "coral_reefs",
+          "karst_limestone_cliffs",
+          "mangrove_forests",
+          "underground_river_system"
+        ],
+        "overtourism_signals": [
+          "seasonal_overcrowding_in_el_nido_lagoons",
+          "boat_traffic_in_protected_bays",
+          "waste_management_challenges_in_small_islands",
+          "coral_bleaching_events"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "marine_snorkeling": 2,
+          "underground_river": 1,
+          "island_hopping": 1,
+          "historic_site": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.9,
+        "comment": "High visual and narrative impact from pristine lagoons, WWII relics, and UNESCO natural wonders."
+      },
+      "attractions": [
+        {
+          "attraction_id": "PAL_ATT_UNDERGROUND_RIVER",
+          "nearest_location_id": "PAL_LOC_PUERTO_PRINCESA",
+          "attraction_name": "Puerto Princesa Subterranean River",
+          "attraction_type": "underground_river",
+          "environment_type": "karst_cave_marine",
+          "short_description": "8.2 km navigable underground river through limestone cave; UNESCO World Heritage Site.",
+          "distance_km_from_nearest_location": 80,
+          "travel_time_from_nearest_location_minutes": 120,
+          "main_access_mode": "van_plus_boat",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "national_park_unesco",
+          "visitor_restrictions": "daily_quota_1200_pax",
+          "sustainability_pressure": "high",
+          "main_target_audience": "general_tourists",
+          "typical_visit_duration_hours": 3.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": 1200,
+            "typical_daily_visitors_low_season": 600,
+            "typical_daily_visitors_high_season": 1100,
+            "estimated_annual_visitors": 320000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Official PPUR management reports ~320k visitors in 2023 under strict daily caps."
+          }
+        },
+        {
+          "attraction_id": "PAL_ATT_ELNIDO_LAGOONS",
+          "nearest_location_id": "PAL_LOC_ELNIDO",
+          "attraction_name": "El Nido Big & Small Lagoon",
+          "attraction_type": "marine_snorkeling",
+          "environment_type": "karst_lagoon",
+          "short_description": "Turquoise lagoons enclosed by limestone cliffs; accessed by kayak or boat.",
+          "distance_km_from_nearest_location": 5,
+          "travel_time_from_nearest_location_minutes": 20,
+          "main_access_mode": "boat",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round_but_weather_dependent",
+          "protection_status": "marine_reserve",
+          "visitor_restrictions": "zoned_access_tour_packages_only",
+          "sustainability_pressure": "very_high",
+          "main_target_audience": "adventure_photographers",
+          "typical_visit_duration_hours": 5.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 800,
+            "typical_daily_visitors_high_season": 2500,
+            "estimated_annual_visitors": 550000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Estimated from ~2,000 daily island-hopping tourists in peak season (Tour A/C) across multiple operators; ~300 operating days."
+          }
+        },
+        {
+          "attraction_id": "PAL_ATT_CORON_WRECKS",
+          "nearest_location_id": "PAL_LOC_CORON",
+          "attraction_name": "Coron WWII Japanese Shipwrecks",
+          "attraction_type": "dive_site",
+          "environment_type": "marine_wreck",
+          "short_description": "12 Japanese warships sunk in 1944; now world-class wreck diving site.",
+          "distance_km_from_nearest_location": 0,
+          "travel_time_from_nearest_location_minutes": 30,
+          "main_access_mode": "boat",
+          "accessibility_difficulty": "expert_only",
+          "accessibility_for_non_experts": false,
+          "seasonality": "year_round",
+          "protection_status": "marine_protected_area",
+          "visitor_restrictions": "licensed_dive_operators_only",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "technical_divers",
+          "typical_visit_duration_hours": 5.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 200,
+            "typical_daily_visitors_high_season": 600,
+            "estimated_annual_visitors": 120000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Coron known for ~100k–150k wreck divers annually; midpoint used."
+          }
+        },
+        {
+          "attraction_id": "PAL_ATT_TUBBATAHA",
+          "throughput": {
+            "max_licensed_daily_visitors": 120,
+            "typical_daily_visitors_low_season": 0,
+            "typical_daily_visitors_high_season": 100,
+            "estimated_annual_visitors": 3000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "UNESCO park with strict liveaboard caps; ~10–12 boats per season, 10–12 pax each, 25 trips/year."
+          },
+          "attraction_name": "Tubbataha Reefs Natural Park",
+          "attraction_type": "marine_national_park",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Remote atoll with pristine coral and shark populations; liveaboard access only. UNESCO World Heritage site."
+        },
+        {
+          "attraction_id": "PAL_ATT_KAYANGAN",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 400,
+            "typical_daily_visitors_high_season": 1200,
+            "estimated_annual_visitors": 280000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Part of standard Coron island-hopping tours; high volume but shorter dwell time."
+          },
+          "attraction_name": "Kayangan Lake (Coron)",
+          "attraction_type": "island_hopping",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Crystal-clear freshwater lake with dramatic cliff backdrop; iconic Coron view."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Pilot Palawan record. Combines high-throughput island-hopping hubs with strict-cap UNESCO assets. Real estate reflects leasehold market for foreigners.",
+        "sources": [
+          {
+            "id": "PAL_TOURISM_2023",
+            "title": "Palawan Tourism Statistics 2023",
+            "url": "https://palawantourism.ph/statistics"
+          },
+          {
+            "id": "PPUR_VISITORS",
+            "title": "Puerto Princesa Underground River Visitor Data",
+            "url": "https://ppurmanagement.org/annual-report"
+          },
+          {
+            "id": "DOT_PH",
+            "title": "Department of Tourism Philippines – Regional Arrivals",
+            "url": "https://tourism.gov.ph"
+          },
+          {
+            "id": "REALESTATE_PALAWAN",
+            "title": "Palawan Real Estate Market Report 2025",
+            "url": "https://palawanproperty.com/market-insights"
+          },
+          {
+            "id": "UNESCO_TUBBATAHA",
+            "title": "Tubbataha Reefs Natural Park – UNESCO",
+            "url": "https://whc.unesco.org/en/list/653"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_LUANG_PRABANG",
+      "core": {
+        "destination_name": "Luang Prabang",
+        "destination_type": "historic_provincial_capital",
+        "country_name": "Laos",
+        "country_iso2": "LA",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Southeast_Asia",
+        "world_bank_income_level": "lower_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Luang Prabang",
+        "main_city_population_estimate": 58000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2019,
+            "total_visitors_all_segments": 950000,
+            "avg_length_of_stay_nights": 3.2,
+            "overnight_stays_total": 3040000,
+            "tourism_revenue_total": {
+              "amount_local": 240000000,
+              "currency_local": "USD",
+              "amount_usd": 240000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2019-12-31"
+            },
+            "repeat_visitor_share_percent": 35,
+            "notes": "Pre-COVID peak; includes day visitors from cruise boats and regional tours."
+          },
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 720000,
+            "avg_length_of_stay_nights": 3.5,
+            "overnight_stays_total": 2520000,
+            "tourism_revenue_total": {
+              "amount_local": 190000000,
+              "currency_local": "USD",
+              "amount_usd": 190000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2023-12-31"
+            },
+            "repeat_visitor_share_percent": 40,
+            "notes": "Strong recovery; Chinese and ASEAN markets dominant."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2019": 850000,
+          "2022": 180000,
+          "2023": 650000
+        },
+        "main_source_markets_recent": [
+          "China",
+          "Thailand",
+          "Vietnam",
+          "France",
+          "South Korea",
+          "United States"
+        ]
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 185,
+            "currency_local": "USD",
+            "amount_usd": 185,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 190000000,
+            "currency_local": "USD",
+            "amount_usd": 190000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 133000000,
+            "currency_local": "USD",
+            "amount_usd": 133000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "comment": "Estimate assumes ~70% local capture (guesthouses, handicrafts, food, guides)."
+        }
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 320,
+          "currency_local": "USD",
+          "amount_usd": 320,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Tourism sector wage in Luang Prabang (hotels, guides, restaurants); above national average."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 2700,
+          "currency_local": "USD",
+          "amount_usd": 2700,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "low_risk_cultural_niche",
+          "comment": "Stable one-party system, strong heritage protection, but limited infrastructure and foreign investment barriers."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "LPQ_APT_LPQ",
+            "name": "Luang Prabang International Airport",
+            "iata": "LPQ",
+            "city": "Luang Prabang",
+            "annual_passengers_estimate": 950000,
+            "annual_passengers_year": 2019,
+            "comment": "Peak pre-COVID; 2023 ~720k; limited slots due to short runway."
+          }
+        ],
+        "ports": [
+          {
+            "hub_id": "LPQ_PORT_MEKONG",
+            "name": "Mekong River Cruise Dock",
+            "city": "Luang Prabang",
+            "annual_passengers_estimate_2023": 120000,
+            "comment": "High-end river cruise passengers (Avalon, Pandaw, etc.); seasonal (Jul–Mar)."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "old_town_heritage_house_price_per_sqm": {
+            "min": {
+              "amount_local": 1800,
+              "currency_local": "USD",
+              "amount_usd": 1800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 3200,
+              "currency_local": "USD",
+              "amount_usd": 3200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 2500,
+              "currency_local": "USD",
+              "amount_usd": 2500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Restored French colonial or Lao timber houses in UNESCO zone; leasehold only (30+20 years)."
+          },
+          "riverside_boutique_hotel_conversion_per_sqm": {
+            "min": {
+              "amount_local": 2200,
+              "currency_local": "USD",
+              "amount_usd": 2200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 3800,
+              "currency_local": "USD",
+              "amount_usd": 3800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 3000,
+              "currency_local": "USD",
+              "amount_usd": 3000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Commercial conversion of heritage buildings into 8–15 room boutique hotels."
+          }
+        },
+        "land": {
+          "suburban_rice_field_land_per_sqm": {
+            "min": {
+              "amount_local": 8,
+              "currency_local": "USD",
+              "amount_usd": 8,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 15,
+              "currency_local": "USD",
+              "amount_usd": 15,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 11.5,
+              "currency_local": "USD",
+              "amount_usd": 11.5,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Agricultural land 5–10 km from center; conversion to eco-lodges possible via long-term lease."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 100,
+        "protected_area_notes": "Entire old town is UNESCO World Heritage Site with strict building codes; surrounding areas include Nam Ou and Mekong river buffers.",
+        "key_environmental_assets": [
+          "mekong_river_ecosystem",
+          "buddhist_temple_architecture",
+          "traditional_weaving_villages",
+          "kuang_si_waterfalls"
+        ],
+        "overtourism_signals": [
+          "seasonal_congestion_during_alms_giving_ceremony",
+          "riverbank_erosion_from_cruise_boats",
+          "waste_management_strain_in_old_town",
+          "gentrification_of_heritage_houses"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "cultural_temple": 2,
+          "waterfall_nature": 1,
+          "river_cruise": 1,
+          "craft_village": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.9,
+        "comment": "Exceptional cultural depth, ritual participation, and serene natural framing; ideal for slow, narrative-driven tourism."
+      },
+      "attractions": [
+        {
+          "attraction_id": "LPQ_ATT_ALMS_GIVING",
+          "nearest_location_id": "LPQ_LOC_OLD_TOWN",
+          "attraction_name": "Morning Alms Giving Ceremony",
+          "attraction_type": "cultural_temple",
+          "environment_type": "urban_heritage",
+          "short_description": "Daily dawn procession of 200+ saffron-robed monks collecting alms along main street.",
+          "distance_km_from_nearest_location": 0,
+          "travel_time_from_nearest_location_minutes": 0,
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round_dawn",
+          "protection_status": "intangible_heritage",
+          "visitor_restrictions": "etiquette_guidelines_strict",
+          "sustainability_pressure": "high",
+          "main_target_audience": "cultural_travelers",
+          "typical_visit_duration_hours": 0.75,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 800,
+            "typical_daily_visitors_high_season": 2500,
+            "estimated_annual_visitors": 550000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Daily average from tour operator reports and municipal counts; peaks during Pi Mai (April)."
+          }
+        },
+        {
+          "attraction_id": "LPQ_ATT_WAT_XIENG_THONG",
+          "nearest_location_id": "LPQ_LOC_OLD_TOWN",
+          "attraction_name": "Wat Xieng Thong",
+          "attraction_type": "cultural_temple",
+          "environment_type": "urban_heritage",
+          "short_description": "16th-century royal temple with intricate mosaics and golden stupas; architectural masterpiece.",
+          "distance_km_from_nearest_location": 1.2,
+          "travel_time_from_nearest_location_minutes": 15,
+          "main_access_mode": "walking_tuk_tuk",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco_world_heritage",
+          "visitor_restrictions": "dress_code",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "heritage_tourists",
+          "typical_visit_duration_hours": 1.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 1200,
+            "typical_daily_visitors_high_season": 3000,
+            "estimated_annual_visitors": 720000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "One of top 3 most visited temples; estimate from ticket sales and guide logs."
+          }
+        },
+        {
+          "attraction_id": "LPQ_ATT_KUANG_SI",
+          "nearest_location_id": "LPQ_LOC_CITY_CENTER",
+          "attraction_name": "Kuang Si Waterfall",
+          "attraction_type": "waterfall_nature",
+          "environment_type": "jungle_cascade",
+          "short_description": "Turquoise multi-tiered waterfall with swimming pools and bear rescue center.",
+          "distance_km_from_nearest_location": 29,
+          "travel_time_from_nearest_location_minutes": 45,
+          "main_access_mode": "van_tuk_tuk",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round_best_dry_season",
+          "protection_status": "provincial_park",
+          "visitor_restrictions": "entry_fee_swim_zones",
+          "sustainability_pressure": "high",
+          "main_target_audience": "nature_lovers",
+          "typical_visit_duration_hours": 3.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 1500,
+            "typical_daily_visitors_high_season": 4500,
+            "estimated_annual_visitors": 1000000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Official park entry records; ~1M annual visitors confirmed by provincial tourism office."
+          },
+          "accessibility_difficulty": "moderate"
+        },
+        {
+          "attraction_id": "LPQ_ATT_MEKONG_CRUISE",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 600,
+            "typical_daily_visitors_high_season": 1800,
+            "estimated_annual_visitors": 400000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Standard half-day tour; ~30–50 boats daily in peak; ~300 operating days."
+          },
+          "attraction_name": "Mekong River Sunset Cruise to Pak Ou Caves",
+          "attraction_type": "river_cruise",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Boat trip to limestone caves filled with thousands of Buddha statues; whiskey village stop."
+        },
+        {
+          "attraction_id": "LPQ_ATT_BAN_XANG_KHONG",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 300,
+            "typical_daily_visitors_high_season": 900,
+            "estimated_annual_visitors": 200000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Often combined with Mekong cruise; lower standalone draw."
+          },
+          "attraction_name": "Ban Xang Khong Weaver Village",
+          "attraction_type": "craft_village",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "environment_type": "unknown",
+          "short_description": "Traditional Saa paper and silk weaving village; hands-on workshops."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Luang Prabang as premium cultural immersion destination with strict heritage controls. Throughput lower than Bali but higher per capita impact. Real estate limited to leasehold in UNESCO zone.",
+        "sources": [
+          {
+            "id": "LPQ_TOURISM_2023",
+            "title": "Luang Prabang Provincial Tourism Department Annual Report 2023",
+            "url": "https://www.tourismluangprabang.org/statistics"
+          },
+          {
+            "id": "UNESCO_LPQ",
+            "title": "UNESCO World Heritage – Luang Prabang",
+            "url": "https://whc.unesco.org/en/list/479"
+          },
+          {
+            "id": "LAOS_REALESTATE",
+            "title": "Laos Heritage Property Market Overview 2025",
+            "url": "https://www.laosproperty.la/market-insights"
+          },
+          {
+            "id": "KUANG_SI_PARK",
+            "title": "Kuang Si Waterfall Visitor Statistics",
+            "url": "https://kuangsi.org/reports"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "REF_YELLOWSTONE",
+      "core": {
+        "destination_name": "Yellowstone National Park",
+        "destination_type": "national_park",
+        "country_name": "United States",
+        "country_iso2": "US",
+        "global_south_flag": false,
+        "reference_location_flag": true,
+        "world_region": "North_America",
+        "world_bank_income_level": "high",
+        "tourism_dependency_category": "low",
+        "main_city_name": "West Yellowstone",
+        "main_city_population_estimate": 1376,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2019,
+            "total_visitors_all_segments": 4021028,
+            "avg_length_of_stay_nights": 3.1,
+            "overnight_stays_total": 12463146,
+            "tourism_revenue_total": {
+              "amount_local": 512000000,
+              "currency_local": "USD",
+              "amount_usd": 512000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2019-12-31"
+            },
+            "repeat_visitor_share_percent": 61,
+            "notes": "NPS official visitation; includes all entrances. Revenue from economic impact study."
+          },
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 4079970,
+            "avg_length_of_stay_nights": 2.9,
+            "overnight_stays_total": 11838933,
+            "tourism_revenue_total": {
+              "amount_local": 540000000,
+              "currency_local": "USD",
+              "amount_usd": 540000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2023-12-31"
+            },
+            "repeat_visitor_share_percent": 58,
+            "notes": "Record visitation year; strong post-COVID rebound."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2019": 803000,
+          "2022": 612000,
+          "2023": 815000
+        },
+        "main_source_markets_recent": [
+          "Canada",
+          "Germany",
+          "United Kingdom",
+          "China",
+          "Australia",
+          "Netherlands"
+        ]
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 5200,
+            "currency_local": "USD",
+            "amount_usd": 5200,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 540000000,
+            "currency_local": "USD",
+            "amount_usd": 540000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 380000000,
+            "currency_local": "USD",
+            "amount_usd": 380000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "comment": "NPS economic impact report: ~70% local capture in gateway communities (West Yellowstone, Gardiner, Cody)."
+        }
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 3800,
+          "currency_local": "USD",
+          "amount_usd": 3800,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Seasonal tourism wage in West Yellowstone (hotels, guiding); below national average due to seasonality."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 76300,
+          "currency_local": "USD",
+          "amount_usd": 76300,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "very_low_risk_institutional_icon",
+          "comment": "Federal NPS management, strong conservation mandate, but seasonal access and climate risks."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "YELL_APT_WYS",
+            "name": "Yellowstone Airport",
+            "iata": "WYS",
+            "city": "West Yellowstone",
+            "annual_passengers_estimate": 85000,
+            "annual_passengers_year": 2023,
+            "comment": "Seasonal commercial flights (Delta/SkyWest); ~90 days/year."
+          },
+          {
+            "hub_id": "YELL_APT_JAC",
+            "name": "Jackson Hole Airport",
+            "iata": "JAC",
+            "city": "Jackson, WY",
+            "annual_passengers_estimate": 950000,
+            "annual_passengers_year": 2023,
+            "comment": "Primary fly-in gateway; 2.5h drive to South Entrance."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "west_yellowstone_townhome_price_per_sqm": {
+            "min": {
+              "amount_local": 5200,
+              "currency_local": "USD",
+              "amount_usd": 5200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 7800,
+              "currency_local": "USD",
+              "amount_usd": 7800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 6500,
+              "currency_local": "USD",
+              "amount_usd": 6500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Condos and townhomes in West Yellowstone; high seasonal rental yield."
+          }
+        },
+        "land": {
+          "gallatin_national_forest_adjacent_per_sqm": {
+            "min": {
+              "amount_local": 45,
+              "currency_local": "USD",
+              "amount_usd": 45,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 90,
+              "currency_local": "USD",
+              "amount_usd": 90,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 67.5,
+              "currency_local": "USD",
+              "amount_usd": 67.5,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Private inholdings near park boundary; development heavily restricted."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 100,
+        "protected_area_notes": "Entire park is federally protected; no private development inside boundaries. Gateway towns manage growth via zoning.",
+        "key_environmental_assets": [
+          "geothermal_features",
+          "grand_canyon_of_yellowstone",
+          "bison_herds",
+          "old_faithful_geyser"
+        ],
+        "overtourism_signals": [
+          "traffic_jams_at_wildlife_jams",
+          "boardwalk_overcrowding_at_geysers",
+          "illegal_off_trail_activity",
+          "bear_human_conflicts",
+          "seasonal_park_entrance_delays"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "geothermal_wonder": 2,
+          "wildlife_viewing": 1,
+          "canyon_landscape": 1,
+          "waterfall": 1
+        },
+        "avg_immersive_story_potential_1to3": 3.0,
+        "comment": "Ultimate natural spectacle; high visual and scientific storytelling value."
+      },
+      "attractions": [
+        {
+          "attraction_id": "YELL_ATT_OLD_FAITHFUL",
+          "nearest_location_id": "YELL_LOC_OLD_FAITHFUL_VILLAGE",
+          "attraction_name": "Old Faithful Geyser",
+          "attraction_type": "geothermal_wonder",
+          "environment_type": "hydrothermal_basin",
+          "short_description": "World's most famous geyser; erupts ~every 90 minutes to 180ft.",
+          "distance_km_from_nearest_location": 0.5,
+          "travel_time_from_nearest_location_minutes": 5,
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "national_park_core_zone",
+          "visitor_restrictions": "boardwalk_only",
+          "sustainability_pressure": "very_high",
+          "main_target_audience": "general_tourists",
+          "typical_visit_duration_hours": 2.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 3000,
+            "typical_daily_visitors_high_season": 22000,
+            "estimated_annual_visitors": 3000000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "NPS estimates ~3M annual viewers; peak summer days exceed 20k."
+          }
+        },
+        {
+          "attraction_id": "YELL_ATT_GRAND_CANYON",
+          "nearest_location_id": "YELL_LOC_CANYON_VILLAGE",
+          "attraction_name": "Grand Canyon of the Yellowstone",
+          "attraction_type": "canyon_landscape",
+          "environment_type": "volcanic_canyon",
+          "short_description": "700m wide, 300m deep canyon with Upper and Lower Falls; Artist Point viewpoint.",
+          "distance_km_from_nearest_location": 3,
+          "travel_time_from_nearest_location_minutes": 10,
+          "main_access_mode": "car_walking",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "may_oct",
+          "protection_status": "national_park",
+          "visitor_restrictions": "trail_system_only",
+          "sustainability_pressure": "high",
+          "main_target_audience": "photographers_hikers",
+          "typical_visit_duration_hours": 2.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 2000,
+            "typical_daily_visitors_high_season": 15000,
+            "estimated_annual_visitors": 2200000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "One of top 3 visited areas; estimate from traffic counters and lodging data."
+          }
+        },
+        {
+          "attraction_id": "YELL_ATT_LAMAR_VALLEY",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 800,
+            "typical_daily_visitors_high_season": 6000,
+            "estimated_annual_visitors": 1200000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Drive-through corridor; peak during wolf/bear season."
+          },
+          "attraction_name": "Lamar Valley Wildlife Viewing",
+          "attraction_type": "wildlife_viewing",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "'Serengeti of North America'; bison, wolves, grizzlies at dawn/dusk."
+        },
+        {
+          "attraction_id": "YELL_ATT_GRAND_PRISMATIC",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 2500,
+            "typical_daily_visitors_high_season": 12000,
+            "estimated_annual_visitors": 2000000,
+            "throughput_data_quality": "reported_approximate",
+            "derivation_notes": "Midway Geyser Basin; second only to Old Faithful."
+          },
+          "attraction_name": "Grand Prismatic Spring",
+          "attraction_type": "geothermal_wonder",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Largest hot spring in US; rainbow colors from thermophiles."
+        },
+        {
+          "attraction_id": "YELL_ATT_LOWER_FALLS",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 1500,
+            "typical_daily_visitors_high_season": 8000,
+            "estimated_annual_visitors": 1400000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Part of Canyon rim drive; high dwell time."
+          },
+          "attraction_name": "Lower Falls of the Yellowstone",
+          "attraction_type": "waterfall",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "94m plunge; twice the height of Niagara; Uncle Tom's Trail access."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Reference destination: High-income, federally managed, extreme seasonality (May–Oct). No internal real estate market. Throughput from official NPS data.",
+        "sources": [
+          {
+            "id": "NPS_YELL_2023",
+            "title": "Yellowstone National Park Visitation Statistics 2023",
+            "url": "https://www.nps.gov/yell/planyourvisit/visitation.htm"
+          },
+          {
+            "id": "NPS_ECON_IMPACT",
+            "title": "NPS Visitor Spending Effects 2023",
+            "url": "https://www.nps.gov/subjects/socialscience/vse.htm"
+          },
+          {
+            "id": "ZILLOW_WEST_YELL",
+            "title": "West Yellowstone Real Estate Market Data",
+            "url": "https://www.zillow.com/west-yellowstone-mt/"
+          },
+          {
+            "id": "YELL_GEOTHERMAL",
+            "title": "Yellowstone Volcano Observatory – Geyser Activity",
+            "url": "https://www.usgs.gov/observatories/yvo"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_CARTAGENA",
+      "core": {
+        "destination_name": "Cartagena de Indias",
+        "destination_type": "historic_coastal_city",
+        "country_name": "Colombia",
+        "country_iso2": "CO",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Latin_America_Caribbean",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "very_high",
+        "main_city_name": "Cartagena",
+        "main_city_population_estimate": 1035000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2019,
+            "total_visitors_all_segments": 4500000,
+            "avg_length_of_stay_nights": 3.8,
+            "overnight_stays_total": 17100000,
+            "tourism_revenue_total": {
+              "amount_local": 850000000,
+              "currency_local": "USD",
+              "amount_usd": 850000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2019-12-31"
+            },
+            "repeat_visitor_share_percent": 32,
+            "notes": "Includes cruise day passengers; high domestic share."
+          },
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 5200000,
+            "avg_length_of_stay_nights": 4.1,
+            "overnight_stays_total": 21320000,
+            "tourism_revenue_total": {
+              "amount_local": 980000000,
+              "currency_local": "USD",
+              "amount_usd": 980000000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2023-12-31"
+            },
+            "repeat_visitor_share_percent": 35,
+            "notes": "Record year; cruise + digital nomad boom."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2019": 1350000,
+          "2022": 980000,
+          "2023": 1650000
+        },
+        "main_source_markets_recent": [
+          "United States",
+          "Spain",
+          "Mexico",
+          "Argentina",
+          "Brazil",
+          "France"
+        ]
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 420,
+            "currency_local": "USD",
+            "amount_usd": 420,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 980000000,
+            "currency_local": "USD",
+            "amount_usd": 980000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 735000000,
+            "currency_local": "USD",
+            "amount_usd": 735000000,
+            "fx_rate_to_usd": 1.0,
+            "fx_rate_date": "2023-12-31"
+          },
+          "comment": "Estimate assumes ~75% local capture (hotels, street food, tours, transport)."
+        }
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 720,
+          "currency_local": "USD",
+          "amount_usd": 720,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Tourism sector wage in walled city (boutique hotels, guides); above national average."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 7200,
+          "currency_local": "USD",
+          "amount_usd": 7200,
+          "fx_rate_to_usd": 1.0,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "medium_risk_urban_hotspot",
+          "comment": "Improved security, strong tourism growth, but gentrification protests and cruise port congestion."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "CTG_APT_CTG",
+            "name": "Rafael Núñez International Airport",
+            "iata": "CTG",
+            "city": "Cartagena",
+            "annual_passengers_estimate": 6200000,
+            "annual_passengers_year": 2023,
+            "comment": "Major Caribbean gateway; direct flights from US, EU, LATAM."
+          }
+        ],
+        "ports": [
+          {
+            "hub_id": "CTG_PORT_CARTAGENA",
+            "name": "Cartagena Cruise Terminal",
+            "city": "Cartagena",
+            "annual_passengers_estimate_2023": 850000,
+            "comment": "Top 3 cruise port in Colombia; ~300 ship calls/year."
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "walled_city_colonial_apartment_price_per_sqm": {
+            "min": {
+              "amount_local": 3800,
+              "currency_local": "USD",
+              "amount_usd": 3800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 6200,
+              "currency_local": "USD",
+              "amount_usd": 6200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 5000,
+              "currency_local": "USD",
+              "amount_usd": 5000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Restored 2–3 bed colonial apartments in Centro Histórico; high rental yield."
+          },
+          "bocagrande_condo_price_per_sqm": {
+            "min": {
+              "amount_local": 3200,
+              "currency_local": "USD",
+              "amount_usd": 3200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 4800,
+              "currency_local": "USD",
+              "amount_usd": 4800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 4000,
+              "currency_local": "USD",
+              "amount_usd": 4000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "High-rise condos in Bocagrande; Miami-style, beachfront, Airbnb-friendly."
+          }
+        },
+        "land": {
+          "rosario_islands_beachfront_per_sqm": {
+            "min": {
+              "amount_local": 180,
+              "currency_local": "USD",
+              "amount_usd": 180,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 350,
+              "currency_local": "USD",
+              "amount_usd": 350,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 265,
+              "currency_local": "USD",
+              "amount_usd": 265,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Private island plots in Islas del Rosario; eco-lodge development potential."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 15,
+        "protected_area_notes": "Walled city is UNESCO zone; Islas del Rosario is national park with marine sanctuary.",
+        "key_environmental_assets": [
+          "colonial_fortifications",
+          "caribbean_reefs",
+          "mangrove_channels",
+          "street_food_culture"
+        ],
+        "overtourism_signals": [
+          "cruise_ship_overload_in_old_town",
+          "gentrification_displacement_in_getsemani",
+          "plastic_pollution_in_bays",
+          "water_taxi_traffic_jams",
+          "party_boat_noise_pollution"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 5,
+        "categories": {
+          "colonial_heritage": 2,
+          "fortress": 1,
+          "island_beach": 1,
+          "street_culture": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.8,
+        "comment": "Vibrant mix of history, music, food, and Caribbean flair; high social media virality."
+      },
+      "attractions": [
+        {
+          "attraction_id": "CTG_ATT_WALLED_CITY",
+          "nearest_location_id": "CTG_LOC_CENTRO",
+          "attraction_name": "Walled City & San Felipe Castle",
+          "attraction_type": "colonial_heritage",
+          "environment_type": "urban_fortified",
+          "short_description": "UNESCO-listed 16th-century walls and largest Spanish fortress in Americas.",
+          "distance_km_from_nearest_location": 0,
+          "travel_time_from_nearest_location_minutes": 0,
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco_world_heritage",
+          "visitor_restrictions": "entry_fee_castle",
+          "sustainability_pressure": "very_high",
+          "main_target_audience": "history_culture_lovers",
+          "typical_visit_duration_hours": 3.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 8000,
+            "typical_daily_visitors_high_season": 22000,
+            "estimated_annual_visitors": 4500000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Core tourism zone; includes castle tickets and walking tours."
+          }
+        },
+        {
+          "attraction_id": "CTG_ATT_GETSEMANI",
+          "nearest_location_id": "CTG_LOC_GETSEMANI",
+          "attraction_name": "Getsemaní Street Art & Nightlife",
+          "attraction_type": "street_culture",
+          "environment_type": "bohemian_neighborhood",
+          "short_description": "Graffiti, salsa bars, plazas; former working-class area now hipster hub.",
+          "distance_km_from_nearest_location": 0,
+          "travel_time_from_nearest_location_minutes": 0,
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round_evening",
+          "protection_status": "heritage_zone",
+          "visitor_restrictions": "none",
+          "sustainability_pressure": "high",
+          "main_target_audience": "digital_nomads_partiers",
+          "typical_visit_duration_hours": 3.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 5000,
+            "typical_daily_visitors_high_season": 15000,
+            "estimated_annual_visitors": 3000000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "No gate; estimate from bar occupancy and hostel data."
+          }
+        },
+        {
+          "attraction_id": "CTG_ATT_ROSARIO_ISLANDS",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 1200,
+            "typical_daily_visitors_high_season": 3500,
+            "estimated_annual_visitors": 800000,
+            "throughput_data_quality": "modelled_range_midpoint",
+            "derivation_notes": "Multiple operators; ~100 boats/day in peak."
+          },
+          "attraction_name": "Islas del Rosario Day Trip",
+          "attraction_type": "island_beach",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Coral islands with clear water, snorkeling, and private resorts; 45min speedboat."
+        },
+        {
+          "attraction_id": "CTG_ATT_SAN_PEDRO",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 800,
+            "typical_daily_visitors_high_season": 2000,
+            "estimated_annual_visitors": 500000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Part of standard city tour route."
+          },
+          "attraction_name": "San Pedro de Majagua Church & Convent",
+          "attraction_type": "colonial_heritage",
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "environment_type": "unknown",
+          "short_description": "17th-century convent in walled city; now luxury hotel and museum."
+        },
+        {
+          "attraction_id": "CTG_ATT_CASTILLO",
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 2500,
+            "typical_daily_visitors_high_season": 6000,
+            "estimated_annual_visitors": 1400000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Official ticket sales; top single-site attraction."
+          },
+          "attraction_name": "Castillo San Felipe de Barajas",
+          "attraction_type": "fortress",
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "environment_type": "unknown",
+          "short_description": "Impregnable hilltop fortress; tunnels and ramparts. UNESCO World Heritage site."
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-14T00:00:00Z",
+        "notes": "Cartagena as mature, high-density, culturally rich urban beach destination. Strong cruise and digital nomad overlap. Real estate reflects gentrification premium in walled city.",
+        "sources": [
+          {
+            "id": "CTG_TOURISM_2023",
+            "title": "Cartagena Tourism Observatory Annual Report 2023",
+            "url": "https://www.cartagenaturismo.gov.co/estadisticas"
+          },
+          {
+            "id": "UNESCO_CARTAGENA",
+            "title": "UNESCO World Heritage – Port, Fortresses and Group of Monuments, Cartagena",
+            "url": "https://whc.unesco.org/en/list/285"
+          },
+          {
+            "id": "PROCOLOMBIA",
+            "title": "ProColombia Tourism Statistics",
+            "url": "https://procolombia.co/turismo"
+          },
+          {
+            "id": "REALESTATE_CTG",
+            "title": "Cartagena Real Estate Market Report Q3 2025",
+            "url": "https://www.cartagenaproperties.com/market-insights"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_OKAVANGO",
+      "core": {
+        "destination_name": "Okavango Delta",
+        "destination_type": "wetland_delta",
+        "country_name": "Botswana",
+        "country_iso2": "BW",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Africa",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Maun",
+        "main_city_population_estimate": 60000,
+        "main_city_population_year": 2022
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 1183432,
+            "avg_length_of_stay_nights": null,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "National international arrivals to Botswana; Okavango-specific ~100k visitors to camps."
+          },
+          {
+            "year": 2024,
+            "total_visitors_all_segments": 2000000,
+            "avg_length_of_stay_nights": null,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Projected national arrivals >2M (Botswana Tourism Organisation)."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 1183432
+        },
+        "tourism_earnings_total": {},
+        "tourism_share_of_gdp_percent": {
+          "2023": 13.1
+        },
+        "main_source_markets_recent": [
+          "South Africa",
+          "United States",
+          "United Kingdom",
+          "Germany"
+        ],
+        "national_context": {},
+        "role_of_red_sea_cluster": {},
+        "hotel_occupancy_indicators_2023": {},
+        "tourist_tax": {
+          "tourist_tax_applies": false,
+          "tourist_tax_main_type": null,
+          "tax_items": []
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 4800,
+            "currency_local": "BWP",
+            "amount_usd": 355,
+            "fx_rate_to_usd": 13.52,
+            "fx_rate_date": "2025-11-14"
+          }
+        },
+        "tourism_value_estimate": {
+          "amount": {
+            "amount_local": 2700000000,
+            "currency_local": "BWP",
+            "amount_usd": 200000000,
+            "fx_rate_to_usd": 13.5,
+            "fx_rate_date": "2023-12-31"
+          },
+          "local_capture": {
+            "amount_local": 1890000000,
+            "currency_local": "BWP",
+            "amount_usd": 140000000,
+            "fx_rate_to_usd": 13.5,
+            "fx_rate_date": "2023-12-31"
+          },
+          "comment": "Tourism ~13% of GDP; ~70% local capture estimated (lodges, guides, transport)."
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "BW_MAU_MAUN",
+            "name": "Maun International Airport",
+            "iata": "MUB",
+            "city": "Maun",
+            "annual_passengers_estimate": 250000,
+            "annual_passengers_year": 2023,
+            "comment": "Primary gateway to Okavango; charter-heavy."
+          }
+        ],
+        "ports": []
+      },
+      "investor_profile": {
+        "avg_monthly_income_formal_sector": {
+          "amount_local": 12000,
+          "currency_local": "BWP",
+          "amount_usd": 888,
+          "fx_rate_to_usd": 13.52,
+          "fx_rate_date": "2025-11-14",
+          "comment": "Safari lodge manager/guide wage; above national average."
+        },
+        "gdp_per_capita_2023": {
+          "amount_local": 104000,
+          "currency_local": "BWP",
+          "amount_usd": 7695,
+          "fx_rate_to_usd": 13.52,
+          "fx_rate_date": "2023-12-31"
+        },
+        "political_stability_assessment": {
+          "category": "stable",
+          "comment": "Low risk; strong conservation governance."
+        }
+      },
+      "real_estate": {
+        "residential": {
+          "maun_suburban_per_sqm": {
+            "min": {
+              "amount_local": 250,
+              "currency_local": "USD",
+              "amount_usd": 250,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 450,
+              "currency_local": "USD",
+              "amount_usd": 450,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 350,
+              "currency_local": "USD",
+              "amount_usd": 350,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Residential listings in Maun; limited market."
+          }
+        },
+        "land": {
+          "okavango_concession_per_hectare": {
+            "min": {
+              "amount_local": 5000,
+              "currency_local": "USD",
+              "amount_usd": 5000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 15000,
+              "currency_local": "USD",
+              "amount_usd": 15000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 10000,
+              "currency_local": "USD",
+              "amount_usd": 10000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Leasehold concessions; 15-year renewable."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 40,
+        "protected_area_notes": "Okavango Delta Ramsar Site; ~40% of Ngamiland under conservation.",
+        "key_environmental_assets": [
+          "floodplain wetlands",
+          "big five wildlife",
+          "birdlife (400+ species)"
+        ],
+        "overtourism_signals": [
+          "camp overcrowding in peak season",
+          "aircraft noise pollution"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 3,
+        "categories": {
+          "wetland_safari": 2,
+          "game_reserve": 1
+        },
+        "avg_immersive_story_potential_1to3": 2.67,
+        "comment": "High wildlife immersion; low human density."
+      },
+      "attractions": [
+        {
+          "attraction_id": "OKA_ATT_MOREMI",
+          "nearest_location_id": null,
+          "attraction_name": "Moremi Game Reserve",
+          "attraction_type": "game_reserve",
+          "environment_type": "wetland",
+          "short_description": "Core protected area with diverse habitats.",
+          "distance_km_from_nearest_location": null,
+          "travel_time_from_nearest_location_minutes": null,
+          "main_access_mode": "4x4_safari",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "dry_season_peak",
+          "protection_status": "national_reserve",
+          "visitor_restrictions": "camp_booking_required",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "safari_enthusiasts",
+          "typical_visit_duration_hours": 8.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 300,
+            "typical_daily_visitors_high_season": 1200,
+            "estimated_annual_visitors": 50000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Based on ~40 camps × 30 beds × 60% occupancy × 180 peak days."
+          }
+        },
+        {
+          "attraction_id": "OKA_ATT_CHIEF_ISLAND",
+          "nearest_location_id": null,
+          "attraction_name": "Chief's Island",
+          "attraction_type": "wetland_safari",
+          "environment_type": "island_wetland",
+          "short_description": "Largest island; prime big cat viewing.",
+          "distance_km_from_nearest_location": null,
+          "travel_time_from_nearest_location_minutes": null,
+          "main_access_mode": "mokoro_canoe",
+          "accessibility_difficulty": "high",
+          "accessibility_for_non_experts": false,
+          "seasonality": "year_round",
+          "protection_status": "unesco_core",
+          "visitor_restrictions": "guided_only",
+          "sustainability_pressure": "low",
+          "main_target_audience": "luxury_eco",
+          "typical_visit_duration_hours": 6.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": 100,
+            "typical_daily_visitors_low_season": 20,
+            "typical_daily_visitors_high_season": 80,
+            "estimated_annual_visitors": 15000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "High-end camps limit to 6–8 guests per guide."
+          }
+        },
+        {
+          "attraction_id": "OKA_ATT_XAKANAXA",
+          "nearest_location_id": null,
+          "attraction_name": "Xakanaxa Lagoon",
+          "attraction_type": "wetland_safari",
+          "environment_type": "lagoon",
+          "short_description": "Bird-rich lagoon with hippos and predators.",
+          "distance_km_from_nearest_location": null,
+          "travel_time_from_nearest_location_minutes": null,
+          "main_access_mode": "boat_safari",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "flood_season",
+          "protection_status": "moremi_extension",
+          "visitor_restrictions": "day_visits_limited",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "birders_photographers",
+          "typical_visit_duration_hours": 4.0,
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "throughput": {
+            "max_licensed_daily_visitors": null,
+            "typical_daily_visitors_low_season": 100,
+            "typical_daily_visitors_high_season": 400,
+            "estimated_annual_visitors": 20000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Shared access with Moremi; boat-based."
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-15T08:22:00Z",
+        "notes": "High-value, low-volume eco-tourism model. All visitor data national; Delta-specific modelled from camp capacities and Botswana Tourism reports.",
+        "sources": [
+          {
+            "id": "BTO_2024",
+            "title": "Botswana Tourism Organisation Annual Report 2023-2024",
+            "url": "https://www.botswanatourism.co.bw/reports"
+          },
+          {
+            "id": "UNESCO_OKAVANGO",
+            "title": "UNESCO World Heritage – Okavango Delta",
+            "url": "https://whc.unesco.org/en/list/1432"
+          },
+          {
+            "id": "WORLD_BANK_BW",
+            "title": "World Bank Data – Botswana",
+            "url": "https://data.worldbank.org/country/botswana"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_PETRA",
+      "core": {
+        "destination_name": "Petra",
+        "destination_type": "archaeological_city",
+        "country_name": "Jordan",
+        "country_iso2": "JO",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "MENA",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Wadi Musa",
+        "main_city_population_estimate": 25000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 906000,
+            "avg_length_of_stay_nights": 1.5,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Petra site entries (Jordan Tourism Board)."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 906000
+        },
+        "tourism_share_of_gdp_percent": {
+          "2023": 14.0
+        },
+        "main_source_markets_recent": [
+          "France",
+          "United States",
+          "United Kingdom",
+          "Germany"
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "site_entry_fee",
+          "tax_items": [
+            {
+              "segment": "foreign_day_visitor",
+              "amount": {
+                "amount_local": 50,
+                "currency_local": "JOD",
+                "amount_usd": 70.5,
+                "fx_rate_to_usd": 0.709,
+                "fx_rate_date": "2025-11-14"
+              },
+              "unit": "per_entry"
+            }
+          ]
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 450,
+            "currency_local": "JOD",
+            "amount_usd": 635,
+            "fx_rate_to_usd": 0.709,
+            "fx_rate_date": "2023-12-31"
+          }
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "JO_AQJ_KAQ",
+            "name": "King Hussein International Airport",
+            "iata": "AQJ",
+            "city": "Aqaba",
+            "annual_passengers_estimate": 800000,
+            "annual_passengers_year": 2023
+          }
+        ],
+        "ports": []
+      },
+      "real_estate": {
+        "residential": {
+          "wadi_musa_town_per_sqm": {
+            "min": {
+              "amount_local": 600,
+              "currency_local": "USD",
+              "amount_usd": 600,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 1000,
+              "currency_local": "USD",
+              "amount_usd": 1000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 800,
+              "currency_local": "USD",
+              "amount_usd": 800,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            }
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 100,
+        "protected_area_notes": "UNESCO World Heritage; full archaeological park.",
+        "key_environmental_assets": [
+          "nabatean_rock_architecture",
+          "desert_canyons"
+        ],
+        "overtourism_signals": [
+          "siq_congestion",
+          "horse_carriage_welfare"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 3,
+        "categories": {
+          "archaeological": 3
+        },
+        "avg_immersive_story_potential_1to3": 3.0
+      },
+      "attractions": [
+        {
+          "attraction_id": "PET_ATT_TREASURY",
+          "nearest_location_id": null,
+          "attraction_name": "Al-Khazneh (The Treasury)",
+          "attraction_type": "archaeological",
+          "environment_type": "canyon",
+          "short_description": "Iconic rock-carved façade.",
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco",
+          "visitor_restrictions": "ticket_required",
+          "sustainability_pressure": "high",
+          "main_target_audience": "history_travelers",
+          "typical_visit_duration_hours": 1.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "typical_daily_visitors_high_season": 6000,
+            "estimated_annual_visitors": 800000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Core site; ~90% of total Petra visitors."
+          }
+        },
+        {
+          "attraction_id": "PET_ATT_MONASTERY",
+          "nearest_location_id": null,
+          "attraction_name": "Ad-Deir (The Monastery)",
+          "attraction_type": "archaeological",
+          "environment_type": "mountain",
+          "short_description": "Larger rock façade; 800-step climb.",
+          "main_access_mode": "hiking",
+          "accessibility_difficulty": "high",
+          "accessibility_for_non_experts": false,
+          "seasonality": "year_round",
+          "protection_status": "unesco",
+          "visitor_restrictions": "ticket_required",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "adventure_history",
+          "typical_visit_duration_hours": 3.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 300000,
+            "throughput_data_quality": "modelled",
+            "derivation_notes": "Subset of Petra visitors; physical barrier."
+          }
+        },
+        {
+          "attraction_id": "PET_ATT_SIQ",
+          "nearest_location_id": null,
+          "attraction_name": "The Siq",
+          "attraction_type": "archaeological",
+          "environment_type": "canyon",
+          "short_description": "1.2 km narrow gorge entrance.",
+          "main_access_mode": "walking",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco",
+          "visitor_restrictions": "ticket_required",
+          "sustainability_pressure": "very_high",
+          "main_target_audience": "all_visitors",
+          "typical_visit_duration_hours": 0.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "typical_daily_visitors_high_season": 7000,
+            "estimated_annual_visitors": 900000,
+            "throughput_data_quality": "reported",
+            "derivation_notes": "Entry corridor; near-total overlap with total visitors."
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-15T08:22:00Z",
+        "notes": "High cultural density; day-tripper model. Visitor counts from official Petra Authority.",
+        "sources": [
+          {
+            "id": "JTB_2023",
+            "title": "Jordan Tourism Board Annual Report 2023",
+            "url": "https://international.visitjordan.com/page/statistics"
+          },
+          {
+            "id": "UNESCO_PETRA",
+            "title": "UNESCO World Heritage – Petra",
+            "url": "https://whc.unesco.org/en/list/326"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_PANTANAL",
+      "core": {
+        "destination_name": "Pantanal",
+        "destination_type": "wetland",
+        "country_name": "Brazil",
+        "country_iso2": "BR",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Latin_America",
+        "world_bank_income_level": "upper_middle",
+        "tourism_dependency_category": "medium",
+        "main_city_name": "Cuiabá",
+        "main_city_population_estimate": 650000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 300000,
+            "avg_length_of_stay_nights": 4.0,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Estimated Pantanal visitors; no central authority."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 300000
+        },
+        "tourism_share_of_gdp_percent": {},
+        "main_source_markets_recent": [
+          "Brazil",
+          "United States",
+          "Germany",
+          "United Kingdom"
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": false
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 2800,
+            "currency_local": "BRL",
+            "amount_usd": 560,
+            "fx_rate_to_usd": 5.0,
+            "fx_rate_date": "2023-12-31"
+          }
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "BR_CGB_CGB",
+            "name": "Marechal Rondon International Airport",
+            "iata": "CGB",
+            "city": "Cuiabá",
+            "annual_passengers_estimate": 3000000,
+            "annual_passengers_year": 2023
+          }
+        ],
+        "ports": []
+      },
+      "real_estate": {
+        "residential": {},
+        "land": {
+          "pantanal_fazenda_per_hectare": {
+            "min": {
+              "amount_local": 1500,
+              "currency_local": "USD",
+              "amount_usd": 1500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 4000,
+              "currency_local": "USD",
+              "amount_usd": 4000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 2750,
+              "currency_local": "USD",
+              "amount_usd": 2750,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "comment": "Eco-lodge development land; conservation restrictions."
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 10,
+        "protected_area_notes": "Fragmented private reserves; ~10% formally protected.",
+        "key_environmental_assets": [
+          "jaguar habitat",
+          "hyacinth macaws",
+          "floodplain rivers"
+        ],
+        "overtourism_signals": [
+          "lodge capacity strain in dry season"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 2,
+        "categories": {
+          "wildlife_safari": 2
+        },
+        "avg_immersive_story_potential_1to3": 3.0
+      },
+      "attractions": [
+        {
+          "attraction_id": "PAN_ATT_TRANS_PANTANEIRA",
+          "nearest_location_id": null,
+          "attraction_name": "Transpantaneira Highway",
+          "attraction_type": "wildlife_safari",
+          "environment_type": "wetland_road",
+          "short_description": "120 km elevated road with wildlife.",
+          "main_access_mode": "4x4_vehicle",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "dry_season",
+          "protection_status": "private_reserves",
+          "visitor_restrictions": "lodge_based",
+          "sustainability_pressure": "medium",
+          "main_target_audience": "wildlife_photographers",
+          "typical_visit_duration_hours": 8.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 250000,
+            "throughput_data_quality": "modelled"
+          }
+        },
+        {
+          "attraction_id": "PAN_ATT_JAGUAR_CAMP",
+          "nearest_location_id": null,
+          "attraction_name": "Porto Jofre Jaguar Zone",
+          "attraction_type": "wildlife_safari",
+          "environment_type": "river",
+          "short_description": "Boat-based jaguar spotting.",
+          "main_access_mode": "boat",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "dry_season",
+          "protection_status": "private",
+          "visitor_restrictions": "guided_only",
+          "sustainability_pressure": "high",
+          "main_target_audience": "big_cat_enthusiasts",
+          "typical_visit_duration_hours": 6.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 20000,
+            "throughput_data_quality": "modelled"
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-15T08:22:00Z",
+        "notes": "Decentralized access; data from lodge associations and Embratur.",
+        "sources": [
+          {
+            "id": "EMBRATUR_2023",
+            "title": "Embratur Tourism Statistics 2023",
+            "url": "https://www.gov.br/turismo"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_HALONG",
+      "core": {
+        "destination_name": "Halong Bay",
+        "destination_type": "karst_archipelago",
+        "country_name": "Vietnam",
+        "country_iso2": "VN",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Southeast_Asia",
+        "world_bank_income_level": "lower_middle",
+        "tourism_dependency_category": "high",
+        "main_city_name": "Ha Long City",
+        "main_city_population_estimate": 300000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 6500000,
+            "avg_length_of_stay_nights": 1.0,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "Bay visitors including day trips."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 6500000
+        },
+        "tourism_share_of_gdp_percent": {},
+        "main_source_markets_recent": [
+          "China",
+          "South Korea",
+          "United States"
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "bay_entry_fee"
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 7500000,
+            "currency_local": "VND",
+            "amount_usd": 300,
+            "fx_rate_to_usd": 25000,
+            "fx_rate_date": "2023-12-31"
+          }
+        }
+      },
+      "throughput_nodes": {
+        "ports": [
+          {
+            "hub_id": "VN_HALONG_PORT",
+            "name": "Tuan Chau International Marina",
+            "city": "Ha Long",
+            "annual_passengers_estimate_2023": 6000000
+          }
+        ]
+      },
+      "real_estate": {
+        "residential": {
+          "ha_long_city_per_sqm": {
+            "min": {
+              "amount_local": 1500,
+              "currency_local": "USD",
+              "amount_usd": 1500,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "max": {
+              "amount_local": 3000,
+              "currency_local": "USD",
+              "amount_usd": 3000,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 2250,
+              "currency_local": "USD",
+              "amount_usd": 2250,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            }
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 100,
+        "protected_area_notes": "UNESCO World Heritage; marine protected.",
+        "overtourism_signals": [
+          "cruise_ship_congestion",
+          "floating_village_pollution"
+        ]
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 2,
+        "categories": {
+          "marine_karst": 2
+        },
+        "avg_immersive_story_potential_1to3": 2.5
+      },
+      "attractions": [
+        {
+          "attraction_id": "HAL_ATT_SUNG_SOT",
+          "nearest_location_id": null,
+          "attraction_name": "Sung Sot Cave",
+          "attraction_type": "marine_karst",
+          "environment_type": "cave",
+          "short_description": "Largest cave in bay.",
+          "main_access_mode": "boat_tour",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco",
+          "visitor_restrictions": "guided_only",
+          "sustainability_pressure": "high",
+          "typical_visit_duration_hours": 1.5,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 4000000,
+            "throughput_data_quality": "modelled"
+          }
+        },
+        {
+          "attraction_id": "HAL_ATT_TITOV",
+          "nearest_location_id": null,
+          "attraction_name": "Titov Island",
+          "attraction_type": "marine_karst",
+          "environment_type": "island",
+          "short_description": "Swimming and viewpoint.",
+          "main_access_mode": "boat_tour",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "unesco",
+          "visitor_restrictions": "day_use_only",
+          "sustainability_pressure": "very_high",
+          "typical_visit_duration_hours": 2.0,
+          "immersive_story_potential": {
+            "category": "medium",
+            "score_1to3": 2
+          },
+          "throughput": {
+            "estimated_annual_visitors": 3000000,
+            "throughput_data_quality": "modelled"
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-15T08:22:00Z",
+        "sources": [
+          {
+            "id": "VIETNAM_TOURISM_2023",
+            "title": "Vietnam National Administration of Tourism",
+            "url": "https://vietnam.travel/statistics"
+          }
+        ]
+      }
+    },
+    {
+      "destination_id": "DEST_MADAGASCAR",
+      "core": {
+        "destination_name": "Madagascar",
+        "destination_type": "island_nation",
+        "country_name": "Madagascar",
+        "country_iso2": "MG",
+        "global_south_flag": true,
+        "reference_location_flag": false,
+        "world_region": "Africa",
+        "world_bank_income_level": "low",
+        "tourism_dependency_category": "medium",
+        "main_city_name": "Antananarivo",
+        "main_city_population_estimate": 3500000,
+        "main_city_population_year": 2023
+      },
+      "tourism": {
+        "yearly_profiles": [
+          {
+            "year": 2023,
+            "total_visitors_all_segments": 285000,
+            "avg_length_of_stay_nights": 14.0,
+            "overnight_stays_total": null,
+            "tourism_revenue_total": null,
+            "repeat_visitor_share_percent": null,
+            "notes": "National arrivals; nature-focused."
+          }
+        ],
+        "international_tourist_arrivals": {
+          "2023": 285000
+        },
+        "tourism_share_of_gdp_percent": {
+          "2023": 7.0
+        },
+        "main_source_markets_recent": [
+          "France",
+          "Reunion",
+          "Italy"
+        ],
+        "tourist_tax": {
+          "tourist_tax_applies": true,
+          "tourist_tax_main_type": "visa_on_arrival"
+        }
+      },
+      "economy": {
+        "avg_monthly_wage_country": {
+          "year": 2023,
+          "amount": {
+            "amount_local": 600000,
+            "currency_local": "MGA",
+            "amount_usd": 135,
+            "fx_rate_to_usd": 4450,
+            "fx_rate_date": "2023-12-31"
+          }
+        }
+      },
+      "throughput_nodes": {
+        "airports": [
+          {
+            "hub_id": "MG_TNR_IVATO",
+            "name": "Ivato International Airport",
+            "iata": "TNR",
+            "city": "Antananarivo",
+            "annual_passengers_estimate": 900000,
+            "annual_passengers_year": 2023
+          }
+        ],
+        "ports": []
+      },
+      "real_estate": {
+        "residential": {},
+        "land": {
+          "nosy_be_beachfront_per_sqm": {
+            "min": {
+              "amount_local": 50,
+              "currency_local": "USD",
+              "amount_usd": 50,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11CB14"
+            },
+            "max": {
+              "amount_local": 200,
+              "currency_local": "USD",
+              "amount_usd": 200,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            },
+            "midpoint": {
+              "amount_local": 125,
+              "currency_local": "USD",
+              "amount_usd": 125,
+              "fx_rate_to_usd": 1.0,
+              "fx_rate_date": "2025-11-14"
+            }
+          }
+        }
+      },
+      "sustainability_profile": {
+        "protected_area_share_percent": 7,
+        "protected_area_notes": "National parks; deforestation risk.",
+        "key_environmental_assets": [
+          "lemurs",
+          "baobab_avenue",
+          "tsingy_stone_forest"
+        ],
+        "overtourism_signals": []
+      },
+      "attractions_meta": {
+        "total_attractions_tracked": 3,
+        "categories": {
+          "biodiversity": 3
+        },
+        "avg_immersive_story_potential_1to3": 3.0
+      },
+      "attractions": [
+        {
+          "attraction_id": "MAD_ATT_BAOBAB",
+          "nearest_location_id": null,
+          "attraction_name": "Avenue of the Baobabs",
+          "attraction_type": "biodiversity",
+          "environment_type": "savanna",
+          "short_description": "Iconic tree-lined road.",
+          "main_access_mode": "4x4_vehicle",
+          "accessibility_difficulty": "moderate",
+          "accessibility_for_non_experts": true,
+          "seasonality": "dry_season",
+          "protection_status": "protected_monument",
+          "visitor_restrictions": "none",
+          "sustainability_pressure": "medium",
+          "typical_visit_duration_hours": 1.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 100000,
+            "throughput_data_quality": "modelled"
+          }
+        },
+        {
+          "attraction_id": "MAD_ATT_TSINGY",
+          "nearest_location_id": null,
+          "attraction_name": "Tsingy de Bemaraha",
+          "attraction_type": "biodiversity",
+          "environment_type": "karst",
+          "short_description": "UNESCO stone forest.",
+          "main_access_mode": "hiking_harness",
+          "accessibility_difficulty": "high",
+          "accessibility_for_non_experts": false,
+          "seasonality": "dry_season",
+          "protection_status": "unesco",
+          "visitor_restrictions": "guided_only",
+          "sustainability_pressure": "low",
+          "typical_visit_duration_hours": 8.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 20000,
+            "throughput_data_quality": "reported"
+          }
+        },
+        {
+          "attraction_id": "MAD_ATT_NOSY_BE",
+          "nearest_location_id": null,
+          "attraction_name": "Nosy Be Island",
+          "attraction_type": "biodiversity",
+          "environment_type": "marine_island",
+          "short_description": "Beaches and lemur reserves.",
+          "main_access_mode": "boat_flight",
+          "accessibility_difficulty": "easy",
+          "accessibility_for_non_experts": true,
+          "seasonality": "year_round",
+          "protection_status": "marine_reserve",
+          "visitor_restrictions": "none",
+          "sustainability_pressure": "high",
+          "typical_visit_duration_hours": 168.0,
+          "immersive_story_potential": {
+            "category": "high",
+            "score_1to3": 3
+          },
+          "throughput": {
+            "estimated_annual_visitors": 150000,
+            "throughput_data_quality": "modelled"
+          }
+        }
+      ],
+      "meta": {
+        "last_researched_utc": "2025-11-15T08:22:00Z",
+        "notes": "Low-volume, high-value biodiversity tourism.",
+        "sources": [
+          {
+            "id": "MAD_TOURISM_2023",
+            "title": "Madagascar Ministry of Tourism",
+            "url": "https://www.madagascar-tourisme.com"
+          }
+        ]
+      }
+    }
+  ]
+}
