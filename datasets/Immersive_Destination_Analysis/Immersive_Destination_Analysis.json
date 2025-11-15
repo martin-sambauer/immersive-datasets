@@ -2,11 +2,11 @@
   "dataset_meta": {
     "dataset_id": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V1",
     "title": "Global South Tourism & Investment Destinations – Pilot",
-    "description": "A strategic intelligence platform for immersive experiential tourism in the Global South, developed in partnership between Lars Friedrich (originofwonder.com) and Martin Sambauer (martin-sambauer.com) for creative direction and data architecture. This living dataset currently maps 10 high-impact destinations with over 200 KPIs — including visitor throughput, revenue capture, operational costs, real estate yield, sustainability constraints, and immersive story potential (1–3) — and is designed to scale to 50+ destinations within 24 months. It serves as the decision engine for initiators and investors, delivering precise, real-time insights for deploying 360° VR/AR domes at airports, cruise terminals, safari gates, and attraction queues — transforming high-traffic bottlenecks into scalable, high-margin, conservation-aligned digital experience hubs. From Galapagos entry caps to Cartagena cruise surges, every data point answers: Where should we build? How much will it earn? How fast will it scale? Additionally, the dataset functions as the training and warming layer for AI bots within the project ecosystem — enabling automated site selection, revenue forecasting, content generation, and stakeholder communication at scale.",
+    "description": "A strategic intelligence platform for immersive experiential tourism and investment. This dataset is part of a growing list of high‑impact global destinations evaluated across multiple indicators. The number of destinations may change over time; for any quantitative analysis or counting, please always derive the current count directly from the length of the 'destinations' array.",
     "license": "CC BY 4.0 (attribution required: https://originofwonder.com – Martin Sambauer)",
     "created_at_utc": "2025-11-14T00:00:00Z",
-    "updated_at_utc": "2025-11-15T08:30:07+00:00",
-    "dataset_version": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V18"
+    "updated_at_utc": "2025-11-15T17:14:40.046346+00:00",
+    "dataset_version": "MARTIN_SAMBAUER_GLOBAL_SOUTH_V19"
   },
   "destinations": [
     {
