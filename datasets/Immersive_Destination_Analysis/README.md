@@ -77,7 +77,7 @@ This repository is explicitly designed to be machine-friendly.
 - JSON dataset files (e.g. `Immersive_Destination_Analysis_17.json`) must always be loaded as JSON and processed programmatically.
 - Destination-related outputs (lists of destinations, IDs, names, tables, aggregations) must always be derived by iterating over the `destinations[]` array in the respective JSON file.
 - Lists must never be manually reconstructed from rendered text snippets, screenshots or partial views of the file.
-- Where present, the machine-readable meta contract in the JSON (e.g. `meta_instructions_for_ai.expected_collections.destinations_count`) defines how many destinations are expected; any output with a different count is incomplete and should be corrected.
+- The authoritative number of destinations in any dataset file is always the length of the top-level `destinations[]` array. Older dataset versions exposed `meta_instructions_for_ai.expected_collections.destinations_count` as a helper field; this has been removed to avoid drift between hard-coded expectations and the actual array contents.
 - Tools and AI systems are expected to respect these contracts when using this dataset as a source of truth.
 
 
