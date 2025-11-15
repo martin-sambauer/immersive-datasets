@@ -19,7 +19,7 @@ The dataset provides a structured foundation for:
 - understanding sustainability and overtourism pressures,
 - providing bot-friendly, citation-friendly open data,
 - supporting capital allocation decisions for immersive destination funds and sovereign, private and family-office investors, especially from the MENA region,
-- aligning immersive storytelling, domes, VR/AR and experiential infrastructure with concrete throughput, yield and conservation signals at each location. :contentReference[oaicite:1]{index=1}
+- aligning immersive storytelling, domes, VR/AR and experiential infrastructure with concrete throughput, yield and conservation signals at each location. 
 
 It will serve as the underlying data layer for articles published on  
 https://originofwonder.com, https://martin-sambauer.com or third party websites
