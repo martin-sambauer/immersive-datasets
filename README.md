@@ -1,181 +1,112 @@
-## Immersive Data Hub – datasets for immersive experiences and venues
+## Immersive Datasets – structured data for immersive experiences and venues
 
-Immersive Data Hub is a curated data library for immersive media and immersive experiences. It supports creative directors, producers, data scientists and strategists who work with planetariums, fulldome cinemas, XR venues and other forms of location-based entertainment.
+Immersive Datasets is a curated data library for immersive media, immersive experiences and location-based entertainment.  
+It provides structured datasets for:
 
-The repository focuses on clean, well-documented datasets that can be used for market analysis, venue planning, audience development, experiential marketing and immersive storytelling.
+- creative directors and producers  
+- strategists and analysts  
+- destination and venue managers  
+- investors and investment researchers  
+- policy makers and cultural planners  
+- curriculum designers and educators  
+- journalists and writers covering immersive media, culture, tourism and innovation  
 
-The Immersive Data Hub is maintained by Creative Director Martin Sambauer (martin-sambauer.com). It connects structured venue data with strategic insights for immersive experiences, brand storytelling and innovation in immersive media.
+Use cases range from venue planning and market analysis to soft-power strategy, educational design and narrative research on immersive ecosystems.
+
+All datasets follow a unified ontological framework that formalizes how immersive ecosystems are described, categorized and interlinked.  
+Immersive Datasets is maintained by Creative Director Martin Sambauer (martin-sambauer.com).
+
+---
+
+## Ontology and Semantic Framework
+
+This repository follows the Martin Sambauer Ontology for Immersive Data Systems, which defines:
+
+- core entity types (investors, destinations, creative roles, projects, skills, institutions, policies, regions)  
+- semantic relationships across datasets  
+- dialectical axes for modelling immersive ecosystems  
+- the philosophical basis (homo medialis, constructivist perception, perceptual architectures)  
+- principles for stacking datasets to generate higher-order analytical layers  
+
+The ontology is located in the repository root:
+
+[ontology.md](./ontology.md)
+
+All datasets, schemas and methodologies are expected to conform to this ontology to ensure long-term interoperability and semantic consistency.
 
 ---
 
 ## Repository structure
 
-Suggested base structure:
+Suggested structure:
 
-* `datasets/`
-  Ready-to-use CSV files.
+- `datasets/`  
+  Data folders with JSON, CSV or similar formats.
 
-* `notebooks/`
-  Optional Jupyter or other analysis notebooks that show how datasets were created or how they can be used.
+- `notebooks/`  
+  Optional Jupyter notebooks demonstrating dataset generation or typical analyses.
 
-* `meta/`
-  Methodology notes, data dictionaries and intermediate processing descriptions.
+- `meta/`  
+  Methodologies, data dictionaries and documentation of intermediate processing steps.
 
-* `docs/`
-  Material for public documentation or websites (figures, diagrams, excerpts).
+- `docs/`  
+  Public-facing documentation assets (figures, diagrams, excerpts).
 
-Each dataset should be accompanied by at least a short description in this README or in a separate markdown file in `meta/`, including:
+Each dataset should include:
 
-* data source(s)
-* geographic and thematic coverage
-* processing and cleaning steps
-* field definitions
-* date of last update
+- a README describing purpose, scope and key results  
+- a methodology file documenting data sources and processing steps  
+- a JSON schema (for JSON-based datasets)  
+- date of last update  
+- author reference (martin-sambauer.com)
 
 ---
 
 ## License – CC BY 4.0
 
-Unless explicitly stated otherwise in a subfolder, all original content in this repository is licensed under:
+Unless stated otherwise, all original content is licensed under:
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+Creative Commons Attribution 4.0 International (CC BY 4.0)  
+https://creativecommons.org/licenses/by/4.0/
 
-You are free to:
+You may:
 
-* share: copy and redistribute the material in any medium or format
-* adapt: remix, transform and build upon the material for any purpose, even commercially
+- share: copy and redistribute the material  
+- adapt: remix, transform and build upon it, even commercially
 
-Under the following terms:
+Under the condition:
 
-* attribution: give appropriate credit, provide a link to the license and indicate if changes were made.
+- attribution: credit must be given to Martin Sambauer (martin-sambauer.com)
 
-A simple attribution example:
-
-Immersive Data Hub by Martin Sambauer (martin-sambauer.com), licensed under CC BY 4.0.
-
-If a dataset includes third-party content or has different terms, this will be documented in its folder.
+If a dataset includes third-party content, this is documented in its folder.
 
 ---
 
 ## Typical use cases
 
-The datasets in this repository are intended to support:
+The datasets in this repository can be used for:
 
-* immersive media strategy and concept development
-* creative direction for fulldome and planetarium shows
-* planning of immersive experiences and location-based entertainment
-* venue and market mapping for XR, VR and mixed reality
-* audience and catchment area analysis using demographic data
-* storytelling, presentations and whitepapers on immersive experiences
+- immersive media strategy and concept development  
+- creative direction for fulldome and planetarium shows  
+- planning of immersive experiences and location-based entertainment  
+- mapping immersive venues, ecosystems and market segments  
+- investment screening and investor–destination matching  
+- soft-power and tourism strategy in immersive infrastructures  
+- curriculum and training design for immersive skills and creative roles  
+- policy analysis related to cultural infrastructure and innovation programs  
+- demographic and spatial analysis for catchment areas  
+- storytelling, whitepapers and research on immersive ecosystems  
+- data-driven pitch materials for destinations, venues and investors  
 
-Keywords that describe the focus of this repository include:
-immersive media, immersive experiences, creative director for immersive media, fulldome, planetariums, XR venues, location-based entertainment, experiential marketing, immersive storytelling, venue planning, market analysis and audience development.
-
----
-
-## How to update or add datasets with git
-
-### 1. Fork and clone the repository
-
-1. Fork the repository on GitHub to your own account.
-
-2. Clone your fork:
-
-   ```bash
-   git clone https://github.com/<your-username>/immersive-data-hub.git
-   cd immersive-data-hub
-   ```
-
-3. (Optional but recommended) Add the original repository as an upstream remote:
-
-   ```bash
-   git remote add upstream https://github.com/<original-owner>/immersive-data-hub.git
-   ```
-
-### 2. Create a feature branch
-
-Create a branch for your change:
-
-```bash
-git checkout -b feature/update-dataset-planetariums
-```
-
-Use clear branch names, for example:
-
-* `feature/add-new-dataset-<name>`
-* `feature/update-venue-metadata`
-* `fix/clean-duplicates-<dataset>`
-
-### 3. Add or update the dataset
-
-1. Place new or updated CSV files under `datasets/` in a logically named subfolder.
-
-   Example:
-   `datasets/osm-planetariums/planetariums_with_population_and_regions_v2.csv`
-
-2. If you changed the structure or processing, update the documentation:
-
-   * extend this README, and/or
-   * add or update a markdown file in `meta/` with:
-
-     * data sources
-     * processing steps
-     * field definitions
-     * date and author of the update
-
-3. Stage your changes:
-
-   ```bash
-   git status
-   git add datasets/<your-folder> meta/<your-doc>.md
-   ```
-
-### 4. Commit your changes
-
-Write a clear, short commit message:
-
-```bash
-git commit -m "Update planetarium dataset with population and region fields"
-```
-
-If you made several types of changes (for example, dataset update and documentation cleanup), consider splitting them into separate commits.
-
-### 5. Push your branch
-
-Push the branch to your fork:
-
-```bash
-git push origin feature/update-dataset-planetariums
-```
-
-### 6. Open a pull request
-
-1. Go to your fork on GitHub.
-2. Click "Compare & pull request".
-3. In the pull request description, briefly explain:
-
-   * what changed
-   * which dataset(s) were affected
-   * how the data was generated or cleaned
-   * any known limitations or to-dos
-
-After review and discussion, the branch can be merged into the main repository.
+Core thematic keywords include:  
+immersive media, immersive experiences, creative director for immersive media, fulldome, planetariums, XR venues, location-based entertainment, experiential marketing, immersive storytelling, venue planning, market analysis, audience development, soft power, cultural strategy.
 
 ---
 
-## Citing this repository
+## Updating or adding datasets with git
 
-If you use the data for research, reports or presentations, please include a reference such as:
+### 1. Fork and clone
 
-Immersive Data Hub, curated by Martin Sambauer (martin-sambauer.com).
-Available at: [https://github.com/](https://github.com/)<owner>/immersive-data-hub
-Licensed under CC BY 4.0.
-
----
-
-## Contact
-
-For questions, corrections or collaboration proposals related to immersive datasets, immersive storytelling and venue mapping, please get in touch:
-
-* website: [https://martin-sambauer.com](https://martin-sambauer.com)
+```bash
+git clone https://github.com/<your-username>/immersive-datasets.git
+cd immersive-datasets
