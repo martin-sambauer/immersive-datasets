@@ -8032,6 +8032,1514 @@
   "notes": "Time flows in space.",
   "created": "2025-11-15",
   "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00118",
+  "slug": "volumetric_video_capture_pipeline",
+  "label": "Volumetric Video Capture Pipeline",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "volumetric_capture",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing and operating multi-camera photogrammetry rigs to capture human performances as dynamic 3D+time assets. Includes camera calibration, synchronization, depth reconstruction, mesh cleaning, and texture alignment for seamless integration into VR/AR environments.\n\nEvidence from CDIM dataset: The 'Athens Agora Volumetric Reconstruction' project used 64 synchronized 8K cameras to capture a live reenactment of ancient Greek oratory, producing 4D assets for VR education platforms. The Creative Director oversaw rig design, lighting consistency across angles, and real-time mesh preview to ensure narrative clarity in the final volumetric sequence.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_volumetric_director",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["volumetric_cinema", "immersive_theater", "digital_human_archives", "vr_education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0280",
+      "source_entity_slug": "athens_agora_volumetric",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "64-camera volumetric stage capture of live performance for VR historical reenactment.",
+      "references": [81]
+    }
+  ],
+  "references": [
+    {
+      "id": 81,
+      "title": "Athens Agora Volumetric Project 2025",
+      "url": "https://www.agoravol.gr",
+      "publisher": "Hellenic Immersive Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": ["skill_00125"],
+  "tags": ["volumetric", "4d_capture", "photogrammetry", "mesh_reconstruction", "digital_human"],
+  "notes": "Foundation for dynamic 3D+time assets in immersive storytelling.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00119",
+  "slug": "haptic_feedback_design_for_immersive_touch",
+  "label": "Haptic Feedback Design for Immersive Touch",
+  "skill_category": "interaction_design",
+  "skill_subcategory": "haptic_interaction",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Crafting tactile feedback patterns that enhance presence and emotional impact in VR/AR. Involves mapping physical sensations to narrative events, calibrating intensity/duration, and ensuring cross-device consistency.\n\nExample: In a VR archaeology experience, users feel the texture of ancient pottery through localized vibration and resistance when rotating a virtual artifact.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_haptic_director",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_training", "immersive_museums", "therapeutic_vr", "haptic_storytelling"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "haptics",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Texture-specific haptic profiles for artifact interaction.",
+      "references": [82]
+    }
+  ],
+  "references": [
+    {
+      "id": 82,
+      "title": "Haptic Design Patterns for Immersive Media 2025",
+      "url": "https://www.hapticimmersive.org/patterns",
+      "publisher": "Haptic Immersive Council",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["haptics", "touch_feedback", "immersive_sensation", "tactile_narrative"],
+  "notes": "Touch completes the illusion of presence.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00120",
+  "slug": "spatial_audio_object_placement_dolby_atmos",
+  "label": "Spatial Audio Object Placement (Dolby Atmos)",
+  "skill_category": "audio_and_sound",
+  "skill_subcategory": "immersive_audio",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Positioning and animating discrete audio objects in 3D space using Dolby Atmos for VR/headphones. Ensures narrative clarity, directional cues, and emotional resonance in 360-degree sound fields.\n\nIn the 'Crete Underwater VR' experience, ambient sea life sounds orbit the user as they descend, with localized echoes guiding attention to archaeological sites.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_spatial_audio",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_audio", "360_video_sound", "immersive_installations", "atmos_mixing"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0290",
+      "source_entity_slug": "crete_underwater_vr",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "64-channel Atmos mix with dynamic object panning for underwater navigation.",
+      "references": [83]
+    }
+  ],
+  "references": [
+    {
+      "id": 83,
+      "title": "Crete Underwater VR Audio Design 2025",
+      "url": "https://www.creteunderwater.audio",
+      "publisher": "Mediterranean Immersive Sound Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": ["skill_00001"],
+  "is_prerequisite_for": [],
+  "tags": ["dolby_atmos", "spatial_audio", "3d_sound", "audio_objects"],
+  "notes": "Sound moves with meaning.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00121",
+  "slug": "adaptive_narrative_branching_in_vr",
+  "label": "Adaptive Narrative Branching in VR",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "interactive_storytelling",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Designing non-linear story structures that respond to user gaze, movement, and choices while maintaining emotional coherence and narrative momentum in VR.\n\nUses state machines, attention tracking, and fallback paths to prevent dead ends.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_interactive_narrative",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_games", "immersive_theater", "training_simulations", "choice_driven_vr"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "branching",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Gaze-triggered narrative divergence with convergence points.",
+      "references": [84]
+    }
+  ],
+  "references": [
+    {
+      "id": 84,
+      "title": "Adaptive VR Narrative Framework 2025",
+      "url": "https://www.vrnarrative.org/branching",
+      "publisher": "VR Narrative Institute",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00117"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["branching_narrative", "adaptive_story", "user_choice", "vr_interaction"],
+  "notes": "Freedom with structure.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00122",
+  "slug": "light_field_display_content_authoring",
+  "label": "Light Field Display Content Authoring",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "display_technologies",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating parallax-enabled, glasses-free 3D content for light field displays (e.g., Looking Glass). Involves multi-view rendering, depth compositing, and holographic storytelling techniques.\n\nUsed in museum kiosks to present floating 3D reconstructions of ancient statues.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_lightfield",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["holographic_displays", "museum_installations", "retail_experiences"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0300",
+      "source_entity_slug": "parthenon_lightfield",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "45-view light field render of Parthenon frieze for Looking Glass 16K.",
+      "references": [85]
+    }
+  ],
+  "references": [
+    {
+      "id": 85,
+      "title": "Parthenon Light Field Exhibit 2025",
+      "url": "https://www.parthenonlightfield.gr",
+      "publisher": "Acropolis Digital Museum",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["light_field", "holographic", "glasses_free_3d", "multi_view"],
+  "notes": "True 3D without headsets.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00123",
+  "slug": "ai_assisted_immersive_asset_generation",
+  "label": "AI-Assisted Immersive Asset Generation",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "ai_tools",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Directing AI pipelines (Stable Diffusion, Luma AI, Kaedim) to generate 3D models, textures, animations, and environments optimized for real-time immersive platforms.\n\nIncludes prompt engineering, style transfer, and quality validation for VR/AR deployment.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ai_director",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["rapid_prototyping", "concept_art", "asset_libraries", "ai_cinema"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "ai_assets",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "AI-generated Mycenaean palace in 4K PBR for VR walkthrough.",
+      "references": [86]
+    }
+  ],
+  "references": [
+    {
+      "id": 86,
+      "title": "AI for Immersive Asset Pipelines 2025",
+      "url": "https://www.aiimmersive.org/pipeline",
+      "publisher": "AI Immersive Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ai_generation", "3d_ai", "prompt_engineering", "pbr_assets"],
+  "notes": "Creativity at scale.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00124",
+  "slug": "cross_platform_immersive_experience_porting",
+  "label": "Cross-Platform Immersive Experience Porting",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "deployment",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Adapting VR/AR content across headsets (Quest, Vision Pro, HoloLens), web (WebXR), and mobile AR with consistent performance, interaction, and visual fidelity.\n\nExample: Porting a 360° historical tour from Quest 3 to iOS AR with fallback interactions.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_porting_lead",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["webxr", "mobile_ar", "multi_headset", "deployment_strategy"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0310",
+      "source_entity_slug": "delphi_crossplatform",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Delphi Oracle VR ported to 5 platforms with unified interaction grammar.",
+      "references": [87]
+    }
+  ],
+  "references": [
+    {
+      "id": 87,
+      "title": "Delphi Cross-Platform VR 2025",
+      "url": "https://www.delphicross.gr",
+      "publisher": "Panhellenic VR Network",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["cross_platform", "webxr", "porting", "device_agnostic"],
+  "notes": "One experience, many devices.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00125",
+  "slug": "volumetric_video_compression_and_streaming",
+  "label": "Volumetric Video Compression and Streaming",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "volumetric_delivery",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Optimizing 4D assets for real-time streaming using Gaussian splatting, neural compression, or mesh decimation while preserving visual and temporal fidelity.\n\nEnables cloud-based volumetric playback on standalone headsets.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_streaming_engineer",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["cloud_vr", "volumetric_streaming", "5g_immersive", "remote_render"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "volumetric_stream",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "30fps volumetric human streamed to Quest via 5G.",
+      "references": [88]
+    }
+  ],
+  "references": [
+    {
+      "id": 88,
+      "title": "Volumetric Streaming Standards 2025",
+      "url": "https://www.volumetricstream.org/std",
+      "publisher": "Immersive Streaming Alliance",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00118"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["volumetric_streaming", "gaussian_splatting", "neural_compression", "5g_vr"],
+  "notes": "4D video over the network.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00126",
+  "slug": "immersive_data_visualization_design",
+  "label": "Immersive Data Visualization Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "data_storytelling",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Translating complex datasets into spatial, interactive 3D visualizations that reveal patterns through movement, scale, and user exploration.\n\nExample: Tourism flow data visualized as dynamic particle streams around a 3D city model in VR.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_data_viz",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["smart_city_vr", "scientific_vr", "business_intelligence", "policy_viz"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0320",
+      "source_entity_slug": "athens_tourism_flow",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Real-time visitor density mapped as volumetric heat clouds in VR.",
+      "references": [89]
+    }
+  ],
+  "references": [
+    {
+      "id": 89,
+      "title": "Athens Tourism Flow VR 2025",
+      "url": "https://www.athensflow.vr",
+      "publisher": "Athens Data Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["data_viz", "spatial_data", "vr_analytics", "immersive_insights"],
+  "notes": "See the data in space.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00127",
+  "slug": "eye_tracking_directed_narrative_flow",
+  "label": "Eye-Tracking Directed Narrative Flow",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "attention_guidance",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Using real-time eye-tracking data to adapt pacing, reveal details, or trigger events based on what the user focuses on in VR.\n\nEnsures critical story elements are seen without forced head locking.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_eye_narrative",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "training", "advertising", "user_adaptive"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "eye_flow",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Reveal hidden inscription when user reads tablet for >2s.",
+      "references": [90]
+    }
+  ],
+  "references": [
+    {
+      "id": 90,
+      "title": "Eye-Tracking Narrative Systems 2025",
+      "url": "https://www.eyenarrative.org/systems",
+      "publisher": "Gaze Interaction Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00117"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["eye_tracking", "gaze_directed", "adaptive_pacing", "attention_flow"],
+  "notes": "The story follows your eyes.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00128",
+  "slug": "ar_wayfinding_and_spatial_annotation",
+  "label": "AR Wayfinding and Spatial Annotation",
+  "skill_category": "interaction_design",
+  "skill_subcategory": "ar_navigation",
+  "skill_type": "foundational_skill",
+  "evidence_layer": "base_dataset",
+  "description": "Designing persistent, world-locked AR overlays for navigation, contextual info, and storytelling in real-world environments.\n\nUsed in archaeological sites to guide visitors with virtual paths and pop-up historical labels.",
+  "cognitive_level": "intermediate",
+  "proficiency_levels": ["basic_awareness", "operational", "advanced"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ar_guide",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["cultural_heritage", "tourism", "museums", "smart_cities"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0330",
+      "source_entity_slug": "olympia_ar_tour",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "GPS-triggered AR annotations along ancient stadium path.",
+      "references": [91]
+    }
+  ],
+  "references": [
+    {
+      "id": 91,
+      "title": "Olympia AR Wayfinding 2025",
+      "url": "https://www.olympiaar.gr",
+      "publisher": "Olympic Heritage AR",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00114"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ar_wayfinding", "spatial_annotation", "world_locked", "gps_ar"],
+  "notes": "Digital layers on reality.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00129",
+  "slug": "immersive_accessibility_and_inclusion_design",
+  "label": "Immersive Accessibility and Inclusion Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "inclusive_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Ensuring VR/AR experiences are usable by people with diverse abilities: subtitles, audio description, simplified interactions, colorblind modes, seated modes, and motion sickness mitigation.\n\nFollows WCAG-XR guidelines.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_accessibility",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["education", "public_installations", "healthcare", "corporate"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "accessibility",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "One-handed mode + voice navigation for motor-impaired users.",
+      "references": [92]
+    }
+  ],
+  "references": [
+    {
+      "id": 92,
+      "title": "WCAG-XR Accessibility Guidelines 2025",
+      "url": "https://www.wcag-xr.org",
+      "publisher": "W3C Immersive Web WG",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["accessibility", "inclusion", "wcag_xr", "universal_design"],
+  "notes": "Presence for everyone.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00130",
+  "slug": "real_time_collaborative_vr_production",
+  "label": "Real-Time Collaborative VR Production",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "collaboration",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Leading distributed teams in shared VR workspaces for live asset review, scene blocking, and iterative design using tools like Spatial, Horizon Workrooms, or custom WebXR rooms.\n\nEnables global creative sync without travel.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_vr_producer",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["remote_production", "global_teams", "live_review", "vr_meetings"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0340",
+      "source_entity_slug": "global_vr_studio",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Athens-Tokyo-LA team blocks scene in shared VR stage.",
+      "references": [93]
+    }
+  ],
+  "references": [
+    {
+      "id": 93,
+      "title": "Global VR Production Workflow 2025",
+      "url": "https://www.globalvrprod.org",
+      "publisher": "International VR Directors Guild",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00115"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["collaborative_vr", "remote_directing", "shared_space", "live_production"],
+  "notes": "Direct from inside the scene.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00131",
+  "slug": "neural_radiance_field_nerf_authoring",
+  "label": "Neural Radiance Field (NeRF) Authoring",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "neural_rendering",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Training and directing NeRF models from photo sets to generate photorealistic, view-dependent 3D scenes for VR/AR with minimal geometry.\n\nIdeal for cultural heritage digitization.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_nerf_artist",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["heritage_3d", "vr_cinema", "photoreal_vr", "light_probe"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "nerf_heritage",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "NeRF of Knossos palace from 200 tourist photos.",
+      "references": [94]
+    }
+  ],
+  "references": [
+    {
+      "id": 94,
+      "title": "NeRF for Cultural Heritage 2025",
+      "url": "https://www.nerfheritage.org",
+      "publisher": "Digital Antiquity Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["nerf", "neural_rendering", "photoreal_3d", "view_synthesis"],
+  "notes": "Photos become explorable worlds.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00132",
+  "slug": "immersive_experience_analytics_and_heatmapping",
+  "label": "Immersive Experience Analytics and Heatmapping",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "user_research",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Collecting and interpreting spatial user behavior: gaze heatmaps, movement paths, interaction dwell time, and drop-off points in VR/AR to optimize narrative and design.\n\nReveals where users look, linger, or get lost.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_analytics",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["ux_research", "a_b_testing", "narrative_optimization", "retention"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0350",
+      "source_entity_slug": "acropolis_heatmap",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Gaze heatmap shows 70% miss east frieze—redesigned entry path.",
+      "references": [95]
+    }
+  ],
+  "references": [
+    {
+      "id": 95,
+      "title": "Acropolis VR User Analytics 2025",
+      "url": "https://www.acropolisanalytics.gr",
+      "publisher": "Acropolis UX Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["heatmapping", "gaze_analytics", "spatial_ux", "user_behavior"],
+  "notes": "Measure attention in 3D.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00133",
+  "slug": "dynamic_lighting_for_immersive_mood",
+  "label": "Dynamic Lighting for Immersive Mood",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "cinematography",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Using real-time global illumination, volumetric light, and animated light sources to drive emotional tone and guide attention in VR/AR environments.\n\nExample: Sunrise simulation in VR meditation experience with evolving light temperature.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_lighting",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "immersive_art", "wellbeing", "mood_design"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0360",
+      "source_entity_slug": "aegean_sunrise_vr",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "20-minute light transition from dawn to noon with volumetric god rays.",
+      "references": [96]
+    }
+  ],
+  "references": [
+    {
+      "id": 96,
+      "title": "Aegean Sunrise VR Lighting 2025",
+      "url": "https://www.aegeansunrise.vr",
+      "publisher": "Cyclades Light Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": ["skill_00001"],
+  "is_prerequisite_for": [],
+  "tags": ["dynamic_lighting", "mood_design", "volumetric_light", "gi"],
+  "notes": "Light tells the story silently.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00134",
+  "slug": "passive_haptic_environment_design",
+  "label": "Passive Haptic Environment Design",
+  "skill_category": "interaction_design",
+  "skill_subcategory": "physical_integration",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Aligning virtual objects with physical props in room-scale VR to create tangible interactions without powered haptics.\n\nExample: Real wooden column matches virtual marble pillar for touch alignment.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_haptic_set",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["location_based_vr", "museums", "theme_parks", "training"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "passive_haptics",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "1:1 prop mapping in VR escape room.",
+      "references": [97]
+    }
+  ],
+  "references": [
+    {
+      "id": 97,
+      "title": "Passive Haptics in LBE VR 2025",
+      "url": "https://www.passivehaptics.org/lbe",
+      "publisher": "Location-Based VR Association",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00119"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["passive_haptics", "physical_props", "tangible_vr", "lbe"],
+  "notes": "Real touch, zero motors.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00135",
+  "slug": "generative_ai_for_immersive_soundscapes",
+  "label": "Generative AI for Immersive Soundscapes",
+  "skill_category": "audio_and_sound",
+  "skill_subcategory": "procedural_audio",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Using AI models (Riffusion, AudioCraft, Stable Audio) to generate adaptive, spatially-aware ambient soundscapes that evolve with user position and narrative state.\n\nExample: AI-generated wind and bird calls that shift with virtual altitude.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ai_sound",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["open_world_vr", "procedural_environments", "adaptive_audio"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "ai_soundscape",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "AI-generated island biome audio reactive to player movement.",
+      "references": [98]
+    }
+  ],
+  "references": [
+    {
+      "id": 98,
+      "title": "AI Soundscapes for VR 2025",
+      "url": "https://www.aisoundscape.org/vr",
+      "publisher": "Procedural Audio Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00120"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["generative_audio", "ai_sound", "procedural_sound", "adaptive_ambience"],
+  "notes": "Infinite sound, zero loops.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00136",
+  "slug": "multi_user_synchronized_immersive_experiences",
+  "label": "Multi-User Synchronized Immersive Experiences",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "multiplayer_vr",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing shared VR/AR sessions with perfect sync of position, animation, audio, and state across users—critical for social, educational, and performance applications.\n\nExample: 50 users attend a virtual concert with aligned conductor gestures.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_multiuser",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["social_vr", "virtual_events", "classroom_vr", "performance"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0370",
+      "source_entity_slug": "virtual_festival",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "10,000 concurrent users in synced VR festival ground.",
+      "references": [99]
+    }
+  ],
+  "references": [
+    {
+      "id": 99,
+      "title": "Virtual Aegean Festival 2025",
+      "url": "https://www.aegeanfest.vr",
+      "publisher": "Cyclades VR Events",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["multi_user", "synchronized_vr", "social_immersive", "shared_space"],
+  "notes": "Together in digital space.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00137",
+  "slug": "photogrammetry_for_immersive_heritage",
+  "label": "Photogrammetry for Immersive Heritage",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "3d_reconstruction",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Capturing and processing high-resolution photo sets of artifacts and sites into photorealistic 3D models optimized for VR/AR with accurate scale, texture, and material properties.\n\nUsed for virtual museum tours and education.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_photogrammetry",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["digital_heritage", "vr_museums", "archaeology", "preservation"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0380",
+      "source_entity_slug": "delphi_statue_scan",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "1.2 billion polygon scan of Charioteer of Delphi for VR inspection.",
+      "references": [100]
+    }
+  ],
+  "references": [
+    {
+      "id": 100,
+      "title": "Delphi Charioteer Photogrammetry 2025",
+      "url": "https://www.delphicharioteer3d.gr",
+      "publisher": "Delphi Digital Archive",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": ["skill_00122"],
+  "tags": ["photogrammetry", "3d_scanning", "heritage_digitization", "pbr_models"],
+  "notes": "Reality captured in polygons.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00138",
+  "slug": "immersive_onboarding_and_user_guidance",
+  "label": "Immersive Onboarding and User Guidance",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "ux_flow",
+  "skill_type": "foundational_skill",
+  "evidence_layer": "external_enrichment",
+  "description": "Designing intuitive, non-intrusive tutorials and progressive guidance systems that teach VR/AR interactions naturally within the experience.\n\nUses diegetic UI, spatial cues, and voice coaching.",
+  "cognitive_level": "intermediate",
+  "proficiency_levels": ["basic_awareness", "operational", "advanced"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_onboarding",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_apps", "enterprise_vr", "public_installations", "first_time_vr"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "onboarding",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Guardian spirit teaches teleportation via in-world demo.",
+      "references": [101]
+    }
+  ],
+  "references": [
+    {
+      "id": 101,
+      "title": "Immersive Onboarding Patterns 2025",
+      "url": "https://www.immersiveonboard.org/patterns",
+      "publisher": "VR UX Institute",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["onboarding", "user_guidance", "diegetic_ui", "vr_tutorial"],
+  "notes": "Teach by doing, not telling.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00139",
+  "slug": "spatial_ui_and_diegetic_interfaces",
+  "label": "Spatial UI and Diegetic Interfaces",
+  "skill_category": "interaction_design",
+  "skill_subcategory": "ui_ux",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing user interfaces that exist within the 3D world as physical objects—holographic menus, world-attached labels, and interactive environmental controls.\n\nExample: Virtual stone tablet used as pause menu in VR archaeology app.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_spatial_ui",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_ui", "diegetic_design", "world_space_canvas", "immersive_menus"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0390",
+      "source_entity_slug": "diegetic_tablet",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Clay tablet UI in VR dig site—tap to access tools.",
+      "references": [102]
+    }
+  ],
+  "references": [
+    {
+      "id": 102,
+      "title": "Diegetic Interfaces in VR 2025",
+      "url": "https://www.diegeticui.vr",
+      "publisher": "Spatial Interface Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00114"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["diegetic_ui", "spatial_interface", "world_space", "immersive_ux"],
+  "notes": "The interface is part of the world.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00140",
+  "slug": "motion_sickness_mitigation_strategies",
+  "label": "Motion Sickness Mitigation Strategies",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "user_comfort",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Applying comfort frameworks: fixed horizon, limited acceleration, field of view reduction, teleport locomotion, and vignette effects to reduce VR sickness.\n\nCritical for long-duration experiences.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_comfort",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["long_form_vr", "public_vr", "education", "healthcare"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "comfort",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "90-minute VR tour with <5% dropout due to comfort settings.",
+      "references": [103]
+    }
+  ],
+  "references": [
+    {
+      "id": 103,
+      "title": "VR Comfort Framework 2025",
+      "url": "https://www.vrcomfort.org/framework",
+      "publisher": "Immersive Health Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["motion_sickness", "comfort_mode", "vr_health", "user_retention"],
+  "notes": "Keep them in, not reaching for the headset off.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00141",
+  "slug": "immersive_content_localization",
+  "label": "Immersive Content Localization",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "globalization",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Adapting VR/AR experiences for different languages, cultures, and regions—translating voice, text, symbols, gestures, and adjusting narrative references.\n\nExample: Greek VR tour with localized myths for Japanese audience.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_localization",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["global_tourism", "education", "enterprise", "cultural_export"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0400",
+      "source_entity_slug": "olympics_vr_jp",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Olympic VR localized in Japanese with Shinto ritual integration.",
+      "references": [104]
+    }
+  ],
+  "references": [
+    {
+      "id": 104,
+      "title": "Olympic VR Japan Edition 2025",
+      "url": "https://www.olympicvr.jp",
+      "publisher": "Japan VR Heritage",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["localization", "l10n", "cultural_adaptation", "global_vr"],
+  "notes": "Same world, different meaning.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00142",
+  "slug": "vr_facial_animation_and_lip_sync",
+  "label": "VR Facial Animation and Lip Sync",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "digital_humans",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Creating believable facial expressions and accurate lip sync for virtual characters in VR using blendshapes, audio-driven animation, and eye dart behaviors.\n\nCritical for emotional connection in social and narrative VR.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_face_anim",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["social_vr", "vr_storytelling", "virtual_guides", "training"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "face_sync",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "AI lip sync for virtual Socrates in 12 languages.",
+      "references": [105]
+    }
+  ],
+  "references": [
+    {
+      "id": 105,
+      "title": "VR Facial Animation Pipeline 2025",
+      "url": "https://www.vrface.org/pipeline",
+      "publisher": "Digital Human Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["facial_animation", "lip_sync", "digital_human", "expression"],
+  "notes": "Eyes and mouth sell the soul.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00143",
+  "slug": "360_degree_cinematography_grammar",
+  "label": "360-Degree Cinematography Grammar",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "immersive_filmmaking",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Applying film language in spherical space: proximity = intimacy, vertical motion = power, audio cues = cut equivalents, and viewer position = camera.\n\nReplaces traditional framing with spatial relationships.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_360_dp",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["360_video", "vr_cinema", "documentary", "narrative_vr"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0410",
+      "source_entity_slug": "crete_360_film",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "360 short film using altitude to denote emotional ascent.",
+      "references": [106]
+    }
+  ],
+  "references": [
+    {
+      "id": 106,
+      "title": "Crete 360 Cinematography 2025",
+      "url": "https://www.crete360.film",
+      "publisher": "Minoan VR Cinema",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00112"],
+  "is_component_of": ["skill_00001"],
+  "is_prerequisite_for": [],
+  "tags": ["360_cinema", "spherical_grammar", "vr_filmmaking", "direction"],
+  "notes": "No frame, only field.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00144",
+  "slug": "ethical_ai_use_in_immersive_storytelling",
+  "label": "Ethical AI Use in Immersive Storytelling",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "ethics",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Ensuring AI-generated characters, voices, and narratives respect consent, cultural accuracy, and avoid manipulation—especially in historical or educational VR.\n\nIncludes bias audits and transparency.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ethics",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["ai_narrative", "historical_vr", "education", "policy"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "ai_ethics",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "AI Pericles voice trained only on public domain texts.",
+      "references": [107]
+    }
+  ],
+  "references": [
+    {
+      "id": 107,
+      "title": "Ethical AI in VR Guidelines 2025",
+      "url": "https://www.ethicvr.org/guidelines",
+      "publisher": "Immersive Ethics Council",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ai_ethics", "responsible_ai", "cultural_sensitivity", "bias"],
+  "notes": "Power with responsibility.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00145",
+  "slug": "location_based_vr_experience_design",
+  "label": "Location-Based VR Experience Design",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "lbe_vr",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating high-throughput, safe, and repeatable VR attractions for public venues with tracked backpacks, haptic vests, and physical sets.\n\nExample: 20-minute VR journey through ancient Olympia in a 500m² arena.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_lbe",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["theme_parks", "museums", "festivals", "lbe"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0420",
+      "source_entity_slug": "olympia_lbe",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "600 visitors/hour through tracked VR Olympic experience.",
+      "references": [108]
+    }
+  ],
+  "references": [
+    {
+      "id": 108,
+      "title": "Olympia LBE VR 2025",
+      "url": "https://www.olympialbe.gr",
+      "publisher": "Olympia VR Arena",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00134"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["lbe_vr", "location_based", "arena_scale", "throughput"],
+  "notes": "VR for the masses, safely.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00146",
+  "slug": "immersive_performance_capture_direction",
+  "label": "Immersive Performance Capture Direction",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "acting_in_vr",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Directing actors in motion capture suits within virtual environments, using real-time playback and VR headsets to guide performance in digital space.\n\nCombines theater direction with technical precision.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_mocap_director",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "digital_theater", "virtual_production", "mocap"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "perf_capture",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Actor performs in VR Colosseum with live digital audience.",
+      "references": [109]
+    }
+  ],
+  "references": [
+    {
+      "id": 109,
+      "title": "Immersive Performance Capture 2025",
+      "url": "https://www.immersiveperf.org/capture",
+      "publisher": "Virtual Stage Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": ["skill_00118"],
+  "tags": ["performance_capture", "mocap", "virtual_acting", "digital_directing"],
+  "notes": "Directing in the matrix.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
 }
   ]
 }
