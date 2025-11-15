@@ -9540,6 +9540,1566 @@
   "notes": "Directing in the matrix.",
   "created": "2025-11-15",
   "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00147",
+  "slug": "ar_historical_reconstruction",
+  "label": "AR Historical Reconstruction",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "augmented_reality",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Using AR to overlay historical reconstructions on real-world sites, ensuring accurate scale, lighting alignment with real-time environmental conditions, and interactive elements for educational tours. Practitioners must integrate 3D models with geospatial data and historical records to create seamless AR experiences.\n\nExample: AR Parthenon restoration on the Acropolis, allowing visitors to interact with a 5th-century BCE temple overlay.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ar_reconstruction",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["cultural_heritage", "archaeology", "tourism", "education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0421",
+      "source_entity_slug": "parthenon_ar",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "AR Parthenon project overlays a fully reconstructed temple with interactive historical annotations for 10,000 monthly visitors.",
+      "references": [110]
+    }
+  ],
+  "references": [
+    {
+      "id": 110,
+      "title": "Parthenon AR Restoration 2025",
+      "url": "https://www.acropolis-ar.org/parthenon",
+      "publisher": "Hellenic AR Heritage",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ar_reconstruction", "cultural_heritage", "geospatial_ar", "historical_accuracy"],
+  "notes": "Requires collaboration with historians and 3D artists for authenticity.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00148",
+  "slug": "haptic_feedback_design",
+  "label": "Haptic Feedback Design for Immersive Experiences",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "haptics",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Designing tactile feedback patterns for VR/AR wearables to enhance immersion, such as simulating textures, impacts, or environmental cues. Involves mapping haptic responses to narrative beats and user actions.\n\nExample: Haptic vest simulating rain in a VR forest experience.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_haptics",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_gaming", "location_based_vr", "training_simulations", "narrative_vr"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "haptic_forest",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Haptic vest used in Amazon VR experience to simulate rain and wind, increasing user retention by 15%.",
+      "references": [111]
+    }
+  ],
+  "references": [
+    {
+      "id": 111,
+      "title": "Haptic Design for VR 2025",
+      "url": "https://www.hapticlab.org/vr2025",
+      "publisher": "Immersive Haptic Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00145"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["haptics", "tactile_feedback", "vr_wearables", "immersion"],
+  "notes": "Critical for multi-sensory storytelling.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00149",
+  "slug": "spatial_audio_narrative_design",
+  "label": "Spatial Audio Narrative Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "audio_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Crafting 3D audio environments that guide viewer attention and enhance storytelling in VR/AR. Involves placing sound sources in a 360° field to align with narrative cues and spatial visuals.\n\nExample: VR documentary with spatial audio of crowd murmurs directing focus to key events.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_spatial_audio",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "documentary", "location_based_vr", "ar_tours"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0422",
+      "source_entity_slug": "berlin_wall_vr",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Berlin Wall VR uses spatial audio to simulate crowd sounds, guiding attention to historical moments.",
+      "references": [112]
+    }
+  ],
+  "references": [
+    {
+      "id": 112,
+      "title": "Berlin Wall VR Audio Design 2025",
+      "url": "https://www.berlinvr.org/audio",
+      "publisher": "History VR Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00143"],
+  "is_component_of": ["skill_00001"],
+  "is_prerequisite_for": [],
+  "tags": ["spatial_audio", "3d_sound", "narrative_cues", "immersion"],
+  "notes": "Audio as a storytelling anchor in spherical spaces.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00150",
+  "slug": "vr_collaborative_direction",
+  "label": "Collaborative VR Experience Direction",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "team_coordination",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Directing multi-user VR experiences where participants interact in shared virtual spaces, requiring real-time narrative adjustments and team coordination.\n\nExample: VR conference with 100 avatars moderated in real-time.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_collaborative_vr",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["social_vr", "virtual_events", "training", "education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_conference",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "VR conference with dynamic narrative shifts based on user interactions, hosting 100 simultaneous avatars.",
+      "references": [113]
+    }
+  ],
+  "references": [
+    {
+      "id": 113,
+      "title": "Collaborative VR Framework 2025",
+      "url": "https://www.vrcollab.org/framework",
+      "publisher": "Virtual Events Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["collaborative_vr", "multi_user", "real_time_direction", "social_vr"],
+  "notes": "Balancing narrative control with user agency.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00151",
+  "slug": "immersive_exhibition_curation",
+  "label": "Immersive Exhibition Curation",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "curatorial_practice",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Curating physical and virtual objects in immersive gallery spaces, using AR/VR to enhance visitor engagement and narrative flow.\n\nExample: VR art gallery with interactive artist commentary overlays.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_exhibition",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["museums", "galleries", "cultural_events", "education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0423",
+      "source_entity_slug": "louvre_vr",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Louvre VR exhibition with AR annotations for 50 artworks, increasing visitor dwell time by 20%.",
+      "references": [114]
+    }
+  ],
+  "references": [
+    {
+      "id": 114,
+      "title": "Louvre VR Exhibition 2025",
+      "url": "https://www.louvre-vr.org/exhibition",
+      "publisher": "Louvre Digital",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00147"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["exhibition_design", "vr_curation", "ar_museums", "narrative_flow"],
+  "notes": "Blending physical and virtual storytelling.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00152",
+  "slug": "real_time_vr_rendering_optimization",
+  "label": "Real-Time VR Rendering Optimization",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "rendering_techniques",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Optimizing 3D assets and shaders for real-time VR rendering to maintain 90 FPS, reducing latency and motion sickness.\n\nExample: Optimized VR cityscape with dynamic LOD for mobile headsets.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_tech_director",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_gaming", "location_based_vr", "mobile_vr", "training"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_cityscape",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Tokyo VR cityscape optimized for Quest 3, maintaining 90 FPS with dynamic LOD.",
+      "references": [115]
+    }
+  ],
+  "references": [
+    {
+      "id": 115,
+      "title": "VR Rendering Optimization Guide 2025",
+      "url": "https://www.vrtechlab.org/rendering",
+      "publisher": "VR Tech Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00140"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["vr_rendering", "real_time", "optimization", "motion_sickness"],
+  "notes": "Performance is immersion’s backbone.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00153",
+  "slug": "immersive_user_flow_design",
+  "label": "Immersive User Flow Design",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "user_experience",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing intuitive navigation and interaction flows for VR/AR experiences, ensuring users can explore without frustration.\n\nExample: VR museum tour with gaze-based menu triggers.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ux",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_tourism", "education", "training", "museums"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0424",
+      "source_entity_slug": "met_vr_tour",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Metropolitan Museum VR tour with gaze-based navigation, reducing user errors by 30%.",
+      "references": [116]
+    }
+  ],
+  "references": [
+    {
+      "id": 116,
+      "title": "Met VR Tour UX Design 2025",
+      "url": "https://www.metvr.org/ux",
+      "publisher": "Metropolitan Museum Digital",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ux_design", "user_flow", "vr_navigation", "intuitive_interaction"],
+  "notes": "Ease of use drives engagement.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00154",
+  "slug": "ar_interactive_narrative_design",
+  "label": "AR Interactive Narrative Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "interactive_storytelling",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating branching AR narratives that respond to user actions and real-world contexts, blending physical and digital story elements.\n\nExample: AR city tour with narrative forks based on user location.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ar_narrative",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["tourism", "education", "gaming", "public_art"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0425",
+      "source_entity_slug": "rome_ar_tour",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Rome AR tour with branching narratives tied to Colosseum or Forum visits.",
+      "references": [117]
+    }
+  ],
+  "references": [
+    {
+      "id": 117,
+      "title": "Rome AR Narrative Tour 2025",
+      "url": "https://www.romear.org/tour",
+      "publisher": "Italy AR Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00147"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ar_narrative", "interactive_story", "branching_narrative", "contextual_ar"],
+  "notes": "Story follows the user’s path.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00155",
+  "slug": "vr_safety_protocol_design",
+  "label": "VR Safety Protocol Design",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "safety_management",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Developing safety protocols for location-based VR, including guardian boundaries, crowd control, and emergency exits.\n\nExample: Safety system for 500m² VR arena with 50 users.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_safety",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["location_based_vr", "theme_parks", "festivals", "training"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_arena_safety",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Safety protocols for VR arena reduced incidents to under 1% for 10,000 users.",
+      "references": [118]
+    }
+  ],
+  "references": [
+    {
+      "id": 118,
+      "title": "VR Safety Guidelines 2025",
+      "url": "https://www.vrsafety.org/guidelines",
+      "publisher": "Immersive Safety Council",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00145"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["vr_safety", "location_based", "crowd_control", "guardian_system"],
+  "notes": "Safety ensures scalability.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00156",
+  "slug": "immersive_data_visualization",
+  "label": "Immersive Data Visualization Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "data_visualization",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating interactive VR/AR visualizations of complex datasets, making abstract data tangible through spatial metaphors.\n\nExample: VR climate model with 3D heatmaps.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_data_viz",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["science_communication", "education", "policy", "data_analysis"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0426",
+      "source_entity_slug": "climate_vr",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR climate model with interactive 3D heatmaps used in UN conference.",
+      "references": [119]
+    }
+  ],
+  "references": [
+    {
+      "id": 119,
+      "title": "Climate VR Data Viz 2025",
+      "url": "https://www.climatevr.org/dataviz",
+      "publisher": "UN Digital Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["data_viz", "vr_visualization", "spatial_data", "science_communication"],
+  "notes": "Data becomes a story in 3D.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00157",
+  "slug": "vr_character_interaction_design",
+  "label": "VR Character Interaction Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "character_development",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing interactive NPC behaviors in VR that respond to user gestures, voice, and gaze, enhancing narrative immersion.\n\nExample: VR guide character adapting dialogue based on user questions.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_character_design",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_storytelling", "education", "tourism", "training"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0427",
+      "source_entity_slug": "egypt_vr_guide",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR Egyptian guide NPC with dynamic dialogue for Pyramid tour.",
+      "references": [120]
+    }
+  ],
+  "references": [
+    {
+      "id": 120,
+      "title": "Egypt VR Guide Design 2025",
+      "url": "https://www.egyptvr.org/guide",
+      "publisher": "Cairo VR Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00142"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["npc_design", "interactive_character", "vr_dialogue", "immersion"],
+  "notes": "Characters must feel alive in VR.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00158",
+  "slug": "ar_spatial_annotation",
+  "label": "AR Spatial Annotation Design",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "augmented_reality",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating contextual AR annotations that anchor to real-world objects, providing interactive information without cluttering the view.\n\nExample: AR museum labels floating beside artifacts.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ar_annotation",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["museums", "education", "tourism", "retail"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0428",
+      "source_entity_slug": "british_museum_ar",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "British Museum AR with 200 artifact annotations, reducing guidebook use by 40%.",
+      "references": [121]
+    }
+  ],
+  "references": [
+    {
+      "id": 121,
+      "title": "British Museum AR Annotations 2025",
+      "url": "https://www.britishmuseum-ar.org/annotations",
+      "publisher": "BM Digital",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00151"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ar_annotation", "spatial_ui", "contextual_info", "museum_ar"],
+  "notes": "Information must enhance, not distract.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00159",
+  "slug": "vr_narrative_pacing_control",
+  "label": "VR Narrative Pacing Control",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "story_structure",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Controlling the rhythm and tempo of VR stories to maintain engagement, using spatial cues and user interactions to guide pacing.\n\nExample: VR thriller with escalating audio-visual cues to build tension.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_narrative",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "narrative_vr", "gaming", "education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0429",
+      "source_entity_slug": "vr_thriller",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR thriller with dynamic pacing tied to user gaze and spatial audio.",
+      "references": [122]
+    }
+  ],
+  "references": [
+    {
+      "id": 122,
+      "title": "VR Thriller Pacing Study 2025",
+      "url": "https://www.vrstudio.org/thriller",
+      "publisher": "VR Narrative Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00143"],
+  "is_component_of": ["skill_00001"],
+  "is_prerequisite_for": [],
+  "tags": ["narrative_pacing", "vr_storytelling", "spatial_cues", "engagement"],
+  "notes": "Pacing is the pulse of VR stories.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00160",
+  "slug": "immersive_crowd_simulation",
+  "label": "Immersive Crowd Simulation Design",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "simulation",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Simulating realistic crowd behaviors in VR to enhance immersion in public or historical scenes.\n\nExample: VR Roman Forum with 500 simulated pedestrians.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_simulation",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["historical_vr", "gaming", "training", "urban_planning"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "roman_forum_vr",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Roman Forum VR with AI-driven crowd of 500, enhancing historical realism.",
+      "references": [123]
+    }
+  ],
+  "references": [
+    {
+      "id": 123,
+      "title": "VR Crowd Simulation Guide 2025",
+      "url": "https://www.vrsim.org/crowds",
+      "publisher": "Simulation VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["crowd_simulation", "vr_population", "ai_behavior", "immersion"],
+  "notes": "Crowds bring worlds to life.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00161",
+  "slug": "vr_accessibility_design",
+  "label": "VR Accessibility Design",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "inclusivity",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Designing VR experiences with accessibility features like voice navigation, adjustable text sizes, and motion-free modes for diverse users.\n\nExample: VR museum with audio descriptions for visually impaired users.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_accessibility",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["education", "museums", "public_vr", "healthcare"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "accessible_vr",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "VR museum tour with audio navigation for 5,000 visually impaired users.",
+      "references": [124]
+    }
+  ],
+  "references": [
+    {
+      "id": 124,
+      "title": "VR Accessibility Standards 2025",
+      "url": "https://www.vraccess.org/standards",
+      "publisher": "Inclusive VR Council",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["accessibility", "inclusive_design", "vr_for_all", "user_diversity"],
+  "notes": "Immersion for everyone.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00162",
+  "slug": "immersive_light_design",
+  "label": "Immersive Lighting Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "visual_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Crafting dynamic lighting in VR/AR to enhance mood, guide attention, and align with narrative arcs.\n\nExample: VR opera with lighting shifts to mirror emotional beats.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_lighting",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_cinema", "virtual_theater", "gaming", "exhibitions"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0430",
+      "source_entity_slug": "vr_opera",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR opera with dynamic lighting synced to musical crescendos.",
+      "references": [125]
+    }
+  ],
+  "references": [
+    {
+      "id": 125,
+      "title": "VR Opera Lighting Design 2025",
+      "url": "https://www.vropera.org/lighting",
+      "publisher": "Virtual Stage Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00143"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["lighting_design", "vr_visuals", "narrative_mood", "immersion"],
+  "notes": "Light shapes emotion in VR.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00163",
+  "slug": "vr_dynamic_environment_design",
+  "label": "VR Dynamic Environment Design",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "environment_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating VR environments that adapt to user actions or time, such as changing weather or evolving landscapes.\n\nExample: VR jungle that grows over a 30-minute experience.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_environment",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_gaming", "narrative_vr", "education", "tourism"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0431",
+      "source_entity_slug": "vr_jungle",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR jungle with real-time flora growth, enhancing immersion for 20,000 users.",
+      "references": [126]
+    }
+  ],
+  "references": [
+    {
+      "id": 126,
+      "title": "VR Jungle Environment 2025",
+      "url": "https://www.vrjungle.org/design",
+      "publisher": "Eco VR Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["dynamic_environment", "vr_worlds", "adaptive_design", "immersion"],
+  "notes": "Worlds that evolve with the user.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00164",
+  "slug": "immersive_project_management",
+  "label": "Immersive Project Management",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "project_management",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Managing interdisciplinary teams for VR/AR projects, balancing creative, technical, and logistical demands.\n\nExample: Coordinating 50-person team for a location-based VR attraction.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_project_manager",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["location_based_vr", "vr_cinema", "gaming", "education"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_attraction",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Managed 50-person team for VR attraction, delivered on time with 98% user satisfaction.",
+      "references": [127]
+    }
+  ],
+  "references": [
+    {
+      "id": 127,
+      "title": "Immersive Project Management Guide 2025",
+      "url": "https://www.vrprojects.org/guide",
+      "publisher": "VR Management Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00145"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["project_management", "vr_production", "team_coordination", "logistics"],
+  "notes": "Orchestrating chaos into immersion.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00165",
+  "slug": "vr_gamification_design",
+  "label": "VR Gamification Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "gamification",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Integrating game mechanics into non-gaming VR experiences to boost engagement, such as rewards or challenges.\n\nExample: VR history lesson with point-based quizzes.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_gamification",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["education", "training", "tourism", "healthcare"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0432",
+      "source_entity_slug": "vr_history",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR history lesson with gamified quizzes, increasing retention by 25%.",
+      "references": [128]
+    }
+  ],
+  "references": [
+    {
+      "id": 128,
+      "title": "VR Gamification Study 2025",
+      "url": "https://www.vrgamify.org/study",
+      "publisher": "Edu VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["gamification", "vr_engagement", "game_mechanics", "education"],
+ "notes": "Play drives learning in VR.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00166",
+  "slug": "ar_public_space_integration",
+  "label": "AR Public Space Integration",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "public_installations",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing AR experiences for public spaces, ensuring compatibility with diverse devices and urban environments.\n\nExample: AR art installation in Times Square.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_public_ar",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["public_art", "urban_tourism", "festivals", "retail"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0433",
+      "source_entity_slug": "times_square_ar",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Times Square AR art with 100,000 daily interactions across 5G networks.",
+      "references": [129]
+    }
+  ],
+  "references": [
+    {
+      "id": 129,
+      "title": "Times Square AR Installation 2025",
+      "url": "https://www.timesar.org/installation",
+      "publisher": "NYC AR Collective",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00154"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["public_ar", "urban_ar", "large_scale_ar", "device_compatibility"],
+  "notes": "AR must blend into the city.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00167",
+  "slug": "vr_emotional_engagement_design",
+  "label": "VR Emotional Engagement Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "emotional_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Crafting VR experiences that evoke specific emotional responses through visuals, audio, and interactions.\n\nExample: VR therapy session with calming ocean visuals.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_emotional_design",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["healthcare", "education", "narrative_vr", "therapy"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0434",
+      "source_entity_slug": "vr_therapy",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR therapy with ocean visuals reducing anxiety in 80% of users.",
+      "references": [130]
+    }
+  ],
+  "references": [
+    {
+      "id": 130,
+      "title": "VR Therapy Design 2025",
+      "url": "https://www.vrtherapy.org/design",
+      "publisher": "Mental Health VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00159"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["emotional_design", "vr_therapy", "user_engagement", "immersion"],
+  "notes": "Emotion is the heart of VR.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00168",
+  "slug": "immersive_analytics_direction",
+  "label": "Immersive Analytics Direction",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "data_analysis",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Directing VR/AR analytics tools that allow users to interact with data in 3D, enhancing decision-making.\n\nExample: VR financial dashboard with 3D trend graphs.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_analytics",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["finance", "business", "science", "policy"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_finance",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "VR financial dashboard with interactive 3D graphs, improving analysis speed by 30%.",
+      "references": [131]
+    }
+  ],
+  "references": [
+    {
+      "id": 131,
+      "title": "Immersive Analytics Guide 2025",
+      "url": "https://www.vranalytics.org/guide",
+      "publisher": "Data VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00156"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["immersive_analytics", "vr_data", "3d_graphs", "decision_making"],
+  "notes": "Data in 3D accelerates insights.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00169",
+  "slug": "vr_training_scenario_design",
+  "label": "VR Training Scenario Design",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "training_development",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating VR training modules with realistic scenarios, feedback loops, and performance tracking.\n\nExample: VR firefighter training with dynamic fire spread.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_training",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["emergency_services", "healthcare", "military", "industry"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0435",
+      "source_entity_slug": "vr_firefighter",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR firefighter training with AI-driven fire behavior, used by 500 trainees.",
+      "references": [132]
+    }
+  ],
+  "references": [
+    {
+      "id": 132,
+      "title": "VR Firefighter Training 2025",
+      "url": "https://www.vrfire.org/training",
+      "publisher": "Emergency VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": [],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["vr_training", "scenario_design", "simulation", "performance_tracking"],
+  "notes": "Real skills through virtual practice.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00170",
+  "slug": "immersive_social_impact_design",
+  "label": "Immersive Social Impact Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "social_impact",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Creating VR/AR experiences to drive social change, addressing issues like equality or sustainability.\n\nExample: VR refugee camp simulation for empathy training.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_social_impact",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["education", "policy", "ngo_campaigns", "public_awareness"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0436",
+      "source_entity_slug": "vr_refugee",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR refugee camp simulation used by UNHCR for 10,000 trainees.",
+      "references": [133]
+    }
+  ],
+  "references": [
+    {
+      "id": 133,
+      "title": "VR Refugee Empathy Project 2025",
+      "url": "https://www.vrrefugee.org/project",
+      "publisher": "UNHCR Digital",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00167"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["social_impact", "vr_empathy", "sustainability", "public_awareness"],
+  "notes": "VR as a tool for change.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00171",
+  "slug": "vr_cross_platform_design",
+  "label": "VR Cross-Platform Design",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "platform_optimization",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Designing VR experiences that adapt to multiple platforms, from high-end PC VR to mobile headsets.\n\nExample: VR tour optimized for Quest and PSVR.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_cross_platform",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["vr_gaming", "tourism", "education", "enterprise"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_tour_platform",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "VR city tour deployed on Quest and PSVR with consistent UX.",
+      "references": [134]
+    }
+  ],
+  "references": [
+    {
+      "id": 134,
+      "title": "VR Cross-Platform Design Guide 2025",
+      "url": "https://www.vrplatforms.org/guide",
+      "publisher": "VR Tech Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00152"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["cross_platform", "vr_optimization", "platform_adaptation", "ux_consistency"],
+  "notes": "One experience, many devices.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00172",
+  "slug": "immersive_feedback_loop_design",
+  "label": "Immersive Feedback Loop Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "user_interaction",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Designing feedback systems in VR/AR that reinforce user actions through visual, audio, and haptic cues.\n\nExample: VR training with real-time performance feedback.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_feedback",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["training", "education", "gaming", "healthcare"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0437",
+      "source_entity_slug": "vr_medical_training",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR medical training with haptic and visual feedback, improving skill retention by 35%.",
+      "references": [135]
+    }
+  ],
+  "references": [
+    {
+      "id": 135,
+      "title": "VR Feedback Design 2025",
+      "url": "https://www.vrfeedback.org/design",
+      "publisher": "Immersive Learning Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00148"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["feedback_loop", "user_interaction", "haptic_cues", "vr_training"],
+  "notes": "Feedback makes actions meaningful.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00173",
+  "slug": "vr_ethical_narrative_design",
+  "label": "VR Ethical Narrative Design",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "ethics",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Crafting VR narratives that avoid manipulation, respect user agency, and address sensitive topics responsibly.\n\nExample: VR historical drama with balanced perspectives.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ethics_narrative",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["historical_vr", "education", "public_awareness", "policy"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_history_ethics",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "VR Civil War drama with balanced narratives, used in 200 schools.",
+      "references": [136]
+    }
+  ],
+  "references": [
+    {
+      "id": 136,
+      "title": "Ethical VR Narrative Guidelines 2025",
+      "url": "https://www.vrethics.org/narrative",
+      "publisher": "VR Ethics Board",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00144"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ethical_narrative", "vr_ethics", "user_agency", "responsible_design"],
+  "notes": "Stories with integrity.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00174",
+  "slug": "ar_dynamic_content_delivery",
+  "label": "AR Dynamic Content Delivery",
+  "skill_category": "technical_and_tools",
+  "skill_subcategory": "content_management",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Delivering real-time AR content based on user location, time, or preferences, using cloud-based systems.\n\nExample: AR festival guide updating with live event schedules.",
+  "cognitive_level": "advanced",
+  "proficiency_levels": ["basic_awareness", "operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ar_content",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["festivals", "tourism", "retail", "public_events"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0438",
+      "source_entity_slug": "coachella_ar",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "Coachella AR guide with live updates for 50,000 users.",
+      "references": [137]
+    }
+  ],
+  "references": [
+    {
+      "id": 137,
+      "title": "Coachella AR Guide 2025",
+      "url": "https://www.coachella-ar.org/guide",
+      "publisher": "Festival AR Studio",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00166"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ar_content", "dynamic_delivery", "cloud_ar", "real_time"],
+  "notes": "Content that moves with the user.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00175",
+  "slug": "vr_multi_sensory_integration",
+  "label": "VR Multi-Sensory Integration",
+  "skill_category": "narrative_and_concept",
+  "skill_subcategory": "sensory_design",
+  "skill_type": "complex_competence",
+  "evidence_layer": "base_dataset",
+  "description": "Integrating visual, audio, haptic, and olfactory cues in VR to create cohesive sensory experiences.\n\nExample: VR vineyard tour with grape scent and haptic soil feedback.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_sensory",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["tourism", "education", "therapy", "gaming"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "cdim_0439",
+      "source_entity_slug": "vr_vineyard",
+      "evidence_type": "key_work_description",
+      "evidence_summary": "VR vineyard tour with olfactory and haptic integration for 15,000 users.",
+      "references": [138]
+    }
+  ],
+  "references": [
+    {
+      "id": 138,
+      "title": "VR Sensory Integration 2025",
+      "url": "https://www.vrsensory.org/integration",
+      "publisher": "Sensory VR Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00148"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["multi_sensory", "vr_immersion", "haptic_design", "olfactory_cues"],
+  "notes": "All senses tell the story.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
+},
+{
+  "id": "skill_00176",
+  "slug": "immersive_ip_management",
+  "label": "Immersive Intellectual Property Management",
+  "skill_category": "production_and_management",
+  "skill_subcategory": "legal_management",
+  "skill_type": "complex_competence",
+  "evidence_layer": "external_enrichment",
+  "description": "Managing intellectual property rights for VR/AR content, including licensing and cultural sensitivity.\n\nExample: Licensing historical figures for VR museum.",
+  "cognitive_level": "expert",
+  "proficiency_levels": ["operational", "expert"],
+  "associated_role_types": [
+    {
+      "role_family": "creative_director_for_immersive_media",
+      "role_subtype_id": "cd_type_ip_management",
+      "source_dataset_id": "cdim"
+    }
+  ],
+  "application_contexts": ["museums", "education", "entertainment", "cultural_heritage"],
+  "derived_from_outputs": [
+    {
+      "source_dataset_id": "cdim",
+      "source_entity_id": "general_immersive_practices",
+      "source_entity_slug": "vr_ip",
+      "evidence_type": "key_concept_description",
+      "evidence_summary": "Managed IP for VR historical figures, ensuring legal and cultural compliance.",
+      "references": [139]
+    }
+  ],
+  "references": [
+    {
+      "id": 139,
+      "title": "VR IP Management Guide 2025",
+      "url": "https://www.vrip.org/guide",
+      "publisher": "VR Legal Lab",
+      "year": 2025
+    }
+  ],
+  "source_datasets": [
+    {
+      "source_dataset_id": "cdim",
+      "source_dataset_name": "Creative Directors for Immersive Media"
+    }
+  ],
+  "overlaps_with_skills": ["skill_00144"],
+  "is_component_of": [],
+  "is_prerequisite_for": [],
+  "tags": ["ip_management", "vr_legal", "cultural_sensitivity", "licensing"],
+  "notes": "Protecting creativity legally.",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15"
 }
   ]
 }
