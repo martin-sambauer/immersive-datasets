@@ -1,19 +1,19 @@
 ## Immersive Datasets – structured data for immersive experiences and venues
 
-Immersive Datasets is a curated data library for immersive media, immersive experiences and location-based entertainment.  
+Immersive Datasets is a curated data library for immersive media, immersive experiences and location-based entertainment.
 It provides structured datasets for:
 
-- creative directors and producers  
-- strategists and analysts  
-- destination and venue managers  
-- investors and investment researchers  
-- policy makers and cultural planners  
-- curriculum designers and educators  
-- journalists and writers covering immersive media, culture, tourism and innovation  
+* creative directors and producers
+* strategists and analysts
+* destination and venue managers
+* investors and investment researchers
+* policy makers and cultural planners
+* curriculum designers and educators
+* journalists and writers covering immersive media, culture, tourism and innovation
 
 Use cases range from venue planning and market analysis to soft-power strategy, educational design and narrative research on immersive ecosystems.
 
-All datasets follow a unified ontological framework that formalizes how immersive ecosystems are described, categorized and interlinked.  
+All datasets follow a unified ontological framework that formalizes how immersive ecosystems are described, categorized and interlinked.
 Immersive Datasets is maintained by Creative Director Martin Sambauer (martin-sambauer.com).
 
 ---
@@ -22,15 +22,15 @@ Immersive Datasets is maintained by Creative Director Martin Sambauer (martin-sa
 
 This repository follows the Martin Sambauer Ontology for Immersive Data Systems, which defines:
 
-- core entity types (investors, destinations, creative roles, projects, skills, institutions, policies, regions)  
-- semantic relationships across datasets  
-- dialectical axes for modelling immersive ecosystems  
-- the philosophical basis (homo medialis, constructivist perception, perceptual architectures)  
-- principles for stacking datasets to generate higher-order analytical layers  
+* core entity types (investors, destinations, creative roles, projects, skills, institutions, policies, regions)
+* semantic relationships across datasets
+* dialectical axes for modelling immersive ecosystems
+* the philosophical basis (homo medialis, constructivist perception, perceptual architectures)
+* principles for stacking datasets to generate higher-order analytical layers
 
 The ontology is located in the repository root:
 
-[ontology.md](./ontology.md)
+ontology.md
 
 All datasets, schemas and methodologies are expected to conform to this ontology to ensure long-term interoperability and semantic consistency.
 
@@ -40,25 +40,25 @@ All datasets, schemas and methodologies are expected to conform to this ontology
 
 Suggested structure:
 
-- `datasets/`  
+* datasets/
   Data folders with JSON, CSV or similar formats.
 
-- `notebooks/`  
+* notebooks/
   Optional Jupyter notebooks demonstrating dataset generation or typical analyses.
 
-- `meta/`  
+* meta/
   Methodologies, data dictionaries and documentation of intermediate processing steps.
 
-- `docs/`  
+* docs/
   Public-facing documentation assets (figures, diagrams, excerpts).
 
 Each dataset should include:
 
-- a README describing purpose, scope and key results  
-- a methodology file documenting data sources and processing steps  
-- a JSON schema (for JSON-based datasets)  
-- date of last update  
-- author reference (martin-sambauer.com)
+* a README describing purpose, scope and key results
+* a methodology file documenting data sources and processing steps
+* a JSON schema (for JSON-based datasets)
+* date of last update
+* author reference (martin-sambauer.com)
 
 ---
 
@@ -66,17 +66,17 @@ Each dataset should include:
 
 Unless stated otherwise, all original content is licensed under:
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)  
-https://creativecommons.org/licenses/by/4.0/
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 You may:
 
-- share: copy and redistribute the material  
-- adapt: remix, transform and build upon it, even commercially
+* share: copy and redistribute the material
+* adapt: remix, transform and build upon it, even commercially
 
 Under the condition:
 
-- attribution: credit must be given to Martin Sambauer (martin-sambauer.com)
+* attribution: credit must be given to Martin Sambauer (martin-sambauer.com)
 
 If a dataset includes third-party content, this is documented in its folder.
 
@@ -86,19 +86,19 @@ If a dataset includes third-party content, this is documented in its folder.
 
 The datasets in this repository can be used for:
 
-- immersive media strategy and concept development  
-- creative direction for fulldome and planetarium shows  
-- planning of immersive experiences and location-based entertainment  
-- mapping immersive venues, ecosystems and market segments  
-- investment screening and investor–destination matching  
-- soft-power and tourism strategy in immersive infrastructures  
-- curriculum and training design for immersive skills and creative roles  
-- policy analysis related to cultural infrastructure and innovation programs  
-- demographic and spatial analysis for catchment areas  
-- storytelling, whitepapers and research on immersive ecosystems  
-- data-driven pitch materials for destinations, venues and investors  
+* immersive media strategy and concept development
+* creative direction for fulldome and planetarium shows
+* planning of immersive experiences and location-based entertainment
+* mapping immersive venues, ecosystems and market segments
+* investment screening and investor–destination matching
+* soft-power and tourism strategy in immersive infrastructures
+* curriculum and training design for immersive skills and creative roles
+* policy analysis related to cultural infrastructure and innovation programs
+* demographic and spatial analysis for catchment areas
+* storytelling, whitepapers and research on immersive ecosystems
+* data-driven pitch materials for destinations, venues and investors
 
-Core thematic keywords include:  
+Core thematic keywords include:
 immersive media, immersive experiences, creative director for immersive media, fulldome, planetariums, XR venues, location-based entertainment, experiential marketing, immersive storytelling, venue planning, market analysis, audience development, soft power, cultural strategy.
 
 ---
@@ -107,6 +107,67 @@ immersive media, immersive experiences, creative director for immersive media, f
 
 ### 1. Fork and clone
 
-```bash
-git clone https://github.com/<your-username>/immersive-datasets.git
-cd immersive-datasets
+git clone [https://github.com/](https://github.com/)<your-username>/immersive-datasets.git
+d cd immersive-datasets
+
+(Optional) Add upstream:
+
+git remote add upstream [https://github.com/](https://github.com/)<original-owner>/immersive-datasets.git
+
+### 2. Create feature branch
+
+git checkout -b feature/update-dataset-planetariums
+
+### 3. Add or update the dataset
+
+1. Place new or updated files under datasets/<your-folder>
+
+2. Update documentation:
+
+   * extend this README, and/or
+   * update markdown files under meta/ with:
+
+     * data sources
+     * processing steps
+     * field definitions
+     * date and author
+     * ontology reference
+
+3. Stage changes:
+
+git add datasets/<your-folder> meta/<your-doc>.md
+
+### 4. Commit
+
+git commit -m "Update planetarium dataset with population and region fields"
+
+### 5. Push
+
+git push origin feature/update-dataset-planetariums
+
+### 6. Pull request
+
+Describe:
+
+* what changed
+* which dataset
+* how it was generated or cleaned
+* limitations
+* ontology implications if applicable
+
+---
+
+## Citing this repository
+
+Immersive Datasets by Martin Sambauer (martin-sambauer.com).
+Available at: [https://github.com/](https://github.com/)<owner>/immersive-datasets
+Licensed under CC BY 4.0.
+
+---
+
+## Contact
+
+For questions or collaboration:
+
+Website: [https://martin-sambauer.com](https://martin-sambauer.com)
+Email: listed on the website
